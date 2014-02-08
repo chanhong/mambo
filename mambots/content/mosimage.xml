@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="4.5.2" type="mambot" group="content">
+	<name>mosimage</name>
+	<author>Mambo Foundation</author>
+	<creationDate>August 2004</creationDate>
+	<copyright>copyright (C) 2000 - 2007 Mambo Foundation Inc.</copyright>
+	<license>http://www.opensource.org/licenses/gpl-license.php GNU/GPL v.2</license>
+	<authorEmail>core@mambo-foundation.org</authorEmail>
+	<authorUrl>mambo-foundation.org</authorUrl>
+	<version>4.5.2</version>
+	<description>Replaces {mosimage} tag in content with specified images</description>
+	<files>
+		<filename mambot="mosimage">mosimage.php</filename>
+	</files>
+	<params>
+		<param name="margin" type="text" default="5" size="5" label="Margin" description="Margin in px, of Div surrounding Image & Caption - only applies if using a Caption" />
+		<param name="padding" type="text" default="5" size="5" label="Padding" description="Padding in px, of Div surrounding Image & Caption - only applies if using a Caption" />
+	</params>
+</mosinstall>

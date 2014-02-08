@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: components/com_registration/registration.html.php:22
+#: components/com_registration/registration.php:48
+msgid "Lost your Password?"
+msgstr ""
+
+#: components/com_registration/registration.html.php:27
+#, php-format
+msgid ""
+"Please enter your Username and e-mail address then click on the Send "
+"Password button.%s You will receive a new password shortly.  Use the new "
+"password to access the site."
+msgstr ""
+
+#: components/com_registration/registration.html.php:30
+#: components/com_registration/registration.html.php:118
+#: components/com_registration/registration.html.php:193
+msgid "Username:"
+msgstr ""
+
+#: components/com_registration/registration.html.php:34
+msgid "E-mail Address:"
+msgstr ""
+
+#: components/com_registration/registration.html.php:39
+msgid "Send Password"
+msgstr ""
+
+#: components/com_registration/registration.html.php:61
+msgid "Please enter your name."
+msgstr ""
+
+#: components/com_registration/registration.html.php:64
+#: components/com_registration/registration.html.php:67
+msgid "Please enter a user name."
+msgstr ""
+
+#: components/com_registration/registration.html.php:67
+#: components/com_registration/registration.html.php:87
+#, php-format
+msgid ""
+"Please enter a valid %s.  No spaces, more than %d characters and containing "
+"only the characters 0-9,a-z, or A-Z"
+msgstr ""
+
+#: components/com_registration/registration.html.php:70
+msgid "Please enter a valid e-mail address."
+msgstr ""
+
+#: components/com_registration/registration.html.php:73
+msgid "Please enter a valid e-mail address for the verification."
+msgstr ""
+
+#: components/com_registration/registration.html.php:76
+msgid ""
+"Please enter a valid password -- more than 6 characters with no spaces and "
+"containing only the characters 0-9, a-z, or A-Z"
+msgstr ""
+
+#: components/com_registration/registration.html.php:79
+msgid "Please verify the verification password."
+msgstr ""
+
+#: components/com_registration/registration.html.php:82
+msgid "Password and verification do not match, please try again."
+msgstr ""
+
+#: components/com_registration/registration.html.php:87
+#: components/com_registration/registration.html.php:131
+msgid "Password:"
+msgstr ""
+
+#: components/com_registration/registration.html.php:90
+msgid "Email and verification do not match, please try again."
+msgstr ""
+
+#: components/com_registration/registration.html.php:95
+msgid "You must accept the Privacy Policy and Disclaimer, to continue."
+msgstr ""
+
+#: components/com_registration/registration.html.php:104
+#: components/com_registration/registration.html.php:179
+#: components/com_registration/registration.php:116
+msgid "Registration"
+msgstr ""
+
+#: components/com_registration/registration.html.php:109
+msgid "Fields marked with an asterisk (*) are required."
+msgstr ""
+
+#: components/com_registration/registration.html.php:112
+#: components/com_registration/registration.html.php:189
+msgid "Name:"
+msgstr ""
+
+#: components/com_registration/registration.html.php:122
+#: components/com_registration/registration.html.php:196
+msgid "E-mail:"
+msgstr ""
+
+#: components/com_registration/registration.html.php:127
+msgid "Verify E-mail:"
+msgstr ""
+
+#: components/com_registration/registration.html.php:135
+msgid "Verify Password:"
+msgstr ""
+
+#: components/com_registration/registration.html.php:138
+msgid "Disclaimer and<br />Privacy Policy:"
+msgstr ""
+
+#: components/com_registration/registration.html.php:140
+msgid "put your disclaimer here.."
+msgstr ""
+
+#: components/com_registration/registration.html.php:146
+msgid "Yes, I Accept"
+msgstr ""
+
+#: components/com_registration/registration.html.php:162
+msgid "Send Registration"
+msgstr ""
+
+#: components/com_registration/registration.html.php:183
+msgid ""
+"Please verify that the following data is correct and click the button below "
+"to complete registration."
+msgstr ""
+
+#: components/com_registration/registration.html.php:205
+msgid "Go back and correct your data."
+msgstr ""
+
+#: components/com_registration/registration.html.php:207
+msgid "The data is correct."
+msgstr ""
+
+#: components/com_registration/registration.html.php:210
+msgid "Correct Your Data"
+msgstr ""
+
+#: components/com_registration/registration.html.php:212
+msgid "Confirm Registration"
+msgstr ""
+
+#: components/com_registration/registration.php:70
+msgid ""
+"Sorry, no corresponding user was found.  Please make sure you entered a "
+"valid username and a valid email address.  Both are required."
+msgstr ""
+
+#: components/com_registration/registration.php:82
+#, php-format
+msgid ""
+"The user account %s has this email associated with it.\n"
+"\n"
+"A web user from %s has just requested that a new password be sent.\n"
+"\n"
+"\n"
+"Your New Password is: %s\n"
+"\n"
+"\n"
+"If you didn't ask for this, don't worry. You are seeing this message, not "
+"them. \n"
+"If this was an error just login with your new password and then change your "
+"password to what you would like it to be."
+msgstr ""
+
+#. eval ("\$message = \"$message\";");
+#: components/com_registration/registration.php:89
+#, php-format
+msgid "%s :: New password for - %s"
+msgstr ""
+
+#: components/com_registration/registration.php:105
+msgid "New User Password created and sent!"
+msgstr ""
+
+#. Send notification to all administrators
+#: components/com_registration/registration.php:178
+#: components/com_registration/registration.php:226
+#, php-format
+msgid "Account details for %s at %s"
+msgstr ""
+
+#: components/com_registration/registration.php:183
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Thank you for registering at %s. Your account has been created but, as a "
+"precaution, it must be activated by you before you can use it.\n"
+"To activate the account click on the following link or copy and paste it in "
+"your browser:\n"
+"%s\n"
+"\n"
+"After activation you may login to %s using the following username and "
+"password:\n"
+"\n"
+"Username - %s\n"
+"Password - %s"
+msgstr ""
+
+#: components/com_registration/registration.php:198
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"Thank you for registering at %s.\n"
+"\n"
+"You may now login to %s using the username and password you registered with."
+msgstr ""
+
+#: components/com_registration/registration.php:227
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"A new user has registered at %s.\n"
+"This email contains their details:\n"
+"\n"
+"Name - %s\n"
+"e-mail - %s\n"
+"Username - %s\n"
+"\n"
+"Please do not respond to this message as it is automatically generated and "
+"is for information purposes only"
+msgstr ""
+
+#: components/com_registration/registration.php:257
+#: components/com_registration/registration.php:260
+msgid "Registration Complete"
+msgstr ""
+
+#: components/com_registration/registration.php:258
+msgid ""
+"Your account has been created and an activation link has been sent to the e-"
+"mail address you entered. Note that you must activate the account by "
+"clicking on the activation link before you can login."
+msgstr ""
+
+#: components/com_registration/registration.php:261
+msgid "You may now login."
+msgstr ""
+
+#: components/com_registration/registration.php:279
+#: components/com_registration/registration.php:300
+msgid "Invalid Activation Link!"
+msgstr ""
+
+#: components/com_registration/registration.php:280
+#: components/com_registration/registration.php:301
+msgid ""
+"There is no such account in our database or the account has already been "
+"activated."
+msgstr ""
+
+#: components/com_registration/registration.php:293
+msgid "Activation Complete!"
+msgstr ""
+
+#: components/com_registration/registration.php:294
+msgid ""
+"Your account has been activated successfully. You can now login using the "
+"username and password you chose during registration."
+msgstr ""

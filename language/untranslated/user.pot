@@ -1,0 +1,132 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: components/com_user/user.html.php:17
+msgid "Welcome!"
+msgstr ""
+
+#: components/com_user/user.html.php:22
+msgid "Welcome to the user section of our site"
+msgstr ""
+
+#: components/com_user/user.html.php:38
+msgid "Please enter your name."
+msgstr ""
+
+#: components/com_user/user.html.php:40
+msgid "Please enter a user name."
+msgstr ""
+
+#: components/com_user/user.html.php:42 components/com_user/user.html.php:48
+#, php-format
+msgid ""
+"Please enter a valid %s.  No spaces, more than %d characters and containing "
+"only the characters 0-9,a-z, or A-Z"
+msgstr ""
+
+#: components/com_user/user.html.php:42
+msgid "Username:"
+msgstr ""
+
+#: components/com_user/user.html.php:44
+msgid "Please enter a valid e-mail address."
+msgstr ""
+
+#: components/com_user/user.html.php:46
+msgid "Password and verification do not match, please try again."
+msgstr ""
+
+#: components/com_user/user.html.php:48 components/com_user/user.html.php:71
+msgid "Password:"
+msgstr ""
+
+#: components/com_user/user.html.php:56
+msgid "Edit Your Details"
+msgstr ""
+
+#: components/com_user/user.html.php:60
+msgid "Your Name:"
+msgstr ""
+
+#: components/com_user/user.html.php:64
+msgid "e-mail:"
+msgstr ""
+
+#: components/com_user/user.html.php:67
+msgid "User Name:"
+msgstr ""
+
+#: components/com_user/user.html.php:75
+msgid "Verify Password:"
+msgstr ""
+
+#: components/com_user/user.html.php:94
+msgid "Submission Success!"
+msgstr ""
+
+#: components/com_user/user.html.php:98
+msgid ""
+"Your item has been submitted to the site administrators. It will be reviewed "
+"before being published on the site."
+msgstr ""
+
+#: components/com_user/user.php:33
+msgid "Update"
+msgstr ""
+
+#: components/com_user/user.php:60
+msgid "You cannot upload files greater than 15kb in size."
+msgstr ""
+
+#: components/com_user/user.php:63
+#, php-format
+msgid "Image %s already exists. Please rename the file and try again."
+msgstr ""
+
+#: components/com_user/user.php:69
+#, php-format
+msgid "Failed to copy %s"
+msgstr ""
+
+#: components/com_user/user.php:91
+msgid "You may only upload a gif or jpg image."
+msgstr ""
+
+#: components/com_user/user.php:133
+msgid "Passwords do not match"
+msgstr ""
+
+#: components/com_user/user.php:156
+msgid "Your settings have been saved."
+msgstr ""
+
+#: components/com_user/user.php:212
+msgid "Checking table"
+msgstr ""
+
+#: components/com_user/user.php:215
+#, php-format
+msgid "Checked in %d item"
+msgid_plural "Checked in %d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: components/com_user/user.php:226
+msgid "All items checked out have now been checked in"
+msgstr ""

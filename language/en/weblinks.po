@@ -1,0 +1,401 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:28
+msgid "Web Link Manager"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:31
+msgid "Filter:"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:51
+msgid "Title"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:54
+msgid "Published"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:57
+msgid "Approved"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:60
+msgid "Reorder"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:63
+msgid "Category"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:66
+#: administrator/components/com_weblinks/weblinks.xml
+#: components/com_weblinks/weblinks.html.php:114
+msgid "Hits"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:97
+msgid "Edit Weblinks"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:130
+msgid "Edit Category"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:175
+msgid "Weblink item must have a title"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:177
+#: components/com_weblinks/weblinks.html.php:254
+msgid "You must select a category."
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:179
+#: components/com_weblinks/weblinks.html.php:256
+msgid "You must have a url."
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:189
+msgid "Web Link:"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:191
+msgid "Edit"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:191
+msgid "New"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:203
+msgid "Details"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:208
+#: components/com_weblinks/weblinks.html.php:284
+msgid "Name:"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:216
+msgid "Category:"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:224
+#: components/com_weblinks/weblinks.html.php:300
+msgid "URL:"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:232
+#: components/com_weblinks/weblinks.html.php:308
+msgid "Description:"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:241
+msgid "Ordering:"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:249
+msgid "Approved:"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:257
+msgid "Published:"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.html.php:269
+msgid "Parameters"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.php:20
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.php:146
+#: components/com_weblinks/weblinks.php:185
+#, php-format
+msgid "The module %s is currently being edited by another administrator."
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.php:226
+msgid "Select an item to delete"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.php:252
+msgid "publish"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.php:252
+msgid "unpublish"
+msgstr ""
+
+#: administrator/components/com_weblinks/admin.weblinks.php:253
+#, php-format
+msgid "Select an item to %s"
+msgstr ""
+
+#. for existing content items the button is renamed `close`
+#: administrator/components/com_weblinks/toolbar.weblinks.html.php:26
+msgid "Close"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid ""
+"A small image to be placed to the left or right of your menu item, images "
+"must be in images/stories/"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid ""
+"A suffix to be applied to the css classes of the page, this allows "
+"individual page styling"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Alignment of the image"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Back Button"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Category List - Category"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Category List - Section"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Description"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Description Text"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid ""
+"Description for page, if left blank it will load _WEBLINKS_DESC from your "
+"language file"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Hide"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Icon"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Icon to be used to the left of the url links in Table view"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Image"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Image Align"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid ""
+"Image for page, must be located in the /images/stories folder. Default will "
+"load web_links.jpg, No image will mean an image is not loaded"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Left"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Link Descriptions"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Menu Image"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Page Class Suffix"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Page Title"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Right"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Show"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Show/Hide a Back Button, that returns you to the previously view page"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Show/Hide the Description below"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Show/Hide the Description text of the Links"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Show/Hide the Hits column"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Show/Hide the List of Categories in List view page"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Show/Hide the List of Categories in Table view page"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Show/Hide the Table Headings"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Show/Hide the pages Title"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Table Headings"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid ""
+"Text to display at the top of the page. If left blank, the Menu name will be "
+"used instead"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "This component shows a listing of Weblinks"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Use Global"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Web Link Categories"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Web Link Items"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+#: components/com_weblinks/weblinks.html.php:40
+#: components/com_weblinks/weblinks.php:19
+msgid "Web Links"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks.xml
+msgid "Weblinks"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks_item.xml
+msgid "Open in new window"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks_item.xml
+msgid "Open in parent window"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks_item.xml
+msgid "Open in popup window"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks_item.xml
+msgid "Target Window"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks_item.xml
+msgid "Target window for link."
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks_item.xml
+msgid "Web links item parameters"
+msgstr ""
+
+#: administrator/components/com_weblinks/weblinks_item.xml
+msgid "Weblinks Item"
+msgstr ""
+
+#: components/com_weblinks/weblinks.class.php:71
+msgid "Please provide a valid URL"
+msgstr ""
+
+#: components/com_weblinks/weblinks.class.php:77
+msgid "Your web link must be given a title."
+msgstr ""
+
+#: components/com_weblinks/weblinks.class.php:94
+msgid "There is already a web link that name, please try again."
+msgstr ""
+
+#: components/com_weblinks/weblinks.html.php:108
+msgid "Web Link"
+msgstr ""
+
+#: components/com_weblinks/weblinks.html.php:224
+msgid "There are currently no links"
+msgstr ""
+
+#: components/com_weblinks/weblinks.html.php:252
+msgid "Web Link item must have a title"
+msgstr ""
+
+#: components/com_weblinks/weblinks.html.php:267
+msgid "Submit A Web Link"
+msgstr ""
+
+#: components/com_weblinks/weblinks.html.php:292
+msgid "Section:"
+msgstr ""
+
+#: components/com_weblinks/weblinks.php:100
+msgid ""
+"From the list below choose one of our web link categories, then select a URL "
+"to visit the site."
+msgstr ""
+
+#: components/com_weblinks/weblinks.php:281
+#, php-format
+msgid "A new WebLink has been submitted by [ %s ]  titled [ %s ] "
+msgstr ""
+
+#: components/com_weblinks/weblinks.php:281
+msgid "New Item"
+msgstr ""
+
+#: components/com_weblinks/weblinks.php:288
+msgid ""
+"Thanks for your submission; it will be reviewed before being posted to the "
+"site."
+msgstr ""

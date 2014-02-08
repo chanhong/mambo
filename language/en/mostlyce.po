@@ -1,0 +1,404 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:51
+msgid ""
+"Warning: This version of MOStlyCE is not support in Mambo versions less than "
+"4.6!"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:57
+msgid "MOStlyCE Configuration :"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:59
+msgid "mostlyce_config.php is :"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:60
+msgid "Unwriteable"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:60
+msgid "Writeable"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:80
+msgid "General"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:84
+#, php-format
+msgid ""
+"The URL specified in $mosConfig_live_site in configuration.php is <strong>%"
+"s</strong><br />You <strong>MUST</strong> access this site from this "
+"<strong>exact URL</strong> when editing content."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:88
+msgid "Editor Themes"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:94
+msgid "Editor Compression"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:98
+msgid ""
+"Turning compression on enables the TinyMCE compressor. This reduces traffic "
+"and speeds up the editor by up to 75%. NOTE: This has no effect when zlib "
+"compression has already been enabled on the server."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:105
+msgid "Editor Language"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:109
+msgid ""
+"Additional languages can be added by downloading and install TinyMCE "
+"language packs found here - http://services.moxiecode.com/i18n/"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:116
+msgid "List of supported Languages."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:123
+msgid "Override Template CSS"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:126
+msgid "Override your Template CSS file"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:133
+msgid "Custom CSS File"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:137
+msgid ""
+"Name of custom css file. This file should be placed in your Template CSS "
+"directory."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:144
+msgid "Newlines"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:147
+msgid "Result of a carriage return in the editor content area, BR or P."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:154
+msgid "Convert Absolute URLS."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:157
+msgid ""
+"If Yes, Absolute URLS from the Editor are converted to Relative URLS for "
+"page display. Necessary for SEF support."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:164
+msgid "Allow script elements"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:168
+msgid "SCRIPT Elements"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:170
+msgid "List of SCRIPT Elements. Must be seperated by | "
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:177
+msgid "Allow IFRAME elements"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:181
+msgid "IFRAME Elements"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:183
+msgid "List of IFRAME Elements. Must be seperated by | "
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:190
+msgid "Extended Elements List"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:193
+msgid ""
+"List of Extended Elements. Format is tag1[element1|element2],tag2[element1|"
+"element2]"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:200
+msgid "Path to HTML Template Directory"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:203
+msgid ""
+"Absolute path to the directory where HTML templates are stored (HTML "
+"Template plugin)."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:210
+msgid "Directionality"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:216
+msgid "Editor Width"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:224
+msgid "Editor Height"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:233
+msgid "Plugins"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:237
+msgid ""
+"<strong>Note:</strong>  Disabling these may speed up the editor since there "
+"is less to load, but it will also mean the editor has less functionality.  "
+"If you disable plugins you'll probably want to rearrange your plugin icon "
+"layout as well."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:244
+msgid "Load Date/Time"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:252
+msgid "Date Format"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:256
+msgid ""
+"%y  year as number without century (00 to 99), %Y year as number including "
+"the century, %d day of month as number (01 to 31), %m month as number (01 to "
+"12), %D same as %m/%d/%y"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:263
+msgid "Time Format"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:267
+msgid ""
+"%r time with a.m./p.m. , %H hour as number 24-hour clock (00 to 23), %I hour "
+"as number 12-hour clock (01 to 12), %M min as number (00-59), %S sec as "
+"number (00-59), %p either a.m. or p.m. based on given time"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:274
+msgid "Load Emotions"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:282
+msgid "Load Media (ex) Flash"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:290
+msgid "Load Tables"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:298
+msgid "Load Font Options"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:306
+msgid "Load Print"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:312
+msgid "Load Search and Replace"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:318
+msgid "Load Spellchecker"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:323
+msgid "This plugin relies on the Google Spell Checking web service."
+msgstr ""
+
+#. Curl is missing so tell them about it
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:326
+msgid ""
+"This service also requires the Curl PHP extension (http://nl3.php.net/"
+"curl/).  WARNING: It does not appear to be enabled on this server!"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:334
+msgid "Load Layers"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:340
+msgid "3rd Party Plugins"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:344
+msgid ""
+"Comma seperated list of extra plugins. The plugins indicated should be "
+"placed in the MOStlyCE plugins directory and should be named exactly as "
+"specified."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:352
+msgid "Image Mgr"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:359
+#, php-format
+msgid ""
+"\n"
+"\t\t\t\t\t\t<strong>Note:</strong>  The Image Manager plugin allows for "
+"basic image editing and\n"
+"\t\t\t\t\t\tlinking functionality directly within the editor.  It duplicates "
+"some of the\n"
+"\t\t\t\t\t\tfunctionality found in Media Manager, but allows you to do these "
+"functions\n"
+"\t\t\t\t\t\twhile actually creating content.  The file manager supports some "
+"basic file\n"
+"\t\t\t\t\t\tmanagement capabilites like uploading, creating directories, "
+"renaming and\n"
+"\t\t\t\t\t\tdeleting files / folders, etc.  It does not yet allow for "
+"linking to files\n"
+"\t\t\t\t\t\twhich are not images.<br /><br />\n"
+"\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t<span style=\"color: Red;\"><strong>Important</strong></span>: "
+"In\n"
+"\t\t\t\t\t\torder to utilize the Image Manager functionality you must create "
+"the folder\n"
+"\t\t\t\t\t\tstructure shown below in your document root folder.  Not your "
+"Mambo root,\n"
+"\t\t\t\t\t\tyour document root!  For this installation your document root "
+"is\n"
+"\t\t\t\t\t\t<strong>%s</strong>.  You can create this structure manually or "
+"extract the\n"
+"\t\t\t\t\t\tUserFiles.zip file included with MOStlyCE at that location.  You "
+"can find\n"
+"\t\t\t\t\t\tthe UserFiles.zip file at /mambots/editors/mostlyce.<br /><br /"
+">\n"
+"\t\t\t\t\t\t\n"
+"\t\t\t\t\t\tYou must also make sure these folders are writable by your web "
+"user after you have \n"
+"\t\t\t\t\t\tcreated them (ex) chmod to 0755:<br />\n"
+"\t\t\t\t\t\t 1) UserFiles<br />\n"
+"\t\t\t\t\t\t 2) UserFiles/Image<br />\n"
+"\t\t\t\t\t\t 3) UserFiles/File<br />\n"
+"\t\t\t\t\t\t 4) UserFiles/Media<br />\n"
+"\t\t\t\t\t\t 5) UserFiles/Flash"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:391
+msgid "Load Image Manager"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:393
+msgid ""
+"Turns the Image Manager plugin on and off. Do not turn this on until you "
+"have created the folder structure show above and have made them writable. "
+"NOTE: Not recommended for use with the Opera web browser."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:400
+msgid "Display {mosimage} Icon"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:403
+msgid ""
+"If you are using the MOStlyCE Image Manager plugin then you may wish to "
+"remove the original {mosimage} option."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.html.php:411
+msgid "Editor Info"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.php:18
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.php:22
+msgid "Cannot find mostlyce_config.php! Please install the MOStlyCE mambot."
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.php:157
+msgid "BR Elements"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.php:158
+msgid "P Elements"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.php:162
+msgid "Advanced"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.php:163
+msgid "Simple"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.php:167
+msgid "On"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.php:168
+msgid "Off"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.php:172
+msgid "Left to Right"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.php:173
+msgid "Right to Left"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.php:178
+msgid "Yes"
+msgstr ""
+
+#: administrator/components/com_mostlyce/admin.mostlyce.php:179
+msgid "No"
+msgstr ""
+
+#: administrator/components/com_mostlyce/com_mostlyce.xml
+msgid ""
+"<p>MOStlyCE Admin is a component for the MOStlyCE editor mambot.  Allows you "
+"to customize your MOStlyCE editor installation and is required in order for "
+"the mambot to function properly.</p>Important Note: The Image/File manager "
+"plugin is disabled by default because it requires some additional setup.  If "
+"you intend to utilize this plugin then you will need to go to the Image Mgr "
+"tab of MOStlyCE Admin and turn the plugin on.  Before turning it on make "
+"sure you have created the proper directory structure and set the necessary "
+"file permissions as described on the same tab."
+msgstr ""
+
+#: administrator/components/com_mostlyce/com_mostlyce.xml
+msgid "MOStlyCE Admin"
+msgstr ""
+
+#: administrator/components/com_mostlyce/com_mostlyce.xml
+msgid "mostlyce"
+msgstr ""

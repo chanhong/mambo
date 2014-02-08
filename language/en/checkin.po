@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: administrator/components/com_checkin/admin.checkin.php:18
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_checkin/admin.checkin.php:23
+msgid "Global Check-in"
+msgstr ""
+
+#: administrator/components/com_checkin/admin.checkin.php:28
+msgid "Database Table"
+msgstr ""
+
+#: administrator/components/com_checkin/admin.checkin.php:29
+msgid "# of Items"
+msgstr ""
+
+#: administrator/components/com_checkin/admin.checkin.php:30
+msgid "Checked-In"
+msgstr ""
+
+#: administrator/components/com_checkin/admin.checkin.php:77
+#: administrator/components/com_checkin/admin.checkin.php:84
+msgid "Checking table"
+msgstr ""
+
+#: administrator/components/com_checkin/admin.checkin.php:78
+#: administrator/components/com_checkin/admin.checkin.php:85
+#, php-format
+msgid "Checked in <strong>%d</strong> item"
+msgid_plural "Checked in <strong>%d</strong> items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_checkin/admin.checkin.php:96
+msgid "Checked out items have now been all checked in"
+msgstr ""

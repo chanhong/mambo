@@ -1,0 +1,95 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: administrator/components/com_massmail/admin.massmail.html.php:29
+msgid "Please fill in the subject"
+msgstr ""
+
+#: administrator/components/com_massmail/admin.massmail.html.php:31
+msgid "Please select a group"
+msgstr ""
+
+#: administrator/components/com_massmail/admin.massmail.html.php:33
+msgid "Please fill in the message"
+msgstr ""
+
+#: administrator/components/com_massmail/admin.massmail.html.php:44
+#: administrator/components/com_massmail/massmail.xml
+msgid "Mass Mail"
+msgstr ""
+
+#: administrator/components/com_massmail/admin.massmail.html.php:52
+msgid "Details"
+msgstr ""
+
+#: administrator/components/com_massmail/admin.massmail.html.php:57
+msgid "Group:"
+msgstr ""
+
+#: administrator/components/com_massmail/admin.massmail.html.php:65
+msgid "Mail to Child Groups:"
+msgstr ""
+
+#: administrator/components/com_massmail/admin.massmail.html.php:73
+msgid "Send in HTML mode:"
+msgstr ""
+
+#: administrator/components/com_massmail/admin.massmail.html.php:81
+msgid "Subject"
+msgstr ""
+
+#: administrator/components/com_massmail/admin.massmail.html.php:89
+msgid "Message:"
+msgstr ""
+
+#: administrator/components/com_massmail/admin.massmail.php:15
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_massmail/admin.massmail.php:38
+msgid "- All User Groups -"
+msgstr ""
+
+#: administrator/components/com_massmail/admin.massmail.php:68
+msgid "Please fill in the form correctly"
+msgstr ""
+
+#. Build e-mail message format
+#: administrator/components/com_massmail/admin.massmail.php:91
+#, php-format
+msgid ""
+"This is an email from '%s'\n"
+"\n"
+"Message:\n"
+msgstr ""
+
+#: administrator/components/com_massmail/admin.massmail.php:104
+#, php-format
+msgid "E-mail sent to %d user."
+msgid_plural "E-mail sent to %d users."
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_massmail/massmail.xml
+msgid "This component allows you to send a mass email to certain user groups"
+msgstr ""
+
+#: administrator/components/com_massmail/toolbar.massmail.html.php:19
+msgid "Send Mail"
+msgstr ""

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component" version="4.6">
+	<name>Poll</name>
+	<author>Mambo Foundation</author>
+	<creationDate>August 2006</creationDate>
+	<copyright>copyright (C) 2000 - 2007 Mambo Foundation Inc.</copyright>
+	<license>http://www.opensource.org/licenses/gpl-license.php GNU/GPL v.2</license>
+	<authorEmail>core@mambo-foundation.org</authorEmail>
+	<authorUrl>mambo-foundation.org</authorUrl>
+	<version>1.0</version>
+	<description>This component shows Polls/Surveys</description>
+	<administration>
+	<menu link="option=com_poll">Polls</menu>
+	  <files>
+	    <filename>admin.poll.html.php</filename>
+        <filename>admin.poll.php</filename>
+        <filename>index.html</filename>
+        <filename>poll.class.php</filename>
+        <filename>poll.xml</filename>
+        <filename>toolbar.poll.html.php</filename>
+        <filename>toolbar.poll.php</filename>
+      </files>
+    </administration>
+    <files>
+      <filename>images/blank.png</filename>
+      <filename>images/poll.png</filename>
+      <filename>poll.html.php</filename>
+      <filename>poll.php</filename>
+      <filename>index.html</filename>
+      <filename>poll_bars.css</filename>
+    </files>
+    <install>
+	<queries>
+	  <query>CREATE TABLE `mos_polls` (
+                 `id` int(11) unsigned NOT NULL auto_increment,
+                 `title` varchar(100) NOT NULL default '',
+                 `voters` int(9) NOT NULL default '0',
+                 `checked_out` int(11) NOT NULL default '0',
+                 `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+                 `published` tinyint(1) NOT NULL default '0',
+                 `access` int(11) NOT NULL default '0',
+                 `lag` int(11) NOT NULL default '0',
+                 PRIMARY KEY  (`id`)
+                 );
+	  </query>
+	  <query>CREATE TABLE `mos_poll_data` (
+                 `id` int(11) NOT NULL auto_increment,
+                 `pollid` int(4) NOT NULL default '0',
+                 `text` text NOT NULL,
+                 `hits` int(11) NOT NULL default '0',
+                 PRIMARY KEY  (`id`),
+                 KEY `pollid` (`pollid`,`text`(1))
+                 );
+	  </query>
+	  <query>CREATE TABLE `mos_poll_date` (
+                 `id` bigint(20) NOT NULL auto_increment,
+                 `date` datetime NOT NULL default '0000-00-00 00:00:00',
+                 `vote_id` int(11) NOT NULL default '0',
+                 `poll_id` int(11) NOT NULL default '0',
+                 PRIMARY KEY  (`id`),
+                 KEY `poll_id` (`poll_id`)
+                 );
+	  </query>
+	  <query>CREATE TABLE `mos_poll_menu` (
+                 `pollid` int(11) NOT NULL default '0',
+                 `menuid` int(11) NOT NULL default '0',
+                 PRIMARY KEY  (`pollid`,`menuid`)
+                 );
+	  </query>
+       </queries>
+    </install>
+	<params>
+		<param name="menu_image" type="imagelist" directory="/images/stories" hide_default="1" default="" label="Menu Image" description="A small image to be placed to the left or right of your menu item, images must be in images/stories/" />
+		<param name="pageclass_sfx" type="text" size="20" default="" label="Page Class Suffix" description="A suffix to be applied to the css classes of the page, this allows individual page styling" />
+		<param name="back_button" type="list" default="" label="Back Button" description="Show/Hide a Back Button, that returns you to the previously view page">
+			<option value="">Use Global</option>
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="page_title" type="radio" default="1" label="Page Title" description="Show/Hide the pages Title">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="header" type="text" size="30" default="" label="Page Title" description="Text to display at the top of the page. If left blank, the Menu name will be used instead" />
+	</params>
+</mosinstall>

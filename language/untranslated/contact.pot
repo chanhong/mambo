@@ -1,0 +1,713 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_contact/admin.contact.html.php:24
+msgid "Contact Manager"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:27
+msgid "Filter:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:47
+#: administrator/components/com_contact/contact_items.xml
+#: components/com_contact/contact.html.php:88
+msgid "Name"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:50
+msgid "Published"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:53
+msgid "Reorder"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:56
+#: components/com_contact/contact.html.php:36
+msgid "Category"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:59
+msgid "Linked to User"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:91
+msgid "Edit Contact"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:110
+msgid "Edit Category"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:115
+msgid "Edit User"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:157
+msgid "You must provide a name."
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:159
+msgid "Please select a Category."
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:171
+msgid "Contact:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:173
+msgid "Edit"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:173
+msgid "New"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:185
+msgid "Contact Details"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:190
+msgid "Category:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:198
+msgid "Linked to User:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:206
+msgid "Name:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:214
+msgid "Contact's Position:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:222
+msgid "E-mail:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:230
+msgid "Street Address:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:238
+msgid "Town/Suburb:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:246
+msgid "State/County:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:254
+msgid "Country:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:262
+msgid "Postal Code/ZIP:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:270
+msgid "Telephone:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:278
+msgid "Fax:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:286
+msgid "Miscellaneous Info:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:298
+msgid "Publishing"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:303
+msgid "Publishing Info"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:308
+msgid "Site Default:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:316
+msgid "Published:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:324
+msgid "Ordering:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:332
+msgid "Access:"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:346
+msgid "Images"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:351
+msgid "Image Info"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:356
+#: administrator/components/com_contact/contact.xml
+#: administrator/components/com_contact/contact_items.xml
+msgid "Image"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:372
+msgid "Preview"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:379
+#: administrator/components/com_contact/admin.contact.html.php:384
+msgid "Parameters"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.html.php:389
+msgid ""
+"These Parameters only control what you see when you click to view a Contact "
+"item"
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.php:16
+#: components/com_contact/contact.php:238
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_contact/admin.contact.php:252
+#, php-format
+msgid "Select a record to %s"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "# Category Items"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+#: administrator/components/com_contact/contact_items.xml
+msgid ""
+"A suffix to be applied to the css classes of the page, this allows "
+"individual page styling"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Alignment of the image"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+#: administrator/components/com_contact/contact_items.xml
+msgid "Back Button"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Category Description"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Category List - Category"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Category List - Section"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+#: components/com_contact/contact.html.php:440
+msgid "Contact"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Description"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Description Text"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid ""
+"Description for page, if left blank it will load _WEBLINKS_DESC from your "
+"language file"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Email Column"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Fax Column"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+#: administrator/components/com_contact/contact_items.xml
+msgid "Hide"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Image Align"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid ""
+"Image for page, must be located in the /images/stories folder. Default will "
+"load web_links.jpg, No image will mean an image is not loaded"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Left"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+#: administrator/components/com_contact/contact_items.xml
+msgid "Page Class Suffix"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Page Title"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Position Column"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Right"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide a Back Button, that returns you to the previously view page"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Show/Hide the Description below"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Show/Hide the Description for the list of other catgeories"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Show/Hide the Email column"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Show/Hide the Fax column"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Show/Hide the List of Categories in List view page"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Show/Hide the List of Categories in Table view page"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Show/Hide the Position column"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Show/Hide the Table Headings"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Show/Hide the Telephone column"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Show/Hide the number of items in each category"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Show/Hide the pages Title"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Table Headings"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "Telephone Column"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid ""
+"Text to display at the top of the page. If left blank, the Menu name will be "
+"used instead"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+msgid "This component shows a listing of Contact Information"
+msgstr ""
+
+#: administrator/components/com_contact/contact.xml
+#: administrator/components/com_contact/contact_items.xml
+msgid "Use Global"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Address Icon"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Contact Items"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Country"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Description text"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Drop Down"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+#: components/com_contact/contact.html.php:103
+msgid "Email"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Email Copy"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Email Form"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Email Icon"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Email description"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+#: components/com_contact/contact.html.php:121
+msgid "Fax"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Fax Icon"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Icon for the Address info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Icon for the Email info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Icon for the Fax info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Icon for the Misc info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Icon for the Telephone info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Icons"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Icons/text"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Misc Icon"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Misc Info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "None"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Parameters for individual Contact Items"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+#: components/com_contact/contact.html.php:94
+msgid "Position"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Post/Zip Code"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Print Icon"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the Description Text below"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the Drop Down select list in Contact view"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the Vcard"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the checkbox to email a copy to the senders address"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the country info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid ""
+"Show/Hide the email info, if you set to show the address will be protected "
+"from spambots by javascript cloaking"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the email to form"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the fax info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the image"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the item print button - only affects this page"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the misc info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the name info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the position info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the post code info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the state info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the street address info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the suburb info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Show/Hide the telephone info"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "State"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Street Address"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Telephone"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Telephone Icon"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Text"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid ""
+"The Description text for the Email form, if left blank it will use the "
+"_EMAIL_DESCRIPTION language definition"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Town/Suburb"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Use Icons, text or nothing next to the contact information displayed"
+msgstr ""
+
+#: administrator/components/com_contact/contact_items.xml
+msgid "Vcard"
+msgstr ""
+
+#. for existing content items the button is renamed `close`
+#: administrator/components/com_contact/toolbar.contact.html.php:25
+msgid "Close"
+msgstr ""
+
+#: components/com_contact/contact.class.php:160
+#, php-format
+msgid "Mambo vCard for %s"
+msgstr ""
+
+#: components/com_contact/contact.html.php:112
+msgid "Phone"
+msgstr ""
+
+#: components/com_contact/contact.html.php:257
+#: components/com_contact/contact.php:69
+msgid "Please make sure the form is complete and valid."
+msgstr ""
+
+#: components/com_contact/contact.html.php:384
+msgid "Select Contact:"
+msgstr ""
+
+#: components/com_contact/contact.html.php:628
+msgid "Download information as a"
+msgstr ""
+
+#: components/com_contact/contact.html.php:630
+msgid "VCard"
+msgstr ""
+
+#: components/com_contact/contact.html.php:652
+msgid "Enter your name:"
+msgstr ""
+
+#: components/com_contact/contact.html.php:656
+msgid "E-mail address:"
+msgstr ""
+
+#: components/com_contact/contact.html.php:660
+msgid "Message subject:"
+msgstr ""
+
+#: components/com_contact/contact.html.php:664
+msgid "Enter your message:"
+msgstr ""
+
+#: components/com_contact/contact.html.php:672
+msgid "Email a copy of this message to your own address"
+msgstr ""
+
+#: components/com_contact/contact.html.php:678
+msgid "Security Check. Please enter the code seen below:"
+msgstr ""
+
+#: components/com_contact/contact.html.php:685
+msgid "Send"
+msgstr ""
+
+#: components/com_contact/contact.html.php:702
+msgid "There are no Contact Details listed."
+msgstr ""
+
+#: components/com_contact/contact.php:61
+msgid "Enquiry"
+msgstr ""
+
+#: components/com_contact/contact.php:72
+#, php-format
+msgid "This is an enquiry e-mail via %s from:"
+msgstr ""
+
+#: components/com_contact/contact.php:78
+#, php-format
+msgid "The following is a copy of the message you sent to %s via %s "
+msgstr ""
+
+#: components/com_contact/contact.php:80
+#, php-format
+msgid "Copy of: %s"
+msgstr ""
+
+#: components/com_contact/contact.php:85
+msgid "Thank you for your e-mail "
+msgstr ""
+
+#: components/com_contact/contact.php:188
+msgid "The Contact list for this Website."
+msgstr ""
+
+#: components/com_contact/contact.php:308
+msgid "Send an Email to this Contact:"
+msgstr ""
+
+#. text
+#: components/com_contact/contact.php:329
+msgid "Address: "
+msgstr ""
+
+#: components/com_contact/contact.php:330
+msgid "Email: "
+msgstr ""
+
+#: components/com_contact/contact.php:331
+msgid "Telephone: "
+msgstr ""
+
+#: components/com_contact/contact.php:332
+msgid "Fax: "
+msgstr ""
+
+#: components/com_contact/contact.php:333
+msgid "Information: "
+msgstr ""
+
+#: components/com_contact/contact.php:372
+msgid "There are no vCards available for download."
+msgstr ""
+
+#: components/com_contact/contact.php:416
+msgid "Contact Us"
+msgstr ""

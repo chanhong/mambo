@@ -1,0 +1,2076 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: includes/HTML_toolbar.php:38
+msgid "Please make a selection from the list to"
+msgstr ""
+
+#: includes/HTML_toolbar.php:57
+msgid "New"
+msgstr ""
+
+#: includes/HTML_toolbar.php:77 includes/HTML_toolbar.php:97
+#: includes/mamboHTML.php:482 includes/mamboHTML.php:569
+#: includes/mamboHTML.php:660
+msgid "Published"
+msgstr ""
+
+#: includes/HTML_toolbar.php:104
+msgid "Please make a selection from the list to publish"
+msgstr ""
+
+#: includes/HTML_toolbar.php:117 includes/HTML_toolbar.php:137
+#: includes/mamboHTML.php:660
+msgid "Unpublished"
+msgstr ""
+
+#: includes/HTML_toolbar.php:144
+msgid "Please make a selection from the list to unpublish"
+msgstr ""
+
+#: includes/HTML_toolbar.php:157
+msgid "Archive"
+msgstr ""
+
+#: includes/HTML_toolbar.php:164
+msgid "Please make a selection from the list to archive"
+msgstr ""
+
+#: includes/HTML_toolbar.php:177
+msgid "Unarchive"
+msgstr ""
+
+#: includes/HTML_toolbar.php:184
+msgid "Please select a news story to unarchive"
+msgstr ""
+
+#: includes/HTML_toolbar.php:197
+msgid "Edit"
+msgstr ""
+
+#: includes/HTML_toolbar.php:204 includes/HTML_toolbar.php:223
+#: includes/HTML_toolbar.php:242
+msgid "Please select an item from the list to edit"
+msgstr ""
+
+#: includes/HTML_toolbar.php:217
+msgid "Edit HTML"
+msgstr ""
+
+#: includes/HTML_toolbar.php:236
+msgid "Edit CSS"
+msgstr ""
+
+#: includes/HTML_toolbar.php:256
+msgid "Delete"
+msgstr ""
+
+#: includes/HTML_toolbar.php:263
+msgid "Are you sure you want to delete selected items?"
+msgstr ""
+
+#: includes/HTML_toolbar.php:263
+msgid "Please make a selection from the list to delete"
+msgstr ""
+
+#: includes/HTML_toolbar.php:280 includes/HTML_toolbar.php:281
+msgid "Preview"
+msgstr ""
+
+#: includes/HTML_toolbar.php:297
+msgid "Save"
+msgstr ""
+
+#: includes/HTML_toolbar.php:316 includes/HTML_toolbar.php:317
+#: includes/HTML_toolbar.php:332 includes/HTML_toolbar.php:333
+msgid "save"
+msgstr ""
+
+#: includes/HTML_toolbar.php:349
+msgid "Cancel"
+msgstr ""
+
+#: includes/HTML_toolbar.php:369 includes/HTML_toolbar.php:370
+msgid "back"
+msgstr ""
+
+#: includes/HTML_toolbar.php:398 includes/HTML_toolbar.php:399
+msgid "Upload Image"
+msgstr ""
+
+#: includes/authenticator.php:46
+msgid "Please complete the username and password fields."
+msgstr ""
+
+#: includes/authenticator.php:54
+msgid "Logins are not permitted.  There is no authentication check active."
+msgstr ""
+
+#: includes/authenticator.php:84
+msgid "Your login has been blocked. Please contact the administrator."
+msgstr ""
+
+#: includes/authenticator.php:115
+msgid "Incorrect username or password. Please try again."
+msgstr ""
+
+#: includes/authenticator.php:163
+msgid "Please enter a password"
+msgstr ""
+
+#: includes/authenticator.php:179
+msgid "You cannot login. There are no administrators set up."
+msgstr ""
+
+#: includes/authenticator.php:184
+msgid "Incorrect Username, Password, or Access Level.  Please try again"
+msgstr ""
+
+#: includes/cmtclasses.php:274
+#, php-format
+msgid "Component %s error: attempt to use non-existent class %s in %s"
+msgstr ""
+
+#: includes/cmtclasses.php:318
+#, php-format
+msgid "Component %s error: attempt to use non-existent method %s in %s"
+msgstr ""
+
+#: includes/cmtclasses.php:320 includes/cmtclasses.php:338
+#: includes/cmtclasses.php:445
+#, php-format
+msgid "Component %s error: attempt to use non-existent class %s"
+msgstr ""
+
+#: includes/cmtclasses.php:400
+#, php-format
+msgid "MOS error in %s: method %s not found in class %s"
+msgstr ""
+
+#: includes/cmtclasses.php:402
+#, php-format
+msgid "MOS error in %s: class not found %s"
+msgstr ""
+
+#: includes/cmtclasses.php:656
+msgid "buffered"
+msgstr ""
+
+#: includes/cmtclasses.php:961
+msgid "Your Module must contain a title."
+msgstr ""
+
+#: includes/core.classes.php:361
+msgid "Impossible to determine the name of this server"
+msgstr ""
+
+#: includes/core.classes.php:584
+msgid "You have Logged In succesfully"
+msgstr ""
+
+#: includes/core.classes.php:596
+msgid "You have Logged Out successfully"
+msgstr ""
+
+#: includes/mamboHTML.php:30
+msgid "Unwriteable"
+msgstr ""
+
+#: includes/mamboHTML.php:30
+msgid "Writeable"
+msgstr ""
+
+#: includes/mamboHTML.php:106
+msgid "January"
+msgstr ""
+
+#: includes/mamboHTML.php:107
+msgid "February"
+msgstr ""
+
+#: includes/mamboHTML.php:108
+msgid "March"
+msgstr ""
+
+#: includes/mamboHTML.php:109
+msgid "April"
+msgstr ""
+
+#: includes/mamboHTML.php:110
+msgid "May"
+msgstr ""
+
+#: includes/mamboHTML.php:111
+msgid "June"
+msgstr ""
+
+#: includes/mamboHTML.php:112
+msgid "July"
+msgstr ""
+
+#: includes/mamboHTML.php:113
+msgid "August"
+msgstr ""
+
+#: includes/mamboHTML.php:114
+msgid "September"
+msgstr ""
+
+#: includes/mamboHTML.php:115
+msgid "October"
+msgstr ""
+
+#: includes/mamboHTML.php:116
+msgid "November"
+msgstr ""
+
+#: includes/mamboHTML.php:117
+msgid "December"
+msgstr ""
+
+#: includes/mamboHTML.php:132 includes/mamboHTML.php:181 modules/custom.xml
+#: modules/mod_archive.xml modules/mod_imagemenu.xml
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_login.xml modules/mod_mainmenu.xml modules/mod_mostread.xml
+#: modules/mod_newsflash.xml modules/mod_poll.xml
+#: modules/mod_related_items.xml modules/mod_rssfeed.xml
+#: modules/mod_search.xml modules/mod_stats.xml
+msgid "No"
+msgstr ""
+
+#: includes/mamboHTML.php:133 includes/mamboHTML.php:182 modules/custom.xml
+#: modules/mod_archive.xml modules/mod_imagemenu.xml
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_login.xml modules/mod_mainmenu.xml modules/mod_mostread.xml
+#: modules/mod_newsflash.xml modules/mod_poll.xml
+#: modules/mod_related_items.xml modules/mod_rssfeed.xml
+#: modules/mod_search.xml modules/mod_stats.xml
+msgid "Yes"
+msgstr ""
+
+#: includes/mamboHTML.php:205
+msgid "No Sorting"
+msgstr ""
+
+#: includes/mamboHTML.php:206
+msgid "Sort Ascending"
+msgstr ""
+
+#: includes/mamboHTML.php:207
+msgid "Sort Descending"
+msgstr ""
+
+#: includes/mamboHTML.php:232
+msgid "Close Window"
+msgstr ""
+
+#: includes/mamboHTML.php:249
+msgid "Back"
+msgstr ""
+
+#. Print Preview button - used when viewing page
+#. Print Button - used in pop-up window
+#: includes/mamboHTML.php:285 includes/mamboHTML.php:287
+#: includes/mamboHTML.php:294 includes/mamboHTML.php:303
+msgid "Print"
+msgstr ""
+
+#: includes/mamboHTML.php:359
+msgid ""
+"This email address is being protected from spam bots, you need Javascript "
+"enabled to view it"
+msgstr ""
+
+#: includes/mamboHTML.php:384
+msgid "Pending"
+msgstr ""
+
+#: includes/mamboHTML.php:387
+msgid "Published, but is <u>Pending</u>"
+msgstr ""
+
+#: includes/mamboHTML.php:390
+msgid "Visible"
+msgstr ""
+
+#: includes/mamboHTML.php:393
+msgid "Published and is <u>Current</u>"
+msgstr ""
+
+#: includes/mamboHTML.php:396 includes/mamboHTML.php:402
+msgid "Finished"
+msgstr ""
+
+#: includes/mamboHTML.php:399
+msgid "Published, but has <u>Expired</u>"
+msgstr ""
+
+#: includes/mamboHTML.php:405
+msgid "Not Published"
+msgstr ""
+
+#: includes/mamboHTML.php:410
+msgid "Click on icon to toggle state."
+msgstr ""
+
+#: includes/mamboHTML.php:447 includes/mamboHTML.php:526
+msgid "Menu"
+msgstr ""
+
+#: includes/mamboHTML.php:450 includes/mamboHTML.php:529
+msgid "Go to Menu"
+msgstr ""
+
+#: includes/mamboHTML.php:457
+msgid "Link Name"
+msgstr ""
+
+#: includes/mamboHTML.php:461 includes/mamboHTML.php:548
+msgid "Go to Menu Item"
+msgstr ""
+
+#: includes/mamboHTML.php:469 includes/mamboHTML.php:556
+msgid "State"
+msgstr ""
+
+#: includes/mamboHTML.php:475 includes/mamboHTML.php:562
+msgid "Trashed"
+msgstr ""
+
+#: includes/mamboHTML.php:478 includes/mamboHTML.php:565
+msgid "UnPublished"
+msgstr ""
+
+#: includes/mamboHTML.php:536
+msgid "Type"
+msgstr ""
+
+#: includes/mamboHTML.php:544
+msgid "Item Name"
+msgstr ""
+
+#: includes/mamboHTML.php:593
+msgid "Checked Out"
+msgstr ""
+
+#: includes/mamboHTML.php:661
+msgid "Publish item"
+msgstr ""
+
+#: includes/mamboHTML.php:661
+msgid "Unpublish Item"
+msgstr ""
+
+#: includes/mambofunc.php:31
+#, php-format
+msgid "User Submitted '%s'"
+msgstr ""
+
+#: includes/mambofunc.php:32
+msgid ""
+"Hello %s,\n"
+"\n"
+"\r\n"
+"A user submitted %s:\n"
+"[ %s ]\n"
+"\r\n"
+"has been just been submitted by user:\n"
+"[ %s ]\n"
+"\n"
+"\r\n"
+"for %\n"
+"\n"
+"Please go to %s/administrator to view and approve this %s\n"
+"\n"
+"\r\n"
+"Please do not respond to this message as it is automatically generated and "
+"is for information purposes only."
+msgstr ""
+
+#: includes/mambofunc.php:60 includes/pdf.php:42
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: includes/mambofunc.php:62
+msgid "You need to login."
+msgstr ""
+
+#: includes/mambofunc.php:354
+msgid "Mambo Warning"
+msgstr ""
+
+#: includes/pageNavigation.php:74
+#, php-format
+msgid "Results %d - %d of %d"
+msgstr ""
+
+#: includes/pageNavigation.php:86
+#, php-format
+msgid "Page %d of %d"
+msgstr ""
+
+#: includes/pageNavigation.php:123 includes/pageNavigation.php:126
+msgid "Start"
+msgstr ""
+
+#: includes/pageNavigation.php:123
+msgid "first page"
+msgstr ""
+
+#: includes/pageNavigation.php:124 includes/pageNavigation.php:127
+#: mambots/content/mospaging.php:230 mambots/content/mospaging.php:232
+msgid "Previous"
+msgstr ""
+
+#: includes/pageNavigation.php:124
+msgid "previous page"
+msgstr ""
+
+#: includes/pageNavigation.php:142 includes/pageNavigation.php:145
+#: mambots/content/mospaging.php:221 mambots/content/mospaging.php:223
+msgid "Next"
+msgstr ""
+
+#: includes/pageNavigation.php:142
+msgid "next page"
+msgstr ""
+
+#: includes/pageNavigation.php:143 includes/pageNavigation.php:146
+msgid "End"
+msgstr ""
+
+#: includes/pageNavigation.php:143
+msgid "end page"
+msgstr ""
+
+#: includes/pdf.php:89
+msgid "Powered by Mambo"
+msgstr ""
+
+#: includes/pdf.php:90
+msgid "Generated:"
+msgstr ""
+
+#: includes/pdf.php:117
+msgid "Written by"
+msgstr ""
+
+#: includes/pdf.php:119
+msgid "Contributed by"
+msgstr ""
+
+#: includes/pdf.php:125
+msgid "Last Updated"
+msgstr ""
+
+#: includes/pdf.php:143
+msgid "OFF"
+msgstr ""
+
+#: includes/pdf.php:143
+msgid "ON"
+msgstr ""
+
+#: includes/phpgettext/phpgettext.includes.php:290
+msgid "Main"
+msgstr ""
+
+#: index.php:396
+msgid "404 Error - page not found"
+msgstr ""
+
+#: index.php:438
+msgid "Template File Not Found! Looking for template"
+msgstr ""
+
+#: mambots/authenticator/mosvaliduserbot.xml
+msgid "Standard Mambo user credential validation"
+msgstr ""
+
+#: mambots/authenticator/mosvaliduserbot.xml
+msgid "User Authenticator"
+msgstr ""
+
+#: mambots/content/geshi.xml
+msgid ""
+"Displays formatted code in content items based on the GeSHi highlighting "
+"engine"
+msgstr ""
+
+#: mambots/content/geshi.xml
+msgid "GeSHi"
+msgstr ""
+
+#: mambots/content/legacybots.xml
+msgid "Support for outdated Mambo 4.5 mambots"
+msgstr ""
+
+#: mambots/content/legacybots.xml
+msgid "legacybots"
+msgstr ""
+
+#: mambots/content/moscode.xml
+msgid "Displays formatted code in content items"
+msgstr ""
+
+#: mambots/content/moscode.xml
+msgid "moscode"
+msgstr ""
+
+#: mambots/content/moscomment.php:41
+msgid "User Comments"
+msgstr ""
+
+#: mambots/content/moscomment.php:50
+msgid "Comment by"
+msgstr ""
+
+#: mambots/content/moscomment.php:50
+msgid "on"
+msgstr ""
+
+#: mambots/content/moscomment.php:56
+msgid "Comments"
+msgstr ""
+
+#: mambots/content/moscomment.php:66
+msgid "Please login or register to add comments"
+msgstr ""
+
+#: mambots/content/moscomment.php:82
+msgid "GUEST"
+msgstr ""
+
+#: mambots/content/moscomment.php:88
+msgid "Security Check. Please enter this code"
+msgstr ""
+
+#: mambots/content/moscomment.php:90
+msgid "Listen to code"
+msgstr ""
+
+#: mambots/content/moscomment.php:93
+msgid "Add Comment"
+msgstr ""
+
+#: mambots/content/moscomment.php:116
+msgid " comments"
+msgstr ""
+
+#: mambots/content/moscomment.php:116
+msgid "Write Comment"
+msgstr ""
+
+#: mambots/content/moscomment.xml
+msgid "Adds a commenting feature to articles within selected sections"
+msgstr ""
+
+#: mambots/content/moscomment.xml
+msgid "MOS Comment"
+msgstr ""
+
+#: mambots/content/mosemailcloak.xml
+msgid "As linkable mailto address"
+msgstr ""
+
+#: mambots/content/mosemailcloak.xml
+msgid "Cloaks all emails in content from spambots using javascript"
+msgstr ""
+
+#: mambots/content/mosemailcloak.xml
+msgid "Mode"
+msgstr ""
+
+#: mambots/content/mosemailcloak.xml
+msgid "Nonlinkable Text"
+msgstr ""
+
+#: mambots/content/mosemailcloak.xml
+msgid "Select how the emails will be displayed"
+msgstr ""
+
+#: mambots/content/mosemailcloak.xml
+msgid "mosemailcloak"
+msgstr ""
+
+#: mambots/content/mosimage.xml
+msgid "Replaces {mosimage} tag in content with specified images"
+msgstr ""
+
+#: mambots/content/mosimage.xml
+msgid "mosimage"
+msgstr ""
+
+#: mambots/content/mosloadposition.xml
+msgid "Code that will wrap modules"
+msgstr ""
+
+#: mambots/content/mosloadposition.xml
+msgid "Loads module positions within Content, Syntax: {mosloadposition user1}"
+msgstr ""
+
+#: mambots/content/mosloadposition.xml
+msgid "No wrapping - raw output"
+msgstr ""
+
+#: mambots/content/mosloadposition.xml modules/mod_latestcontent.xml
+#: modules/mod_newsflash.xml
+msgid "Style"
+msgstr ""
+
+#: mambots/content/mosloadposition.xml
+msgid "Wrapped by Divs"
+msgstr ""
+
+#: mambots/content/mosloadposition.xml
+msgid "Wrapped by Table - Column"
+msgstr ""
+
+#: mambots/content/mosloadposition.xml
+msgid "Wrapped by Table - Horizontal"
+msgstr ""
+
+#: mambots/content/mosloadposition.xml
+msgid "mosloadposition"
+msgstr ""
+
+#: mambots/content/mospaging.php:64 mambots/content/mospaging.php:189
+#: mambots/content/mospaging.php:200
+msgid "Page"
+msgstr ""
+
+#: mambots/content/mospaging.php:148
+msgid "Article Index"
+msgstr ""
+
+#: mambots/content/mospaging.xml
+msgid ""
+"Add a Table of Contents functionality to a paginated item. Syntax: "
+"{mospagebreak} or {mospagebreak title=The page title} or {mospagebreak "
+"heading=The first page} or {mospagebreak title=The page title"
+msgstr ""
+
+#: mambots/content/mospaging.xml
+msgid "mospaging"
+msgstr ""
+
+#: mambots/content/mossef.xml
+msgid ""
+"Adds SEF support to links in content items.  It operates directly on the "
+"html and does not require a special tag."
+msgstr ""
+
+#: mambots/content/mossef.xml
+msgid "mossef"
+msgstr ""
+
+#: mambots/content/mosvote.php:48
+msgid "User Rating"
+msgstr ""
+
+#: mambots/content/mosvote.php:60
+msgid "Poor"
+msgstr ""
+
+#: mambots/content/mosvote.php:61
+msgid "vote 1 star"
+msgstr ""
+
+#: mambots/content/mosvote.php:62
+msgid "vote 2 star"
+msgstr ""
+
+#: mambots/content/mosvote.php:63
+msgid "vote 3 star"
+msgstr ""
+
+#: mambots/content/mosvote.php:64
+msgid "vote 4 star"
+msgstr ""
+
+#: mambots/content/mosvote.php:65
+msgid "vote 5 star"
+msgstr ""
+
+#: mambots/content/mosvote.php:66
+msgid "Best"
+msgstr ""
+
+#: mambots/content/mosvote.php:67
+msgid "Rate"
+msgstr ""
+
+#: mambots/content/mosvote.xml
+msgid "Add the Voting functionality to Items"
+msgstr ""
+
+#: mambots/content/mosvote.xml
+msgid "MOS Rating"
+msgstr ""
+
+#: mambots/editors-xtd/mosimage.btn.xml
+msgid "Provides button to insert {mosimage} into content edit box"
+msgstr ""
+
+#: mambots/editors-xtd/mosimage.btn.xml
+msgid "mosimage.btn"
+msgstr ""
+
+#: mambots/editors-xtd/mospage.btn.xml
+msgid "Provides button to insert {mospagebreak} into content edit box"
+msgstr ""
+
+#: mambots/editors-xtd/mospage.btn.xml
+msgid "mospage.btn"
+msgstr ""
+
+#: mambots/editors/mostlyce.xml
+msgid ""
+"<p>MOStlyContent Editor - The default WYSIWYG editor for Mambo, based on "
+"Moxiecode's TinyMCE! and TinyMCPUK.</p><p>Features:</p><p>All the features "
+"of TinyMCE by Moxiecode.  It also offers dynamic plugin loading, a familiar "
+"word processor style interface, a spellchecker, an image/file manager "
+"plugin, editor compression, etc.</p><p>Important Note: Since you have "
+"installed the MOStlyCE Mambot we would also remind you that the MOStlyCE "
+"Admin Component is required as well.  This component allows you to customize "
+"the MOStlyCE editor, control its options, and is relied on for certain core "
+"functionality.</p>"
+msgstr ""
+
+#: mambots/editors/mostlyce.xml
+msgid "MOStlyCE"
+msgstr ""
+
+#: mambots/editors/mostlyce/jscripts/tiny_mce/imagemanager/Classes/package.xml
+msgid "Image_Transform"
+msgstr ""
+
+#: mambots/editors/mostlyce/jscripts/tiny_mce/imagemanager/Classes/package.xml
+msgid "Peter Bowyer"
+msgstr ""
+
+#: mambots/editors/mostlyce/jscripts/tiny_mce/imagemanager/Classes/package.xml
+msgid "Pierre-Alain Joye"
+msgstr ""
+
+#: mambots/editors/mostlyce/jscripts/tiny_mce/imagemanager/Classes/package.xml
+msgid ""
+"This package was written to provide a simpler and cross-library interface to "
+"doing image transformations and manipulations.It provides :* support for GD, "
+"ImageMagick, Imagick and NetPBM* files related functions* addText* Scale (by "
+"length, percentage, maximum X/Y)* Resize* Rotate (custom angle)* Add border "
+"(soon)* Add shadow (soon)"
+msgstr ""
+
+#: mambots/editors/none.xml
+msgid "This loads a basic text entry field"
+msgstr ""
+
+#: mambots/editors/none.xml
+msgid "none"
+msgstr ""
+
+#: mambots/search/categories.searchbot.php:73
+msgid "Category Blog"
+msgstr ""
+
+#: mambots/search/categories.searchbot.php:79
+msgid "Category List"
+msgstr ""
+
+#: mambots/search/categories.searchbot.xml
+msgid "Allows Searching of Categories information"
+msgstr ""
+
+#: mambots/search/categories.searchbot.xml
+msgid "categories searchbot"
+msgstr ""
+
+#: mambots/search/contacts.searchbot.php:35
+msgid "Contact"
+msgstr ""
+
+#: mambots/search/contacts.searchbot.xml
+msgid "Allows Searching of Contacts Component"
+msgstr ""
+
+#: mambots/search/contacts.searchbot.xml
+msgid "contacts searchbot"
+msgstr ""
+
+#: mambots/search/content.searchbot.xml
+msgid "Allows Searching of all Content items"
+msgstr ""
+
+#: mambots/search/content.searchbot.xml
+msgid "content searchbot"
+msgstr ""
+
+#: mambots/search/newsfeeds.searchbot.xml
+msgid "Allows Searching of Newsfeeds"
+msgstr ""
+
+#: mambots/search/newsfeeds.searchbot.xml
+msgid "Search Newsfeeds"
+msgstr ""
+
+#: mambots/search/sections.searchbot.php:69
+msgid "Section Blog"
+msgstr ""
+
+#: mambots/search/sections.searchbot.php:73
+msgid "Section List"
+msgstr ""
+
+#: mambots/search/sections.searchbot.xml
+msgid "Allows Searching of Content Section information"
+msgstr ""
+
+#: mambots/search/sections.searchbot.xml
+msgid "sections searchbot"
+msgstr ""
+
+#: mambots/search/weblinks.searchbot.php:34 modules/mod_stats.php:46
+msgid "Web Links"
+msgstr ""
+
+#: mambots/search/weblinks.searchbot.xml
+msgid "Allows Searching of Web Links Component"
+msgstr ""
+
+#: mambots/search/weblinks.searchbot.xml
+msgid "Seach Web Links"
+msgstr ""
+
+#: modules/custom.xml modules/mod_archive.xml modules/mod_imagemenu.xml
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_login.xml modules/mod_mainmenu.xml modules/mod_mostread.xml
+#: modules/mod_newsflash.xml modules/mod_poll.xml modules/mod_random_image.xml
+#: modules/mod_related_items.xml modules/mod_rssfeed.xml
+#: modules/mod_search.xml modules/mod_sections.xml modules/mod_stats.xml
+#: modules/mod_templatechooser.xml modules/mod_whosonline.xml
+#: modules/mod_wrapper.xml
+msgid ""
+"A suffix to be applied to the css class of the module (table.moduletable), "
+"this allows individual module styling"
+msgstr ""
+
+#: modules/custom.xml
+msgid ""
+"Allows you to limit the amount of visible item description text. 0 will show "
+"all the text"
+msgstr ""
+
+#: modules/custom.xml
+msgid "Custom Module"
+msgstr ""
+
+#: modules/custom.xml modules/mod_archive.xml modules/mod_latestcontent.xml
+#: modules/mod_latestnews.xml modules/mod_mainmenu.xml
+#: modules/mod_mostread.xml modules/mod_newsflash.xml modules/mod_poll.xml
+#: modules/mod_related_items.xml modules/mod_rssfeed.xml
+#: modules/mod_search.xml
+msgid "Enable Cache"
+msgstr ""
+
+#: modules/custom.xml
+msgid "Enter number of RSS items to display"
+msgstr ""
+
+#: modules/custom.xml
+msgid "Enter the URL of the RSS/RDF feed"
+msgstr ""
+
+#: modules/custom.xml
+msgid "Feed Description"
+msgstr ""
+
+#: modules/custom.xml
+msgid "Feed Image"
+msgstr ""
+
+#: modules/custom.xml
+msgid "Item Description"
+msgstr ""
+
+#: modules/custom.xml
+msgid "Items"
+msgstr ""
+
+#: modules/custom.xml modules/mod_archive.xml modules/mod_banners.xml
+#: modules/mod_imagemenu.xml modules/mod_latestcontent.xml
+#: modules/mod_latestnews.xml modules/mod_login.xml modules/mod_mainmenu.xml
+#: modules/mod_mostread.xml modules/mod_newsflash.xml modules/mod_poll.xml
+#: modules/mod_random_image.xml modules/mod_related_items.xml
+#: modules/mod_rssfeed.xml modules/mod_search.xml modules/mod_sections.xml
+#: modules/mod_stats.xml modules/mod_templatechooser.xml
+#: modules/mod_whosonline.xml modules/mod_wrapper.xml
+msgid "Module Class Suffix"
+msgstr ""
+
+#: modules/custom.xml
+msgid "RSS URL"
+msgstr ""
+
+#: modules/custom.xml modules/mod_archive.xml modules/mod_latestcontent.xml
+#: modules/mod_latestnews.xml modules/mod_mainmenu.xml
+#: modules/mod_mostread.xml modules/mod_newsflash.xml modules/mod_poll.xml
+#: modules/mod_related_items.xml modules/mod_rssfeed.xml
+#: modules/mod_search.xml
+msgid "Select whether to cache the content of this module"
+msgstr ""
+
+#: modules/custom.xml
+msgid "Show the description or intro text of individual news items"
+msgstr ""
+
+#: modules/custom.xml
+msgid "Show the description text for the whole Feed"
+msgstr ""
+
+#: modules/custom.xml
+msgid "Show the image associated with the whole Feed"
+msgstr ""
+
+#: modules/custom.xml
+msgid "Word Count"
+msgstr ""
+
+#: modules/mod_archive.xml
+msgid "Archived Content"
+msgstr ""
+
+#: modules/mod_archive.xml modules/mod_latestcontent.xml
+#: modules/mod_latestnews.xml modules/mod_mostread.xml
+#: modules/mod_sections.xml
+msgid "Count"
+msgstr ""
+
+#: modules/mod_archive.xml
+msgid "The number of items to display (default is 10)"
+msgstr ""
+
+#: modules/mod_archive.xml
+msgid ""
+"This module shows a list of the calendar months, which contain Archived "
+"items. After you have changed the status of a Content Item to 'Archived' "
+"this list will be automatically generated."
+msgstr ""
+
+#: modules/mod_banners.php:76 modules/mod_banners.xml
+msgid "Banner"
+msgstr ""
+
+#: modules/mod_banners.xml
+msgid ""
+"A suffix to be aapplied to the css class of the module (table.moduletable), "
+"this allows individual module styling"
+msgstr ""
+
+#: modules/mod_banners.xml
+msgid "Banner client"
+msgstr ""
+
+#: modules/mod_banners.xml
+msgid "Reference to banner client id. Enter separated by ','!"
+msgstr ""
+
+#: modules/mod_banners.xml
+msgid ""
+"The banner module allows to show the active banners out of the component "
+"within your site."
+msgstr ""
+
+#: modules/mod_imagemenu.xml modules/mod_mainmenu.xml
+msgid "A suffix to be applied to the css class of the menu items"
+msgstr ""
+
+#: modules/mod_imagemenu.xml
+msgid "Allow to select the method of Output."
+msgstr ""
+
+#: modules/mod_imagemenu.xml modules/mod_mainmenu.xml
+msgid "Expand Menu"
+msgstr ""
+
+#: modules/mod_imagemenu.xml modules/mod_mainmenu.xml
+msgid "Expand the menu and make its sub-menus items always visible"
+msgstr ""
+
+#: modules/mod_imagemenu.xml
+msgid "Image Menu"
+msgstr ""
+
+#: modules/mod_imagemenu.xml modules/mod_mainmenu.xml
+msgid "Menu Class Suffix"
+msgstr ""
+
+#: modules/mod_imagemenu.xml modules/mod_mainmenu.xml
+msgid "Menu Name"
+msgstr ""
+
+#: modules/mod_imagemenu.xml
+msgid "Output Mode"
+msgstr ""
+
+#: modules/mod_imagemenu.xml
+msgid "Raw Links"
+msgstr ""
+
+#: modules/mod_imagemenu.xml
+msgid "Select whether to show items that haven't a image assigned"
+msgstr ""
+
+#: modules/mod_imagemenu.xml
+msgid "Show links item without image"
+msgstr ""
+
+#: modules/mod_imagemenu.xml
+msgid ""
+"The core main menu module display links with optional images, this module "
+"display those images as links and the text as the alt and title properties "
+"of the link, useful to make menus based on graphics."
+msgstr ""
+
+#: modules/mod_imagemenu.xml modules/mod_mainmenu.xml
+msgid "The name of the menu (default is 'mainmenu')"
+msgstr ""
+
+#: modules/mod_imagemenu.xml
+msgid "Unordered List"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_mostread.xml
+msgid "Allows you to control which type of Content to display in the module"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_mostread.xml modules/mod_whosonline.xml
+msgid "Both"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_mostread.xml
+msgid "Category ID"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_mostread.xml
+msgid "Content Items only"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_newsflash.xml
+msgid "Display content item images"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_mostread.xml
+msgid "Frontpage Items"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_login.xml
+#: modules/mod_newsflash.xml modules/mod_rssfeed.xml
+#: modules/mod_templatechooser.xml
+msgid "Hide"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_mainmenu.xml
+#: modules/mod_newsflash.xml
+msgid "Horizontal"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_newsflash.xml
+msgid "Item Title"
+msgstr ""
+
+#: modules/mod_latestcontent.xml
+msgid "Latest Content"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_mostread.xml
+msgid "Module Mode"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_newsflash.xml
+msgid "Read More"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_mostread.xml
+msgid "Section ID"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_mostread.xml
+msgid ""
+"Selects items from a specific Category or set of Categories (to specify more "
+"than one Category, seperate with a comma , )."
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_mostread.xml
+msgid ""
+"Selects items from a specific Secion or set of Sections (to specify more "
+"than one Section, seperate with a comma , )."
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_login.xml
+#: modules/mod_newsflash.xml modules/mod_rssfeed.xml
+#: modules/mod_templatechooser.xml
+msgid "Show"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_newsflash.xml
+msgid "Show images"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_newsflash.xml
+msgid "Show item title"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_mostread.xml
+msgid ""
+"Show/Hide items designated for the Frontpage - only works when in Content "
+"Items only mode"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_newsflash.xml
+msgid "Show/Hide the Read More button"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_mostread.xml
+msgid "Static Content only"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+msgid "The number of items to display (default 5)"
+msgstr ""
+
+#: modules/mod_latestcontent.xml
+msgid "The style to display the content"
+msgstr ""
+
+#: modules/mod_latestcontent.xml
+msgid ""
+"This module shows a list of content with intro text in vertical or "
+"horizontal of the most recently published Items that are still current (some "
+"may have expired even though they are the most recent). Items that are "
+"displayed on the Front Page Component are not included in the list."
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_mainmenu.xml
+#: modules/mod_newsflash.xml
+msgid "Vertical"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_mostread.xml
+msgid "hide"
+msgstr ""
+
+#: modules/mod_latestcontent.xml modules/mod_latestnews.xml
+#: modules/mod_mostread.xml
+msgid "show"
+msgstr ""
+
+#: modules/mod_latestnews.xml
+msgid "Latest News"
+msgstr ""
+
+#: modules/mod_latestnews.xml
+msgid ""
+"This module shows a list of the most recently published Items that are still "
+"current (some may have expired even though they are the most recent). Items "
+"that are displayed on the Front Page Component are not included in the list."
+msgstr ""
+
+#: modules/mod_login.php:47
+#, php-format
+msgid "Hi, %s"
+msgstr ""
+
+#: modules/mod_login.php:52
+msgid "Logout"
+msgstr ""
+
+#: modules/mod_login.php:70 modules/mod_login.xml
+msgid "Username"
+msgstr ""
+
+#: modules/mod_login.php:72
+msgid "username"
+msgstr ""
+
+#: modules/mod_login.php:74
+msgid "Password"
+msgstr ""
+
+#: modules/mod_login.php:76
+msgid "password"
+msgstr ""
+
+#: modules/mod_login.php:78
+msgid "Remember Me"
+msgstr ""
+
+#: modules/mod_login.php:79
+msgid "Remember me"
+msgstr ""
+
+#: modules/mod_login.php:82
+msgid "Login"
+msgstr ""
+
+#: modules/mod_login.php:88
+msgid "Password Reminder"
+msgstr ""
+
+#: modules/mod_login.php:97
+msgid "No account yet?"
+msgstr ""
+
+#: modules/mod_login.php:99
+msgid "Create one"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "Greeting"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "Login Form"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "Login Message"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "Login Redirection URL"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "Logout Message"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "Logout Redirection URL"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "Name"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "Name/Username"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "Post-text"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "Pre-text"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "Show/Hide the javascript Pop-up indicating Login Success"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "Show/Hide the javascript Pop-up indicating Logout Success"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "Show/Hide the simple greeting text"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "This is the Text or HTML that is displayed above the login form"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid "This is the Text or HTML that is displayed below the login form"
+msgstr ""
+
+#: modules/mod_login.xml
+msgid ""
+"This module displays a Username and Password login form. It also displays a "
+"link to retrieve a forgotten password. If user registration is enabled, "
+"(refer to the Configuration settings), then another link will be shown to "
+"invite users to self-register."
+msgstr ""
+
+#: modules/mod_login.xml
+msgid ""
+"What page will the login redirect to after login, if let blank will load "
+"front page"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Alignment of the Menu Icons"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Choose which indent image system to utilise"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Displays a menu."
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "End Spacer"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "End Spacer for Horizontal menu"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Flat List"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Image for the fifth sub-level"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Image for the first sub-level"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Image for the fourth sub-level"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Image for the second sub-level"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Image for the sixth sub-level"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Image for the third sub-level"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Indent Image"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Indent Image 1"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Indent Image 2"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Indent Image 3"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Indent Image 4"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Indent Image 5"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Indent Image 6"
+msgstr ""
+
+#: modules/mod_mainmenu.xml modules/mod_search.xml
+msgid "Left"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Main Menu"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Mambo default images"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Menu Icon Alignment"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Menu Style"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "None"
+msgstr ""
+
+#: modules/mod_mainmenu.xml modules/mod_search.xml
+msgid "Right"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Show Menu Icons"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Show the Menu Icons you have selected for your menu items"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Spacer"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Spacer for Horizontal menu"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Template"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "The menu style"
+msgstr ""
+
+#: modules/mod_mainmenu.xml
+msgid "Use params below"
+msgstr ""
+
+#: modules/mod_mostread.xml
+msgid "Most Popular Content"
+msgstr ""
+
+#: modules/mod_mostread.xml
+msgid "Show Hits"
+msgstr ""
+
+#: modules/mod_mostread.xml
+msgid "Show/Hide hits for each item"
+msgstr ""
+
+#: modules/mod_mostread.xml modules/mod_sections.xml
+msgid "The number of items to display (default is 5)"
+msgstr ""
+
+#: modules/mod_mostread.xml
+msgid ""
+"This module shows a list of the currently published Items that have been "
+"viewed the most - determined by the number of times the page has been viewed."
+msgstr ""
+
+#: modules/mod_newsflash.xml
+msgid "A content category"
+msgstr ""
+
+#: modules/mod_newsflash.xml
+msgid "Category"
+msgstr ""
+
+#: modules/mod_newsflash.xml
+msgid "Linked Titles"
+msgstr ""
+
+#: modules/mod_newsflash.xml
+msgid "Make the Item titles linkable"
+msgstr ""
+
+#: modules/mod_newsflash.xml
+msgid "Newsflash"
+msgstr ""
+
+#: modules/mod_newsflash.xml
+msgid "No of items to display"
+msgstr ""
+
+#: modules/mod_newsflash.xml
+msgid "No. of Items"
+msgstr ""
+
+#: modules/mod_newsflash.xml
+msgid "Randomly choose one at a time"
+msgstr ""
+
+#: modules/mod_newsflash.xml
+msgid ""
+"The Newsflash module randomly selects one of the published items from a "
+"category upon each page refresh.  It may also dislpay multiple items in "
+"horizontal or vertical configurations."
+msgstr ""
+
+#: modules/mod_newsflash.xml
+msgid "The style to display the category"
+msgstr ""
+
+#: modules/mod_newsflash.xml
+msgid "Use Global"
+msgstr ""
+
+#: modules/mod_poll.php:105
+msgid "Vote"
+msgstr ""
+
+#: modules/mod_poll.php:106
+msgid "Results"
+msgstr ""
+
+#: modules/mod_poll.xml
+msgid "Poll"
+msgstr ""
+
+#: modules/mod_poll.xml
+msgid ""
+"This module compliments the Polls component. It is used to display the "
+"configured polls. The module differs from other modules in as much as the "
+"Component supports linking between Menu Items and Polls. This means that the "
+"module shows only those Polls, which are configured for a certain Menu Item."
+msgstr ""
+
+#: modules/mod_random_image.xml
+msgid ""
+"A URL to redirect to if image is clicked on, eg: http://www.mambo-foundation."
+"org"
+msgstr ""
+
+#: modules/mod_random_image.xml
+msgid "Height (px)"
+msgstr ""
+
+#: modules/mod_random_image.xml
+msgid "Image Folder"
+msgstr ""
+
+#: modules/mod_random_image.xml
+msgid "Image Type"
+msgstr ""
+
+#: modules/mod_random_image.xml
+msgid "Image height (forces all images to be displayed with the height)"
+msgstr ""
+
+#: modules/mod_random_image.xml
+msgid "Image width (forces all images to be displayed with this width)"
+msgstr ""
+
+#: modules/mod_random_image.xml
+msgid "Link"
+msgstr ""
+
+#: modules/mod_random_image.xml
+msgid "Path to the image folder relative to the site url, eg: images/stories"
+msgstr ""
+
+#: modules/mod_random_image.xml
+msgid "Random Image"
+msgstr ""
+
+#: modules/mod_random_image.xml
+msgid "This module display a random image from your chosen directory"
+msgstr ""
+
+#: modules/mod_random_image.xml
+msgid "Type of image PNG/GIF/JPG etc. (default is JPG)"
+msgstr ""
+
+#: modules/mod_random_image.xml
+msgid "Width (px)"
+msgstr ""
+
+#: modules/mod_related_items.xml
+msgid "Related Items"
+msgstr ""
+
+#: modules/mod_related_items.xml
+msgid ""
+"This module displays other Content Items that are related to the Item "
+"currently displayed. These are based on the keywords Metadata. All the "
+"keywords of the current Content Item are searched against all the keywords "
+"of all other published items. For example, you may have an Item on 'Breeding "
+"Parrots' and you may have another on 'Hand Raising Black Cockatoos'. If you "
+"include the keyword 'parrot' in both Items, then the Related Items module "
+"will list the 'Breeding Parrots' Item when viewing 'Hand Raising Black "
+"Cockatoos' and vice-versa."
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "Atom"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "Atom Image"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "Choose the image to be used"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "Enter the text to be displayed along with the RSS links"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "OPML"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "OPML Image"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "RSS 0.91"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "RSS 0.91 Image"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "RSS 1.0"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "RSS 1.0 Image"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "RSS 2.0"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "RSS 2.0 Image"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "Show/Hide Atom 1.0 Link"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "Show/Hide OPML Link"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "Show/Hide RSS 0.91 Link"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "Show/Hide RSS 1.0 Link"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "Show/Hide RSS 2.0 Link"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid "Syndicate"
+msgstr ""
+
+#: modules/mod_rssfeed.xml modules/mod_search.xml
+msgid "Text"
+msgstr ""
+
+#: modules/mod_rssfeed.xml
+msgid ""
+"The Syndicate module will display a link whereby people can syndicate your "
+"site for all your latest news. When you click on the RSS icon, you will be "
+"redirected to a new page that will list all the latest news in XML format. "
+"In order to use the Newsfeed in another Mambo site or a Newsfeed reader, you "
+"need to cut and paste the URL."
+msgstr ""
+
+#: modules/mod_search.php:18
+msgid "Search"
+msgstr ""
+
+#: modules/mod_search.php:20
+msgid "search..."
+msgstr ""
+
+#: modules/mod_search.php:23
+msgid "search"
+msgstr ""
+
+#: modules/mod_search.xml
+msgid "Bottom"
+msgstr ""
+
+#: modules/mod_search.xml
+msgid "Box Width"
+msgstr ""
+
+#: modules/mod_search.xml
+msgid "Button Position"
+msgstr ""
+
+#: modules/mod_search.xml
+msgid "Button Text"
+msgstr ""
+
+#: modules/mod_search.xml
+msgid "Display a Search Button"
+msgstr ""
+
+#: modules/mod_search.xml
+msgid "Position of the button relative to the search box"
+msgstr ""
+
+#: modules/mod_search.xml
+msgid "Search Button"
+msgstr ""
+
+#: modules/mod_search.xml
+msgid "Search Module"
+msgstr ""
+
+#: modules/mod_search.xml
+msgid "Size of the search text box"
+msgstr ""
+
+#: modules/mod_search.xml
+msgid ""
+"The text that appears in the search button, if left blank it will load "
+"_SEARCH_TITLE from your language file"
+msgstr ""
+
+#: modules/mod_search.xml
+msgid ""
+"The text that appears in the search text box, if left blank it will load "
+"_SEARCH_BOX from your language file"
+msgstr ""
+
+#: modules/mod_search.xml
+msgid "This module will display a search box"
+msgstr ""
+
+#: modules/mod_search.xml
+msgid "Top"
+msgstr ""
+
+#: modules/mod_sections.xml
+msgid "Sections"
+msgstr ""
+
+#: modules/mod_sections.xml
+msgid ""
+"The Section module shows a list of all Sections configured in your database. "
+"The Sections refer here to the Item Sections only. If the configuration "
+"'Show Unauthorized Links' is set to 'NO', the list will be limited to the "
+"sections the user is allowed to see."
+msgstr ""
+
+#: modules/mod_stats.php:28
+msgid "Time"
+msgstr ""
+
+#: modules/mod_stats.php:29 modules/mod_stats.php:31
+msgid "Disabled"
+msgstr ""
+
+#: modules/mod_stats.php:29 modules/mod_stats.php:31
+msgid "Enabled"
+msgstr ""
+
+#: modules/mod_stats.php:38
+msgid "Members"
+msgstr ""
+
+#: modules/mod_stats.php:42
+msgid "News"
+msgstr ""
+
+#: modules/mod_stats.php:60 modules/mod_stats.php:62
+msgid "Visitors"
+msgstr ""
+
+#: modules/mod_stats.xml
+msgid "Display hit counter"
+msgstr ""
+
+#: modules/mod_stats.xml
+msgid "Display server information"
+msgstr ""
+
+#: modules/mod_stats.xml
+msgid "Display site information"
+msgstr ""
+
+#: modules/mod_stats.xml
+msgid "Enter the amount of hits to increase counter by"
+msgstr ""
+
+#: modules/mod_stats.xml
+msgid "Hit Counter"
+msgstr ""
+
+#: modules/mod_stats.xml
+msgid "Increase counter"
+msgstr ""
+
+#: modules/mod_stats.xml
+msgid "Server Info"
+msgstr ""
+
+#: modules/mod_stats.xml
+msgid "Site Info"
+msgstr ""
+
+#: modules/mod_stats.xml
+msgid "Statistics"
+msgstr ""
+
+#: modules/mod_stats.xml
+msgid ""
+"The Statistics module shows information about your server installation and "
+"statistics on the web site users, number of contents in your database, and "
+"number of web links you provide."
+msgstr ""
+
+#: modules/mod_templatechooser.php:80
+msgid "Select"
+msgstr ""
+
+#: modules/mod_templatechooser.xml
+msgid "Height"
+msgstr ""
+
+#: modules/mod_templatechooser.xml
+msgid "Max. Name Length"
+msgstr ""
+
+#: modules/mod_templatechooser.xml
+msgid "Show Preview"
+msgstr ""
+
+#: modules/mod_templatechooser.xml
+msgid "Template Chooser"
+msgstr ""
+
+#: modules/mod_templatechooser.xml
+msgid "Template preview is to be shown"
+msgstr ""
+
+#: modules/mod_templatechooser.xml
+msgid ""
+"The Template Chooser module allows the user (visitor) to change the template "
+"on the fly from the front-end via a drop down selection list."
+msgstr ""
+
+#: modules/mod_templatechooser.xml
+msgid "This is the height of the preview image (default 90)"
+msgstr ""
+
+#: modules/mod_templatechooser.xml
+msgid "This is the maximum length of the template name to display (default 20)"
+msgstr ""
+
+#: modules/mod_templatechooser.xml
+msgid "This is the width of the preview image (default 140)"
+msgstr ""
+
+#: modules/mod_templatechooser.xml
+msgid "Width"
+msgstr ""
+
+#: modules/mod_whosonline.php:31
+#, php-format
+msgid "We have %d guest online"
+msgid_plural "We have %d guests online"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/mod_whosonline.php:35
+#, php-format
+msgid "We have %d member online"
+msgid_plural "We have %d members online"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/mod_whosonline.php:39
+#, php-format
+msgid "We have %d guest online and "
+msgid_plural "We have %d guests online and "
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/mod_whosonline.php:40
+#, php-format
+msgid " %d member online"
+msgid_plural " %d members online"
+msgstr[0] ""
+msgstr[1] ""
+
+#: modules/mod_whosonline.php:58
+msgid "No Users Online"
+msgstr ""
+
+#: modules/mod_whosonline.xml
+msgid "# of Guests/Members"
+msgstr ""
+
+#: modules/mod_whosonline.xml
+msgid "Display"
+msgstr ""
+
+#: modules/mod_whosonline.xml
+msgid "Member Names"
+msgstr ""
+
+#: modules/mod_whosonline.xml
+msgid "Select what shall be shown"
+msgstr ""
+
+#: modules/mod_whosonline.xml
+msgid ""
+"The Who's Online module displays the number of anonymous (that is, Guest) "
+"users and Registered users, (those that are logged in) that are currently "
+"accessing the web site."
+msgstr ""
+
+#: modules/mod_whosonline.xml
+msgid "Who's Online"
+msgstr ""
+
+#: modules/mod_wrapper.xml
+msgid "This module shows an IFrame window to specified location"
+msgstr ""
+
+#: modules/mod_wrapper.xml
+msgid "Url"
+msgstr ""
+
+#: modules/mod_wrapper.xml
+msgid "Url to site/file you wish to display within the Iframe"
+msgstr ""
+
+#: modules/mod_wrapper.xml
+msgid "Wrapper Module"
+msgstr ""
+
+#: offline.php:25
+msgid "Offline"
+msgstr ""
+
+#: offline.php:34
+msgid "Mambo Logo"
+msgstr ""
+
+#: offline.php:71
+msgid ""
+"For your security please completely remove the installation directory "
+"including all files and sub-folders  - then refresh this page"
+msgstr ""
+
+#: offline.php:74
+msgid "For support, the official forum can be found at:"
+msgstr ""
+
+#: page404.php:17
+msgid ""
+"The page you are trying to access does not exist.<br />Please select a page "
+"from the main menu."
+msgstr ""
+
+#: page404.php:18
+msgid "This is from page404.php"
+msgstr ""
+
+#: templates/waterandstone/templateDetails.xml
+msgid ""
+"The Water and Stone Grey Template optimized for 1024px width resolution for "
+"use with any type of website with easy customization"
+msgstr ""
+
+#: templates/waterandstone/templateDetails.xml
+msgid "waterandstone"
+msgstr ""
+
+#: templates/waterandstone800/templateDetails.xml
+msgid ""
+"The Water and Stone Grey Template optimized for 800px width resolution for "
+"use with any type of website with easy customization"
+msgstr ""
+
+#: templates/waterandstone800/templateDetails.xml
+msgid "waterandstone800"
+msgstr ""
+
+#: templates/waterandstone800_blue/templateDetails.xml
+msgid ""
+"The Water and Stone Blue Template optimized for 800px x 600px screen "
+"resolution for use with any type of website with easy customization"
+msgstr ""
+
+#: templates/waterandstone800_blue/templateDetails.xml
+msgid "waterandstone800_blue"
+msgstr ""
+
+#: templates/waterandstone800_green/templateDetails.xml
+msgid ""
+"The Water and Stone Green Template optimized for 800px x 600px screen "
+"resolution for use with any type of website with easy customization"
+msgstr ""
+
+#: templates/waterandstone800_green/templateDetails.xml
+msgid "waterandstone800_green"
+msgstr ""
+
+#: templates/waterandstone800_greenandblack/templateDetails.xml
+msgid ""
+"The Water and Stone Green and Black Template optimized for 800px x 600px "
+"screen resolution for use with any type of website with easy customization"
+msgstr ""
+
+#: templates/waterandstone800_greenandblack/templateDetails.xml
+msgid "waterandstone800_greenandblack"
+msgstr ""
+
+#: templates/waterandstone_blue/templateDetails.xml
+msgid ""
+"The Water and Stone Blue Template optimized for 1024px x 768px screen "
+"resolution for use with any type of website with easy customization"
+msgstr ""
+
+#: templates/waterandstone_blue/templateDetails.xml
+msgid "waterandstone_blue"
+msgstr ""
+
+#: templates/waterandstone_green/templateDetails.xml
+msgid ""
+"The Water and Stone Green Template optimized for 1024px x 768px screen "
+"resolution for use with any type of website with easy customization"
+msgstr ""
+
+#: templates/waterandstone_green/templateDetails.xml
+msgid "waterandstone_green"
+msgstr ""
+
+#: templates/waterandstone_greenandblack/templateDetails.xml
+msgid ""
+"The Water and Stone Green and Black Template optimized for 1024px x 768px "
+"screen resolution for use with any type of website with easy customization"
+msgstr ""
+
+#: templates/waterandstone_greenandblack/templateDetails.xml
+msgid "waterandstone_greenandblack"
+msgstr ""

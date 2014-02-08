@@ -1,0 +1,28 @@
+<big><span style="font-weight: bold;">MOStlyCE</span></big><br />
+    MOStlyCE Content Editor - a WYSIWYG editor for Mambo, based on Moxiecode's TinyMCE! and mosCE<br />
+    <br />
+    <span style="font-weight: bold;">Features:<br />
+    </span>
+    <ul>
+    <li>All the features of TinyMCE by Moxiecode <a href="http://tinymce.moxiecode.com">http://tinymce.moxiecode.com</a></li>
+    <li>Originally based on mosCE 1.0.3 Final</li>
+    <li>Editor compression</li>
+    <li>Font styling, tables, emotions, search and replace, etc</li> 
+    <li>Familiar MS Word like editing</li>
+    <li>Ability to enable / disable certain plugins as needed</li>
+    <li>Media File Support (ex) Flash</li>
+    </ul>
+    <br />
+
+    <span style="font-weight: bold;">Installation:</span><br />
+    <ul>
+        <li>You may need to chmod MOStlyCE folders to 755 and files to 644 in mambots/editors/mostlyce<br />
+        if you receive internal server errors with the Image Manager.</li>
+        <li>Warning : mostlyce_config.php must remain writable!</li>
+        <li>If you want to use a custom_css file for the editor, make a copy of your site template CSS,<br />
+        rename it to editor_content.css (or whatever you specify in the paramters) and place it in your<br />
+        template css folder. Activate the 'Overide Theme CSS' in paramters.</li>
+    </ul>
+    <br />
+
+        

@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: administrator/components/com_trash/admin.trash.html.php:64
+msgid "Trash Manager"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:70
+#: administrator/components/com_trash/admin.trash.html.php:74
+msgid "Content Items"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:86
+#: administrator/components/com_trash/admin.trash.html.php:174
+msgid "Title"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:89
+msgid "Section"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:92
+msgid "Category"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:95
+#: administrator/components/com_trash/admin.trash.html.php:183
+msgid "ID"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:158
+#: administrator/components/com_trash/admin.trash.html.php:162
+msgid "Menu Items"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:177
+msgid "Menu"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:180
+msgid "Type"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:250
+msgid "Delete Items"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:259
+#: administrator/components/com_trash/admin.trash.html.php:324
+msgid "Number of Items:"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:265
+msgid "Items being Deleted:"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:276
+msgid ""
+"This will <strong><font color=\"#FF0000\">Permanently Delete</font></strong> "
+"<br />these Items from the Database"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:279
+msgid ""
+"Are you sure you want to Deleted the listed items? \\nThis will Permanently "
+"Delete them from the database."
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:280
+#: administrator/components/com_trash/admin.trash.html.php:281
+#: administrator/components/com_trash/toolbar.trash.html.php:22
+msgid "Delete"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:315
+msgid "Restore Items"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:330
+msgid "Items being Restored:"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:341
+msgid ""
+"This will <strong><font color=\"#FF0000\">Restore</font></strong> these "
+"Items,<br />they will be returned to their orignial places as Unpublished "
+"items"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:344
+msgid "Are you sure you want to Restore the listed items?."
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.html.php:345
+#: administrator/components/com_trash/admin.trash.html.php:346
+#: administrator/components/com_trash/toolbar.trash.html.php:20
+msgid "Restore"
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.php:19
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_trash/admin.trash.php:185
+#, php-format
+msgid "%s Item successfully Deleted"
+msgid_plural "%s Items successfully Deleted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_trash/admin.trash.php:259
+#, php-format
+msgid "%s Item successfully Restored"
+msgid_plural "%s Items successfully Restored"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_trash/trash.xml
+msgid "This component manages the Trash functionality."
+msgstr ""
+
+#: administrator/components/com_trash/trash.xml
+msgid "Trash"
+msgstr ""

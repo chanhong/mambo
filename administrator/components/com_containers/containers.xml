@@ -1,0 +1,90 @@
+<?xml version="1.0" ?>
+<mosinstall type="component" version="4.6">
+  <name>Containers</name>
+  <creationDate>10 March 2006</creationDate>
+  <author>Mambo Foundation</author>
+  <copyright>copyright (C) 2000 - 2007 Mambo Foundation Inc.</copyright>
+  <authorEmail>core@mambo-foundation.org</authorEmail>
+  <authorUrl>www.mambo-foundation.org</authorUrl>
+  <version>4.6</version>
+  <description>Nested container system for Mambo</description>
+  <files>
+    <filename>containers.class.php</filename>
+  </files>
+   <install>
+    <queries>
+    </queries>
+  </install>
+  <uninstall>
+    <queries>
+      <query>
+		CREATE TABLE IF NOT EXISTS `mos_containers` (
+		  `id` int(11) NOT NULL auto_increment,
+		  `name` varchar(100) NOT NULL default '',
+		  `description` text NOT NULL,
+		  `ordering` int(11) NOT NULL default '0',
+		  `windowtitle` varchar(50) NOT NULL default '',
+		  `keywords` varchar(255) NOT NULL default '',
+		  `published` smallint(6) NOT NULL default '0',
+		  `icon` varchar(25) NOT NULL default '',
+		  `parentid` int(11) NOT NULL default '0',
+		  `params` text NOT NULL,
+		  `callbacks` text NOT NULL,
+		  PRIMARY KEY  (`id`)
+		);
+	  </query>
+    </queries>
+  </uninstall>
+  <administration>
+    <menu>Mambo Containers</menu>
+    <files>
+		<filename>admin.containers.php</filename>
+		<filename>admin.containers.html.php</filename>
+		<filename>toolbar.containers.php</filename>
+    </files>
+	<images>
+        <filename>images/add_file.gif</filename>
+		<filename>images/approve.png</filename>
+		<filename>images/approve_f2.png</filename>
+		<filename>images/back.gif</filename>
+		<filename>images/blank.gif</filename>
+		<filename>images/calendar.gif</filename>
+		<filename>images/download_trans.gif</filename>
+		<filename>images/edit.gif</filename>
+		<filename>images/gohome.gif</filename>
+		<filename>images/header.gif</filename>
+		<filename>images/home.gif</filename>
+		<filename>images/search.gif</filename>
+		<filename>images/folder_icons/folder_blue.gif</filename>
+		<filename>images/folder_icons/folder_blue_docs.gif</filename>
+		<filename>images/folder_icons/folder_blue_favourites.gif</filename>
+		<filename>images/folder_icons/folder_blue_games.gif</filename>
+		<filename>images/folder_icons/folder_blue_music.gif</filename>
+		<filename>images/folder_icons/folder_blue_paint.gif</filename>
+		<filename>images/folder_icons/folder_blue_pics.gif</filename>
+		<filename>images/folder_icons/folder_blue_settings.gif</filename>
+		<filename>images/folder_icons/folder_blue_software.gif</filename>
+		<filename>images/folder_icons/folder_blue_stuff.gif</filename>
+		<filename>images/folder_icons/folder_blue_themes.gif</filename>
+		<filename>images/folder_icons/folder_blue_video.gif</filename>
+		<filename>images/folder_icons/folder_blue_web.gif</filename>
+		<filename>images/folder_icons/folder_green.gif</filename>
+		<filename>images/folder_icons/folder_orange.gif</filename>
+		<filename>images/folder_icons/folder_red.gif</filename>
+		<filename>images/folder_icons/folder_red_settings.gif</filename>
+		<filename>images/folder_icons/folder_yellow.gif</filename>
+		<filename>images/folder_icons/folder_yellow_docs.gif</filename>
+		<filename>images/folder_icons/folder_yellow_favourites.gif</filename>
+		<filename>images/folder_icons/folder_yellow_games.gif</filename>
+		<filename>images/folder_icons/folder_yellow_music.gif</filename>
+		<filename>images/folder_icons/folder_yellow_paint.gif</filename>
+		<filename>images/folder_icons/folder_yellow_pics.gif</filename>
+		<filename>images/folder_icons/folder_yellow_settings.gif</filename>
+		<filename>images/folder_icons/folder_yellow_software.gif</filename>
+		<filename>images/folder_icons/folder_yellow_stuff.gif</filename>
+		<filename>images/folder_icons/folder_yellow_themes.gif</filename>
+		<filename>images/folder_icons/folder_yellow_video.gif</filename>
+		<filename>images/folder_icons/folder_yellow_web.gif</filename>
+	</images>
+  </administration>
+</mosinstall>

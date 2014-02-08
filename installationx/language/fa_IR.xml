@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall version="4.6" type="language">
+	<name>Persian</name>
+	<version>4.6</version>
+	<description>Persian Locale For Iran</description>
+	<creationdate>05-10-2006</creationdate>
+	<author>Mambo Foundation Inc.</author>
+	<authorurl>mambo-foundation.org</authorurl>
+	<authoremail>translation@mambo-foundation.org</authoremail>
+	<copyright>(C) 2000 - 2007 Mambo Foundation Inc.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL v.2</license>
+	<params>
+		<param name="locale" type="text" default="fa_IR.utf-8,fa_IR,fa,persian" label="Locale String" description="Locale string for setlocale() (eg. en, english)"></param>
+		<param name="charset" type="text" default="utf-8" label="Character Set" description="Character set for this language."></param>
+		<param name="text_direction" type="text" default="rtl" label="Text Direction" description="left-to-right or light-to-left"></param>
+		<param name="date_format" type="text" default="d F Y" label="Date Format" description="Date format for strftime() (eg. %A, %d %B %Y)"></param>
+		<param name="plural_form" type="text" default="nplurals=2; plural=n != 1;" label="Plural Forms" description="Plural Forms expression"></param>
+	</params>
+	<locale name="fa_IR" title="Persian" territory="Iran" locale="fa_IR.utf-8,fa_IR,fa,persian" text_direction="rtl" iso639="fa" iso3166_2="IR" iso3166_3="IRN" charset="utf-8">
+		<plural_form nplurals="2" plural="n != 1" expression="nplurals=2; plural=n != 1;"></plural_form>
+		<date_format>d F Y</date_format>
+		<codesets>
+			<charset>utf-8</charset>
+		</codesets>
+		<days sun="يكشنبه" mon="دوشنبه" tue="سه‌شنبه" wed="چهارشنبه" thu="پنج‌شنبه" fri="جمعه" sat="شنبه"></days>
+		<months jan="ژانويه" feb="فوريه" mar="مارس" apr="آوريل" may="مي" jun="ژوئن" jul="جولاي" aug="آگوست" sep="سپتامبر" oct="اكتبر" nov="نوامبر" dec="دسامبر"></months>
+	</locale>
+	<files>
+		<filename domain="fa_IR" strings="2211" translated="2196" fuzzy="0" percent="99.32">language/fa_IR/fa_IR.po</filename>
+	</files>
+</mosinstall>

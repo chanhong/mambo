@@ -1,0 +1,2 @@
+var mode='resize';function setMode(newMode){if(newMode=="resize"||newMode=="crop"||newMode=="rotate"||newMode=="flip"){mode=newMode;alert("New Mode :: "+mode);}else{alert("Image Editor :: Invalid mode selected.");}}
+function mouseMove(e){}

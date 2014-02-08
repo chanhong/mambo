@@ -1,0 +1,708 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_config/admin.config.html.php:103
+msgid "Global Configuration"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:105
+msgid "configuration.php is :"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:106
+msgid "Unwriteable"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:106
+msgid "Writeable"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:115
+msgid "Make unwriteable after saving"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:122
+msgid "Override write protection while saving"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:132
+msgid "Site"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:136
+msgid "Site Offline:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:140
+msgid "Offline Message:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:142
+msgid "A message that displays if your site is offline"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:147
+msgid "System Error Message:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:149
+msgid "A message that displays if Mambo could not connect to the database"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:154
+msgid "Site Name:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:158
+msgid "Use Captcha Authentication:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:160
+msgid ""
+"Captcha images assist in the reduction of automated entries and spam. "
+"Requires the GD image library"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:162
+msgid "*Requires the GD image library."
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:165
+msgid "Show UnAuthorized Links:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:167
+msgid ""
+"If yes, will show links to content to registered content even if you are not "
+"logged in.  The user will need to login to see the item in full."
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:172
+msgid "Allow User Registration:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:174
+msgid "If yes, allows users to self-register"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:179
+msgid "Use New Account Activation:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:182
+msgid ""
+"If yes, the user will be mailed a link to activate their account before they "
+"can log in."
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:188
+msgid "Require Unique Email:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:190
+msgid "If yes, users cannot share the same email address"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:196
+msgid "Debug Site:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:198
+msgid "If yes, displays diagnostic information and SQL errors if present"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:203
+msgid "WYSIWYG Editor:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:207
+msgid "List Length:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:209
+msgid "Sets the default length of lists in the administrator for all users"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:214
+msgid "Favorites Site Icon:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:218
+msgid ""
+"If left blank or the file cannot be found, the default favicon.ico will be "
+"used."
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:219
+msgid "Favourite Icon"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:225
+msgid "Locale"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:229
+msgid "Language:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:233
+msgid "Time Offset:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:237
+#, php-format
+msgid "Current date/time configured to display: %s"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:242
+msgid "Debugging:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:246
+msgid "Use Gettext:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:252
+msgid "Content"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:256
+msgid "These Parameters control Output elements"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:259
+msgid "Linked Titles:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:262
+msgid "If yes, the title of content items will be hyperlinked to the item"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:267
+msgid "Read More Link:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:270
+msgid ""
+"If set to show, the read-more link will show if main-text has been provided "
+"for the item"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:275
+msgid "Item Rating/Voting:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:278
+msgid "If set to show, a voting system will be enabled for content items"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:283
+msgid "Author Names:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:286
+msgid ""
+"If set to show, the name of the author will be displayed.  This a global "
+"setting but can be changed at menu and item levels."
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:291
+msgid "Created Date and Time:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:294
+msgid ""
+"If set to show, the date and time an item was created will be displayed. "
+"This a global setting but can be changed at menu and item levels."
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:299
+msgid "Modified Date and Time:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:302
+msgid ""
+"If set to show, the date and time an item was last modified will be "
+"displayed.  This a global setting but can be changed at menu and item levels."
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:307
+msgid "Hits:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:310
+msgid ""
+"If set to show, the hits for a particular item will be displayed.  This a "
+"global setting but can be changed at menu and item levels."
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:315
+msgid "PDF Icon:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:320
+msgid "Option not available as /media directory not writable"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:328
+msgid "Print Icon:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:333
+msgid "Email Icon:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:338
+msgid "Icons:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:340
+msgid "Print, PDF and Email will utilise Icons or Text"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:343
+msgid "Table of Contents on multi-page items:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:348
+msgid "Back Button:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:353
+msgid "Content Item Navigation:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:368
+msgid "Database"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:372
+msgid "Hostname:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:376
+msgid "MySQL Username:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:380
+msgid "MySQL Password:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:384
+msgid "MySQL Database:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:388
+msgid "MySQL Database Prefix:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:391
+msgid ""
+"!! DO NOT CHANGE UNLESS YOU HAVE A DATABASE BUILT USING TABLES WITH THE "
+"PREFIX YOU ARE SETTING !!"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:397
+msgid "Server"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:401
+msgid "Absolute Path:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:406
+msgid "Live Site:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:412
+msgid "Secret Word:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:418
+msgid "GZIP Page Compression:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:421
+msgid "Compress buffered output if supported"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:426
+msgid "Login Session Lifetime:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:429
+#: administrator/components/com_config/admin.config.html.php:709
+msgid "seconds"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:430
+msgid "Auto logout after this time of inactivity"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:435
+msgid "Error Reporting:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:440
+msgid "Register Globals Emulation:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:444
+msgid ""
+"Register globals emulation. Some components may stop working if this option "
+"is set to Off."
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:450
+msgid "Help Server:"
+msgstr ""
+
+#. if
+#: administrator/components/com_config/admin.config.html.php:462
+msgid "File Creation:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:464
+msgid "File Permissions"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:468
+msgid "Dont CHMOD new files (use server defaults)"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:473
+msgid "CHMOD new files"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:475
+msgid "to:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:478
+msgid "Select this option to define permission flags for new created files"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:487
+#: administrator/components/com_config/admin.config.html.php:566
+msgid "User:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:489
+#: administrator/components/com_config/admin.config.html.php:498
+#: administrator/components/com_config/admin.config.html.php:518
+#: administrator/components/com_config/admin.config.html.php:568
+#: administrator/components/com_config/admin.config.html.php:577
+#: administrator/components/com_config/admin.config.html.php:595
+msgid "read"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:491
+#: administrator/components/com_config/admin.config.html.php:500
+#: administrator/components/com_config/admin.config.html.php:520
+#: administrator/components/com_config/admin.config.html.php:570
+#: administrator/components/com_config/admin.config.html.php:579
+#: administrator/components/com_config/admin.config.html.php:597
+msgid "write"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:493
+#: administrator/components/com_config/admin.config.html.php:502
+#: administrator/components/com_config/admin.config.html.php:522
+msgid "execute"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:496
+#: administrator/components/com_config/admin.config.html.php:575
+msgid "Group:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:506
+msgid "Apply to existing files"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:509
+msgid ""
+"Checking here will apply the permission flags to <em>all existing files</em> "
+"of the site.<br />"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:510
+#: administrator/components/com_config/admin.config.html.php:588
+msgid ""
+"<strong>INAPPROPRIATE USAGE OF THIS OPTION MAY RENDER THE SITE INOPERATIVE!</"
+"strong>"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:516
+#: administrator/components/com_config/admin.config.html.php:593
+msgid "World:"
+msgstr ""
+
+#. if
+#: administrator/components/com_config/admin.config.html.php:541
+msgid "Directory Creation:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:543
+msgid "Directory Permissions"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:547
+msgid "Dont CHMOD new directories (use server defaults)"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:552
+msgid "CHMOD new directories"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:557
+msgid ""
+"Select this option to define permission flags for new created directories"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:572
+#: administrator/components/com_config/admin.config.html.php:581
+#: administrator/components/com_config/admin.config.html.php:599
+msgid "search"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:585
+msgid "Apply to existing directories"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:587
+msgid ""
+"Checking here will apply the permission flags to <em>all existing "
+"directories</em> of the site.<br />"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:612
+msgid "Metadata"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:616
+msgid "Global Site Meta Description:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:620
+msgid "Global Site Meta Keywords:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:624
+msgid "Show Title Meta Tag:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:628
+msgid "Show the title meta tag when viewing content items"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:632
+msgid "Show Author Meta Tag:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:636
+msgid "Show the author meta tag when viewing content items"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:642
+msgid "Mail"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:646
+msgid "Mailer:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:650
+msgid "Mail From:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:654
+msgid "From Name:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:658
+msgid "Sendmail Path:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:662
+msgid "SMTP Auth:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:666
+msgid "SMTP User:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:670
+msgid "SMTP Pass"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:674
+msgid "SMTP Host:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:680
+msgid "Cache"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:687
+msgid "Caching:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:695
+msgid "Cache Folder:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:700
+msgid "Current cache is directory is <strong>Writeable</strong>"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:702
+msgid ""
+"The cache directory is UNWRITEABLE - please set this directory to CHMOD755 "
+"before turning on the cache"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:708
+msgid "Cache Time:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:715
+msgid "Statistics"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:719
+msgid "Statistics:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:721
+msgid "Enable/disable collection of site statistics"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:724
+msgid "Log Content Hits by Date:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:726
+msgid "WARNING : Large amounts of data will be collected"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:729
+msgid "Log Search Strings:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:736
+msgid "SEO"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:740
+msgid "Search Engine Optimization"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:745
+msgid "Search Engine Friendly URLs:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:747
+msgid "Apache only! Rename htaccess.txt to .htaccess before activating"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:750
+msgid "Dynamic Page Titles:"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.html.php:752
+msgid "Dynamically changes the page title to reflect current content viewed"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:18
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:325
+#: administrator/components/com_config/admin.config.php:330
+msgid "Hide"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:326
+#: administrator/components/com_config/admin.config.php:331
+msgid "Show"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:345
+msgid "System Default"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:346
+msgid "None"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:347
+msgid "Simple"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:348
+msgid "Maximum"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:352
+#: administrator/components/com_config/admin.config.php:356
+msgid "On"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:353
+#: administrator/components/com_config/admin.config.php:357
+msgid "Off"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:360
+#: administrator/components/com_config/admin.config.php:400
+msgid "Yes"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:361
+msgid "No"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:365
+msgid "PHP mail function"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:366
+msgid "Sendmail"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:367
+msgid "SMTP Server"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:413
+msgid "Remember to rename htaccess.txt to .htaccess"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:446
+msgid "Remember to install the MambelFish component."
+msgstr ""
+
+#. if
+#: administrator/components/com_config/admin.config.php:506
+msgid "The Configuration Details have been updated"
+msgstr ""
+
+#: administrator/components/com_config/admin.config.php:562
+msgid "An Error Has Occurred! Unable to open config file to write!"
+msgstr ""

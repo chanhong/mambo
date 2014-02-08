@@ -1,0 +1,299 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_admin/admin.admin.html.php:28
+msgid "Mambo Updates"
+msgstr ""
+
+#. Build output & check version
+#: administrator/components/com_admin/admin.admin.html.php:51
+msgid "Mambo Version Information"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:53
+msgid "Your Mambo version is up to date"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:54
+#: administrator/components/com_admin/admin.admin.html.php:58
+msgid "The current stable version is"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:57
+msgid "Your Mambo version is out of date.  We recommend you"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:57
+msgid "upgrade"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:59
+msgid "Your version is"
+msgstr ""
+
+#. Check patch
+#: administrator/components/com_admin/admin.admin.html.php:62
+msgid "Mambo Security Patch Information"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:64
+msgid "No patches have been released"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:67
+msgid "Your Mambo install has the latest recommended patch"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:68
+#: administrator/components/com_admin/admin.admin.html.php:72
+msgid "The recommended patch level is"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:71
+msgid ""
+"Your Mambo install does not have the latest recommended security patch.  We "
+"recommend you apply the latest"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:71
+msgid "patch"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:74
+msgid "No patches applied"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:74
+#: administrator/components/com_admin/admin.admin.html.php:77
+msgid "Your patch level is"
+msgstr ""
+
+#. Check messages
+#: administrator/components/com_admin/admin.admin.html.php:81
+msgid "Additional Messages"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:83
+msgid "There are no messages at this time"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:106
+msgid "Home"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:116
+#: administrator/components/com_admin/admin.admin.html.php:120
+msgid "Advanced Mode"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:116
+#: administrator/components/com_admin/admin.admin.html.php:120
+msgid "Simple Mode"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:116
+#: administrator/components/com_admin/admin.admin.html.php:120
+msgid "selected"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:116
+#: administrator/components/com_admin/admin.admin.html.php:120
+msgid "unselected"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:159
+msgid "Information"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:165
+#: administrator/components/com_admin/admin.admin.html.php:561
+msgid "System Info"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:170
+msgid "System Information"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:176
+msgid "PHP built On:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:186
+msgid "Database Version:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:196
+msgid "PHP Version:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:206
+msgid "Web Server:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:216
+msgid "WebServer to PHP interface:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:226
+msgid "Mambo Version:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:236
+msgid "User Agent:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:246
+msgid "Relevant PHP Settings:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:253
+msgid "Safe Mode:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:261
+msgid "Open basedir:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:269
+msgid "Display Errors:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:277
+msgid "Short Open Tags:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:285
+msgid "File Uploads:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:293
+msgid "Magic Quotes"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:301
+msgid "Register Globals:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:309
+msgid "Output Buffering:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:317
+msgid "Session save path:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:325
+msgid "Session auto start:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:333
+msgid "XML enabled:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:341
+msgid "Zlib enabled:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:349
+msgid "Disabled Functions:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:364
+msgid "WYSIWYG Editor:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:376
+msgid "Configuration File:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:402
+msgid "PHP Info"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:407
+msgid "PHP Information"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:429
+msgid "Permissions"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:433
+msgid "Directory Permissions"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:437
+msgid ""
+"For all Mambo functions and features to work ALL of the following "
+"directories should be writeable:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:513
+msgid "Help"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:521
+msgid "Search:"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:524
+msgid "Go"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:525
+msgid "Clear Results"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:532
+#: administrator/components/com_admin/admin.admin.html.php:543
+msgid "Glossary"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:535
+#: administrator/components/com_admin/admin.admin.html.php:546
+msgid "Credits"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:538
+#: administrator/components/com_admin/admin.admin.html.php:549
+msgid "Support"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:555
+msgid "License"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:570
+msgid "Search Results"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:572
+msgid "Index"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:615
+msgid "Site Preview"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.html.php:619
+msgid "Open in new window"
+msgstr ""
+
+#: administrator/components/com_admin/admin.admin.php:23
+msgid "There is no link associated with this item"
+msgstr ""

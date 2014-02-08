@@ -1,0 +1,49 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_mostlyce_frontend/com_mostlyce_frontend.xml
+msgid ""
+"<p>MOStlyCE Frontend is a basic component that just builds dynamic image and "
+"content lists for the mambot.  It is required for the proper function of the "
+"mambot.</p>"
+msgstr ""
+
+#: administrator/components/com_mostlyce_frontend/com_mostlyce_frontend.xml
+msgid "mostlyce_frontend"
+msgstr ""
+
+#: components/com_mostlyce_frontend/mostlyce_frontend.php:23
+#: components/com_mostlyce_frontend/mostlyce_frontend.php:37
+msgid "Direct Access to this location is not allowed."
+msgstr ""
+
+#: components/com_mostlyce_frontend/mostlyce_frontend.php:111
+msgid "Section"
+msgstr ""
+
+#: components/com_mostlyce_frontend/mostlyce_frontend.php:138
+msgid "Category"
+msgstr ""
+
+#: components/com_mostlyce_frontend/mostlyce_frontend.php:155
+msgid "Content Item"
+msgstr ""
+
+#: components/com_mostlyce_frontend/mostlyce_frontend.php:178
+msgid "Static Content Item"
+msgstr ""

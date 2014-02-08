@@ -1,0 +1,642 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-07 09:31+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/includes/admin.php:45
+#, php-format
+msgid "XML ERROR in %s: %s at line %d"
+msgstr ""
+
+#: administrator/includes/admin.php:51
+#, php-format
+msgid "Unable to open XML file %s"
+msgstr ""
+
+#: administrator/includes/admin.php:54
+#, php-format
+msgid "XML error in %s - unclosed tag(s) (%s) at end of file"
+msgstr ""
+
+#: administrator/includes/admin.php:84
+#, php-format
+msgid "XML error in %s: %s is not a valid containing element"
+msgstr ""
+
+#: administrator/includes/admin.php:85
+#, php-format
+msgid "XML error in %s: %s not permitted within %s"
+msgstr ""
+
+#: administrator/includes/admin.php:95
+#, php-format
+msgid "XML error in %s: expected MOSINSTALL but found %s"
+msgstr ""
+
+#: administrator/includes/admin.php:101
+#, php-format
+msgid "XML error in %s: last open tag was %s, but found end of %s"
+msgstr ""
+
+#: administrator/includes/admin.php:121
+#, php-format
+msgid "XML error in %s: mosinstall does not have type attribute"
+msgstr ""
+
+#: administrator/includes/admin.php:273
+msgid "Handler not defined for type"
+msgstr ""
+
+#: administrator/includes/admin.php:286
+msgid "There are no Parameters for this item"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:44
+#, php-format
+msgid "Please make a selection from the list to %s"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:154 includes/HTML_toolbar.php:103
+msgid "Please make a selection from the list to publish"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:164
+msgid "Please select an item to make default"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:174
+msgid "Please select an item to assign"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:193 includes/HTML_toolbar.php:143
+msgid "Please make a selection from the list to unpublish"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:203 includes/HTML_toolbar.php:163
+msgid "Please make a selection from the list to archive"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:213 includes/HTML_toolbar.php:183
+msgid "Please select a news story to unarchive"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:223
+#: administrator/includes/menubar.html.php:234
+#: administrator/includes/menubar.html.php:244
+#: administrator/includes/menubar.html.php:255
+#: administrator/includes/menubar.html.php:265
+#: administrator/includes/menubar.html.php:276 includes/HTML_toolbar.php:203
+#: includes/HTML_toolbar.php:222 includes/HTML_toolbar.php:241
+msgid "Please select an item from the list to edit"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:287
+#: administrator/includes/menubar.html.php:299 includes/HTML_toolbar.php:262
+msgid "Please make a selection from the list to delete"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:315
+#: administrator/includes/menubar.html.php:316 includes/HTML_toolbar.php:278
+#: includes/HTML_toolbar.php:279
+msgid "Preview"
+msgstr ""
+
+#. if (!file_exists($rootpath.'/help/'.$ref)) return false;
+#. }
+#: administrator/includes/menubar.html.php:346
+#: administrator/includes/menubar.html.php:347
+#: administrator/includes/menubar.html.php:371
+msgid "Help"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:384
+msgid "Apply"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:394 includes/HTML_toolbar.php:295
+msgid "Save"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:443 includes/mamboHTML.php:246
+msgid "Back"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:478
+msgid "Upload"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:480
+#: administrator/includes/menubar.html.php:481 includes/HTML_toolbar.php:392
+#: includes/HTML_toolbar.php:393
+msgid "Upload Image"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:65
+#: administrator/includes/mosAdminMenus.php:391
+msgid ""
+"New items default to the last place. Ordering can be changed after this item "
+"is saved."
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:162
+msgid "Parent Window With Browser Navigation"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:163
+msgid "New Window With Browser Navigation"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:164
+msgid "New Window Without Browser Navigation"
+msgstr ""
+
+#. prepare an array with 'all' as the first item
+#: administrator/includes/mosAdminMenus.php:223
+msgid "All"
+msgstr ""
+
+#. prepare an array with 'all' as the first item
+#: administrator/includes/mosAdminMenus.php:229
+#: administrator/includes/mosAdminMenus.php:432
+msgid "None"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:285
+#: administrator/includes/mosAdminMenus.php:476
+msgid "- All Sections -"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:371
+msgid "- Select Image -"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:389
+msgid ""
+"New items default to the first place. Ordering can be changed after this "
+"item is saved."
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:416
+msgid "- No User -"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:435
+msgid "Center"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:438
+msgid "Left"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:441
+msgid "Right"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:464
+msgid "- All Categories -"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:465
+msgid "You must create a category first."
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:74
+#, php-format
+msgid "Results %d to %d of %d"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:76
+msgid "No records found."
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:103
+#: administrator/includes/pageNavigation.php:106
+#: includes/pageNavigation.php:106 includes/pageNavigation.php:109
+msgid "Start"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:103
+#: includes/pageNavigation.php:106
+msgid "first page"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:104
+#: administrator/includes/pageNavigation.php:107
+#: includes/pageNavigation.php:107 includes/pageNavigation.php:110
+msgid "Previous"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:104
+#: includes/pageNavigation.php:107
+msgid "previous page"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:122
+#: administrator/includes/pageNavigation.php:125
+#: includes/pageNavigation.php:125 includes/pageNavigation.php:128
+msgid "Next"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:122
+#: includes/pageNavigation.php:125
+msgid "next page"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:123
+#: administrator/includes/pageNavigation.php:126
+#: includes/pageNavigation.php:126 includes/pageNavigation.php:129
+msgid "End"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:123
+#: includes/pageNavigation.php:126
+msgid "end page"
+msgstr ""
+
+#: includes/HTML_toolbar.php:37
+msgid "Please make a selection from the list to"
+msgstr ""
+
+#: includes/HTML_toolbar.php:56
+msgid "New"
+msgstr ""
+
+#: includes/HTML_toolbar.php:76 includes/HTML_toolbar.php:96
+#: includes/mamboHTML.php:479 includes/mamboHTML.php:566
+#: includes/mamboHTML.php:657
+msgid "Published"
+msgstr ""
+
+#: includes/HTML_toolbar.php:116 includes/HTML_toolbar.php:136
+#: includes/mamboHTML.php:657
+msgid "Unpublished"
+msgstr ""
+
+#: includes/HTML_toolbar.php:156
+msgid "Archive"
+msgstr ""
+
+#: includes/HTML_toolbar.php:176
+msgid "Unarchive"
+msgstr ""
+
+#: includes/HTML_toolbar.php:196
+msgid "Edit"
+msgstr ""
+
+#: includes/HTML_toolbar.php:216
+msgid "Edit HTML"
+msgstr ""
+
+#: includes/HTML_toolbar.php:235
+msgid "Edit CSS"
+msgstr ""
+
+#: includes/HTML_toolbar.php:255
+msgid "Delete"
+msgstr ""
+
+#: includes/HTML_toolbar.php:262
+msgid "Are you sure you want to delete selected items?"
+msgstr ""
+
+#: includes/HTML_toolbar.php:313 includes/HTML_toolbar.php:314
+#: includes/HTML_toolbar.php:328 includes/HTML_toolbar.php:329
+msgid "save"
+msgstr ""
+
+#: includes/HTML_toolbar.php:345
+msgid "Cancel"
+msgstr ""
+
+#: includes/HTML_toolbar.php:364 includes/HTML_toolbar.php:365
+msgid "back"
+msgstr ""
+
+#: includes/authenticator.php:35
+msgid "Please complete the username and password fields."
+msgstr ""
+
+#: includes/authenticator.php:42
+msgid "Logins are not permitted.  There is no authentication check active."
+msgstr ""
+
+#: includes/authenticator.php:72
+msgid "Your login has been blocked. Please contact the administrator."
+msgstr ""
+
+#: includes/authenticator.php:103
+msgid "Incorrect username or password. Please try again."
+msgstr ""
+
+#: includes/authenticator.php:151
+msgid "Please enter a password"
+msgstr ""
+
+#: includes/authenticator.php:167
+msgid "You cannot login. There are no administrators set up."
+msgstr ""
+
+#: includes/authenticator.php:172
+msgid "Incorrect Username, Password, or Access Level.  Please try again"
+msgstr ""
+
+#: includes/cmtclasses.php:143
+#, php-format
+msgid "Component %s error: attempt to use non-existent class %s in %s"
+msgstr ""
+
+#: includes/cmtclasses.php:165
+#, php-format
+msgid "Component %s error: attempt to use non-existent method %s in %s"
+msgstr ""
+
+#: includes/cmtclasses.php:167 includes/cmtclasses.php:173
+#: includes/cmtclasses.php:231
+#, php-format
+msgid "Component %s error: attempt to use non-existent class %s"
+msgstr ""
+
+#: includes/cmtclasses.php:210
+#, php-format
+msgid "MOS error in %s: method %s not found in class %s"
+msgstr ""
+
+#: includes/cmtclasses.php:212
+#, php-format
+msgid "MOS error in %s: class not found %s"
+msgstr ""
+
+#: includes/cmtclasses.php:533
+msgid "Your Module must contain a title."
+msgstr ""
+
+#: includes/core.classes.php:351
+msgid "Impossible to determine the name of this server"
+msgstr ""
+
+#: includes/mamboHTML.php:29
+msgid "Unwriteable"
+msgstr ""
+
+#: includes/mamboHTML.php:29
+msgid "Writeable"
+msgstr ""
+
+#: includes/mamboHTML.php:103
+msgid "January"
+msgstr ""
+
+#: includes/mamboHTML.php:104
+msgid "February"
+msgstr ""
+
+#: includes/mamboHTML.php:105
+msgid "March"
+msgstr ""
+
+#: includes/mamboHTML.php:106
+msgid "April"
+msgstr ""
+
+#: includes/mamboHTML.php:107
+msgid "May"
+msgstr ""
+
+#: includes/mamboHTML.php:108
+msgid "June"
+msgstr ""
+
+#: includes/mamboHTML.php:109
+msgid "July"
+msgstr ""
+
+#: includes/mamboHTML.php:110
+msgid "August"
+msgstr ""
+
+#: includes/mamboHTML.php:111
+msgid "September"
+msgstr ""
+
+#: includes/mamboHTML.php:112
+msgid "October"
+msgstr ""
+
+#: includes/mamboHTML.php:113
+msgid "November"
+msgstr ""
+
+#: includes/mamboHTML.php:114
+msgid "December"
+msgstr ""
+
+#: includes/mamboHTML.php:129 includes/mamboHTML.php:179
+msgid "Yes"
+msgstr ""
+
+#: includes/mamboHTML.php:130 includes/mamboHTML.php:178
+msgid "No"
+msgstr ""
+
+#: includes/mamboHTML.php:202
+msgid "No Sorting"
+msgstr ""
+
+#: includes/mamboHTML.php:203
+msgid "Sort Ascending"
+msgstr ""
+
+#: includes/mamboHTML.php:204
+msgid "Sort Descending"
+msgstr ""
+
+#: includes/mamboHTML.php:229
+msgid "Close Window"
+msgstr ""
+
+#. Print Preview button - used when viewing page
+#. Print Button - used in pop-up window
+#: includes/mamboHTML.php:282 includes/mamboHTML.php:284
+#: includes/mamboHTML.php:291 includes/mamboHTML.php:300
+msgid "Print"
+msgstr ""
+
+#: includes/mamboHTML.php:356
+msgid ""
+"This email address is being protected from spam bots, you need Javascript "
+"enabled to view it"
+msgstr ""
+
+#: includes/mamboHTML.php:381
+msgid "Pending"
+msgstr ""
+
+#: includes/mamboHTML.php:384
+msgid "Published, but is <u>Pending</u>"
+msgstr ""
+
+#: includes/mamboHTML.php:387
+msgid "Visible"
+msgstr ""
+
+#: includes/mamboHTML.php:390
+msgid "Published and is <u>Current</u>"
+msgstr ""
+
+#: includes/mamboHTML.php:393 includes/mamboHTML.php:399
+msgid "Finished"
+msgstr ""
+
+#: includes/mamboHTML.php:396
+msgid "Published, but has <u>Expired</u>"
+msgstr ""
+
+#: includes/mamboHTML.php:402
+msgid "Not Published"
+msgstr ""
+
+#: includes/mamboHTML.php:407
+msgid "Click on icon to toggle state."
+msgstr ""
+
+#: includes/mamboHTML.php:444 includes/mamboHTML.php:523
+msgid "Menu"
+msgstr ""
+
+#: includes/mamboHTML.php:447 includes/mamboHTML.php:526
+msgid "Go to Menu"
+msgstr ""
+
+#: includes/mamboHTML.php:454
+msgid "Link Name"
+msgstr ""
+
+#: includes/mamboHTML.php:458 includes/mamboHTML.php:545
+msgid "Go to Menu Item"
+msgstr ""
+
+#: includes/mamboHTML.php:466 includes/mamboHTML.php:553
+msgid "State"
+msgstr ""
+
+#: includes/mamboHTML.php:472 includes/mamboHTML.php:559
+msgid "Trashed"
+msgstr ""
+
+#: includes/mamboHTML.php:475 includes/mamboHTML.php:562
+msgid "UnPublished"
+msgstr ""
+
+#: includes/mamboHTML.php:533
+msgid "Type"
+msgstr ""
+
+#: includes/mamboHTML.php:541
+msgid "Item Name"
+msgstr ""
+
+#: includes/mamboHTML.php:590
+msgid "Checked Out"
+msgstr ""
+
+#: includes/mamboHTML.php:658
+msgid "Publish item"
+msgstr ""
+
+#: includes/mamboHTML.php:658
+msgid "Unpublish Item"
+msgstr ""
+
+#: includes/mambofunc.php:21
+#, php-format
+msgid "User Submitted '%s'"
+msgstr ""
+
+#: includes/mambofunc.php:22
+msgid ""
+"Hello %s,\n"
+"\n"
+"\n"
+"A user submitted %s:\n"
+"[ %s ]\n"
+"\n"
+"has been just been submitted by user:\n"
+"[ %s ]\n"
+"\n"
+"\n"
+"for %\n"
+"\n"
+"Please go to %s/administrator to view and approve this %s\n"
+"\n"
+"\n"
+"Please do not respond to this message as it is automatically generated and "
+"is for information purposes only."
+msgstr ""
+
+#: includes/mambofunc.php:50
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: includes/mambofunc.php:52
+msgid "You need to login."
+msgstr ""
+
+#: includes/mambofunc.php:338
+msgid "Mambo Warning"
+msgstr ""
+
+#: includes/pageNavigation.php:68
+#, php-format
+msgid "Results %d - %d of %d"
+msgstr ""
+
+#: includes/pageNavigation.php:80
+#, php-format
+msgid "Page %d of %d"
+msgstr ""
+
+#: includes/pdf.php:66
+msgid "Powered by Mambo"
+msgstr ""
+
+#: includes/pdf.php:67
+msgid "Generated:"
+msgstr ""
+
+#: includes/pdf.php:94
+msgid "Written by"
+msgstr ""
+
+#: includes/pdf.php:96
+msgid "Contributed by"
+msgstr ""
+
+#: includes/pdf.php:102
+msgid "Last Updated"
+msgstr ""
+
+#: includes/pdf.php:120
+msgid "OFF"
+msgstr ""
+
+#: includes/pdf.php:120
+msgid "ON"
+msgstr ""
+
+#: includes/phpgettext/phpgettext.includes.php:290
+msgid "Main"
+msgstr ""

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component">
+ <name>mosnews</name>
+  <creationDate>06/27/2006</creationDate>
+  <author>Chanh Ong</author>
+  <copyright>(C) 2003-2013 Chanh Ong</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>chanh.ong@gmail.com</authorEmail>
+  <authorUrl>www.OngETC.com</authorUrl>
+  <version>0.3.3a</version>
+  <description>Show News Headlines</description>
+<files>
+  <filename>mosnews.php</filename>
+ </files>
+<administration>
+    <menu>MosNews</menu>
+<files>
+    <filename>admin.mosnews.php</filename>
+    <filename>readme.txt</filename>
+</files>
+</administration>
+</mosinstall>

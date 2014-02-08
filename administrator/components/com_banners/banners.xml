@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component" version="4.6">
+  <name>Banners</name>
+  <author>Mambo Foundation</author>
+  <creationDate>April 2007</creationDate>
+  <copyright>copyright (C) 2000 - 2007 Mambo Foundation Inc.</copyright>
+  <license>http://www.opensource.org/licenses/gpl-license.php GNU/GPL v.2</license>
+  <authorEmail>core@mambo-foundation.org</authorEmail>
+  <authorUrl>mambo-foundation.org</authorUrl>
+  <version>1.2</version>
+  <description>This component manages banners and banner clients</description>
+  <administration>
+	<menu>Banners</menu>
+	  <submenu>
+	    <menu link="option=com_banners">Manage Banners</menu>
+	    <menu link="option=com_banners&amp;task=listclients">Manange Clients</menu>
+	  </submenu>
+	  <files>
+	    <filename>admin.banners.html.php</filename>
+            <filename>admin.banners.php</filename>
+            <filename>banner.xml</filename>
+	        <filename>index.html</filename>
+            <filename>toolbar.banners.html.php</filename>
+            <filename>toolbar.banners.php</filename>
+          </files>
+
+  </administration>
+  <files>
+    <filename>admin.banners.html.php</filename>
+    <filename>banners.php</filename>
+    <filename>banners.class.php</filename>
+    <filename>index.html</filename>
+  </files>
+    <install>
+	<queries>
+	  <query>CREATE TABLE `mos_banner` (
+                 `bid` int(11) NOT NULL auto_increment,
+                 `cid` int(11) NOT NULL default '0',
+                 `type` varchar(10) NOT NULL default 'banner',
+                 `name` varchar(50) NOT NULL default '',
+                 `imptotal` int(11) NOT NULL default '0',
+                 `impmade` int(11) NOT NULL default '0',
+                 `clicks` int(11) NOT NULL default '0',
+                 `imageurl` varchar(100) NOT NULL default '',
+                 `clickurl` varchar(200) NOT NULL default '',
+                 `date` datetime default NULL,
+                 `showBanner` tinyint(1) NOT NULL default '0',
+                 `checked_out` tinyint(1) NOT NULL default '0',
+                 `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+                 `editor` varchar(50) default NULL,
+                 `custombannercode` text,
+                 PRIMARY KEY  (`bid`),
+                 KEY `viewbanner` (`showBanner`)
+                 );
+	  </query>
+	  <query>CREATE TABLE `mos_bannerclient` (
+                 `cid` int(11) NOT NULL auto_increment,
+                 `name` varchar(60) NOT NULL default '',
+                 `contact` varchar(60) NOT NULL default '',
+                 `email` varchar(60) NOT NULL default '',
+                 `extrainfo` text NOT NULL,
+                 `checked_out` tinyint(1) NOT NULL default '0',
+                 `checked_out_time` time default NULL,
+                 `editor` varchar(50) default NULL,
+                 PRIMARY KEY  (`cid`)
+                 );
+	  </query>
+	  <query>CREATE TABLE `mos_bannerfinish` (
+                 `bid` int(11) NOT NULL auto_increment,
+                 `cid` int(11) NOT NULL default '0',
+                 `type` varchar(10) NOT NULL default '',
+                 `name` varchar(50) NOT NULL default '',
+                 `impressions` int(11) NOT NULL default '0',
+                 `clicks` int(11) NOT NULL default '0',
+                 `imageurl` varchar(50) NOT NULL default '',
+                 `datestart` datetime default NULL,
+                 `dateend` datetime default NULL,
+                 PRIMARY KEY  (`bid`)
+                 );
+	  </query>
+       </queries>
+    </install>
+  <params />
+</mosinstall>

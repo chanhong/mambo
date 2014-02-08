@@ -1,0 +1,1360 @@
+<?php
+/**
+* @package Mambo
+* @subpackage Content
+* @author Mambo Foundation Inc see README.php
+* @copyright Mambo Foundation Inc.
+* See COPYRIGHT.php for copyright notices and details.
+* @license GNU/GPL Version 2, see LICENSE.php
+* Mambo is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public License
+* as published by the Free Software Foundation; version 2 of the License.
+*/
+
+/** ensure this file is being included by a parent file */
+defined( '_VALID_MOS' ) or die( 'Direct Access to this location is not allowed.' );
+
+require_once( $GLOBALS['mosConfig_absolute_path'] . '/includes/HTML_toolbar.php' );
+
+/**
+* Utility class for writing the HTML for content
+*/
+class HTML_content {
+	/**
+	* Draws a Content List
+	* Used by Content Category & Content Section
+	*/
+	function showContentList( $title, $items, $access, $id=0, $sectionid=NULL, $gid, $params, $pageNav=NULL, $other_categories, $lists ) {
+		global $Itemid, $mosConfig_live_site;
+
+		if ( $sectionid ) {
+			$id = $sectionid;
+		}
+
+		if ( strtolower(get_class( $title )) == 'mossection' ) {
+			$catid = 0;
+		} else {
+			$catid = $title->id;
+		}
+
+		if ( $params->get( 'page_title' ) ) {
+			?>
+			<div class="componentheading<?php echo $params->get( 'pageclass_sfx' ); ?>">
+			<?php echo $title->name; ?>
+			</div>
+			<?php
+		}
+		?>
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="contentpane<?php echo $params->get( 'pageclass_sfx' ); ?>">
+		<tr>
+			<td width="60%" valign="top" class="contentdescription<?php echo $params->get( 'pageclass_sfx' ); ?>" colspan="2">
+			<?php
+			if ( $params->get( 'description' ) || $params->get( 'description_image' ) ) {
+					if ( $title->image ) {
+						$link = $mosConfig_live_site .'/images/stories/'. $title->image;
+						?>
+						<img src="<?php echo $link;?>" align="<?php echo $title->image_position;?>" hspace="6" alt="<?php echo $title->image;?>" />
+						<?php
+					}
+				if ( $params->get( 'description' ) ) {
+					echo $title->description;
+				}
+			}
+			?>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<?php
+			// Displays the Table of Items in Category View
+			if ( $items ) {
+				HTML_content::showTable( $params, $items, $gid, $catid, $id, $pageNav, $access, $sectionid, $lists );
+			} else if ( $catid ) {
+				?>
+				<br />
+				<?php echo T_('This Category is currently empty'); ?>
+				<br /><br />
+				<?php
+			}
+			?>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<?php
+			// Displays listing of Categories
+			if (is_array($other_categories) AND (count($other_categories) > 1 OR count($items) < 1)) {
+				$paramtype = $params->get('type');
+				if (($paramtype == 'category' AND $params->get('other_cat')) OR ($paramtype == 'section' AND $params->get('other_cat_section'))) {
+					HTML_content::showCategories( $params, $items, $gid, $other_categories, $catid, $id, $Itemid );
+				}
+			}
+			?>
+			</td>
+		</tr>
+		</table>
+		<?php
+		// displays back button
+		mosHTML::BackButton ( $params );
+	}
+
+
+	/**
+	* Display links to categories
+	*/
+	function showCategories( &$params, &$items, $gid, &$other_categories, $catid, $id, $Itemid ) {
+		?>
+		<ul>
+		<?php
+		foreach ( $other_categories as $row ) {
+			if ( $catid != $row->id ) {
+				if ( $row->access <= $gid ) {
+					$link = sefRelToAbs( 'index.php?option=com_content&amp;task=category&amp;sectionid='. $id .'&amp;id='. $row->id .'&amp;Itemid='. $Itemid );
+					?>
+					<li>
+					<a href="<?php echo $link; ?>" class="category">
+					<?php echo $row->name;?>
+					</a>
+					<?php
+					if ( $params->get( 'cat_items' ) ) {
+						?>
+						&nbsp;<i>( <?php printf(Tn_('%d item','%d items', $row->numitems), $row->numitems)?> )</i>
+						<?php
+					}
+					// Writes Category Description
+					if ( $params->get( 'cat_description' ) && $row->description ) {
+						echo "<br />";
+						echo $row->description;
+					}
+					?>
+					</li>
+				<?php
+				} else {
+					?>
+					<li>
+					<?php echo $row->name; ?>
+					<a href="<?php echo sefRelToAbs( 'index.php?option=com_registration&amp;task=register' ); ?>">
+					( <?php echo T_('Registered Users Only'); ?> )
+					</a>
+					<?php
+				}
+			}
+		}
+		?>
+		</ul>
+		<?php
+	}
+
+
+	/**
+	* Display Table of items
+	*/
+	function showTable( &$params, &$items, &$gid, $catid, $id, &$pageNav, &$access, &$sectionid, &$lists ) {
+		global $mosConfig_live_site, $Itemid;
+		$link = 'index.php?option=com_content&amp;task=category&amp;sectionid='. $sectionid .'&amp;id='. $catid .'&amp;Itemid='. $Itemid;
+		?>
+		<form action="<?php echo sefRelToAbs($link); ?>" method="post" name="adminForm">
+		<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td colspan="4">
+				<table>
+				<tr>
+					<?php
+					if ( $params->get( 'filter' ) ) {
+						?>
+						<td align="right" width="100%" nowrap="nowrap">
+						<?php
+						echo T_('Filter') .'&nbsp;';
+						?>
+						<input type="text" name="filter" value="<?php echo $lists['filter'];?>" class="inputbox" onchange="document.adminForm.submit();" />
+						</td>
+						<?php
+					}
+
+					if ( $params->get( 'order_select' ) ) {
+						?>
+						<td align="right" width="100%" nowrap="nowrap">
+						<?php
+						echo '&nbsp;&nbsp;&nbsp;'. T_('Order') .'&nbsp;';
+						echo $lists['order'];
+						?>
+						</td>
+						<?php
+					}
+
+					if ( $params->get( 'display' ) ) {
+						?>
+						<td align="right" width="100%" nowrap="nowrap">
+						<?php
+						echo '&nbsp;&nbsp;&nbsp;'. T_('Display #') .'&nbsp;';
+						$link = 'index.php?option=com_content&amp;task=category&amp;sectionid='. $sectionid .'&amp;id='. $catid .'&amp;Itemid='. $Itemid;
+						echo $pageNav->getLimitBox( $link );
+						?>
+						</td>
+						<?php
+					}
+					?>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		<?php
+		if ( $params->get( 'headings' ) ) {
+			?>
+			<tr>
+				<?php
+				if ( $params->get( 'date' ) ) {
+					?>
+					<td class="sectiontableheader<?php echo $params->get( 'pageclass_sfx' ); ?>" width="35%">
+					&nbsp;<?php echo T_('Date'); ?>
+					</td>
+					<?php
+				}
+				if ( $params->get( 'title' ) ) {
+					?>
+					<td class="sectiontableheader<?php echo $params->get( 'pageclass_sfx' ); ?>" width="45%">
+					<?php echo T_('Item Title'); ?>
+					</td>
+					<?php
+				}
+				if ( $params->get( 'author' ) ) {
+					?>
+					<td class="sectiontableheader<?php echo $params->get( 'pageclass_sfx' ); ?>" align="left" width="25%">
+					<?php echo T_('Author'); ?>
+					</td>
+					<?php
+				}
+				if ( $params->get( 'hits' ) ) {
+					?>
+					<td align="center" class="sectiontableheader<?php echo $params->get( 'pageclass_sfx' ); ?>" width="5%">
+					<?php echo T_('Hits'); ?>
+					</td>
+					<?php
+				}
+				?>
+			</tr>
+			<?php
+		}
+
+		$k = 0;
+		foreach ( $items as $row ) {
+			$row->created = mosFormatDate ($row->created, $params->get( 'date_format' ));
+			?>
+			<tr class="sectiontableentry<?php echo ($k+1) . $params->get( 'pageclass_sfx' ); ?>" >
+				<?php
+				if ( $params->get( 'date' ) ) {
+					?>
+					<td>
+					<?php echo $row->created; ?>
+					</td>
+					<?php
+				}
+				if ( $params->get( 'title' ) ) {
+					if( $row->access <= $gid ){
+						$link = sefRelToAbs( 'index.php?option=com_content&amp;task=view&amp;id='. $row->id .'&amp;Itemid='. $Itemid );
+						?>
+						<td>
+						<a href="<?php echo $link; ?>">
+						<?php echo $row->title; ?>
+						</a>
+						<?php
+						HTML_content::EditIcon( $row, $params, $access );
+						?>
+						</td>
+						<?php
+					} else {
+						?>
+						<td>
+						<?php
+						echo $row->title .' : ';
+						$link = sefRelToAbs( 'index.php?option=com_registration&amp;task=register' );
+						?>
+						<a href="<?php echo $link; ?>">
+						<?php echo T_('Register to read more...'); ?>
+						</a>
+						</td>
+						<?php
+					}
+				}
+				if ( $params->get( 'author' ) ) {
+					?>
+					<td align="left">
+					<?php echo $row->created_by_alias ? $row->created_by_alias : $row->author; ?>
+					</td>
+					<?php
+				}
+				if ( $params->get( 'hits' ) ) {
+				?>
+					<td align="center">
+					<?php echo $row->hits ? $row->hits : '-'; ?>
+					</td>
+				<?php
+			} ?>
+		</tr>
+		<?php
+			$k = 1 - $k;
+		}
+		if ( $params->get( 'navigation' ) ) {
+			?>
+			<tr>
+				<td colspan="4">&nbsp;</td>
+			</tr>
+			<tr>
+				<td align="center" colspan="4" class="sectiontablefooter<?php echo $params->get( 'pageclass_sfx' ); ?>">
+				<?php
+				$link = 'index.php?option=com_content&amp;task=category&amp;sectionid='. $sectionid .'&amp;id='. $catid .'&amp;Itemid='. $Itemid;
+				echo $pageNav->writePagesLinks( $link );
+				?>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" align="right">
+				<?php echo $pageNav->writePagesCounter(); ?>
+				</td>
+			</tr>
+			<?php
+		}
+		?>
+		<?php
+		if ( $access->canEdit || $access->canEditOwn ) {
+			$link = sefRelToAbs( 'index.php?option=com_content&amp;task=new&amp;sectionid='. $id .'&amp;cid='. $row->id .'&amp;Itemid='. $Itemid );
+			?>
+			<tr>
+				<td colspan="4">
+				<a href="<?php echo $link; ?>">
+				<img src="<?php echo $mosConfig_live_site;?>/images/M_images/new.png" width="13" height="14" align="middle" border="0" alt="<?php echo T_('New');?>" />
+				&nbsp;<?php echo T_('New');?>
+				</a>
+				</td>
+			</tr>
+			<?php
+		}
+		?>
+		</table>
+		<input type="hidden" name="id" value="<?php echo $catid; ?>" />
+		<input type="hidden" name="sectionid" value="<?php echo $sectionid; ?>" />
+		<input type="hidden" name="task" value="<?php echo $lists['task']; ?>" />
+		<input type="hidden" name="option" value="com_content" />
+		</form>
+		<?php
+	}
+
+
+	/**
+	* Display links to content items
+	*/
+	function showLinks( &$rows, $links, $total, $i=0, $show=1, $ItemidCount ) {
+		global $mainframe;
+
+		if ( $show ) {
+			?>
+			<div>
+			<strong>
+			<?php echo T_('More...'); ?>
+			</strong>
+			</div>
+			<ul>
+			<?php
+		}
+		for ( $z = 0; $z < $links; $z++ ) {
+			if ( $i >= $total ) {
+				// stops loop if total number of items is less than the number set to display as intro + leading
+				break;
+			}
+			// needed to reduce queries used by getItemid
+			$_Itemid = $mainframe->getItemid( $rows[$i]->id, 0, 0, $ItemidCount['bs'], $ItemidCount['bc'], $ItemidCount['gbs']  );
+			$link = sefRelToAbs( 'index.php?option=com_content&amp;task=view&amp;id='. $rows[$i]->id .'&amp;Itemid='. $_Itemid )
+			?>
+			<li>
+			<a class="blogsection" href="<?php echo $link; ?>">
+			<?php echo $rows[$i]->title; ?>
+			</a>
+			</li>
+			<?php
+			$i++;
+		}
+		?>
+		</ul>
+		<?php
+	}
+
+
+	/**
+	* Show a content item
+	* @param object An object with the record data
+	* @param boolean If <code>false</code>, the print button links to a popup window.  If <code>true</code> then the print button invokes the browser print method.
+	*/
+	function show( $row, $params, $access, $page=0, $option, $ItemidCount=NULL ) {
+		global $mainframe, $my, $hide_js;
+		global $mosConfig_sitename, $Itemid, $mosConfig_live_site, $task;
+		global $_MAMBOTS;
+
+		if (!$ItemidCount) {
+			$mainframe->appendMetaTag( 'description', $row->metadesc );
+			$mainframe->appendMetaTag( 'keywords', $row->metakey );
+		}
+
+		$gid 		= $my->gid;
+		$_Itemid 	= $Itemid;
+		$link_on 	= '';
+		$link_text 	= '';
+
+		// process the new bots
+		$_MAMBOTS->loadBotGroup( 'content' );
+		$results = $_MAMBOTS->trigger( 'onPrepareContent', array( &$row, &$params, $page ), true );
+
+		// adds mospagebreak heading or title to <site> Title
+		if ( @$row->page_title ) {
+			$mainframe->SetPageTitle( $row->title .': '. $row->page_title );
+		}
+
+		// determines the link and link text of the readmore button
+		if ( $params->get( 'intro_only' ) ) {
+			// checks if the item is a public or registered/special item
+			if ( $row->access <= $gid ) {
+				if ($task != "view") {
+					$_Itemid = $mainframe->getItemid( $row->id, 0, 0, $ItemidCount['bs'], $ItemidCount['bc'], $ItemidCount['gbs'] );
+				}
+				$link_on = sefRelToAbs("index.php?option=com_content&amp;task=view&amp;id=".$row->id."&amp;Itemid=".$_Itemid);
+				if ( strlen( trim( $row->fulltext ) )) {
+					$link_text = T_('Read more...');
+				}
+			} else {
+				$link_on = sefRelToAbs("index.php?option=com_registration&amp;task=register");
+				if (strlen( trim( $row->fulltext ) )) {
+					$link_text = T_('Register to read more...');
+				}
+			}
+		}
+
+		$no_html = mosGetParam( $_REQUEST, 'no_html', null);
+
+		// for pop-up page
+		if ( $params->get( 'popup' ) && $no_html == 0) {
+		    ?>
+			<title>
+			<?php echo $mosConfig_sitename .' :: '. $row->title; ?>
+			</title>
+			<?php
+		}
+
+		// determines links to next and prev content items within category
+		if ( $params->get( 'item_navigation' ) ) {
+			if ( $row->prev ) {
+				$row->prev = sefRelToAbs( 'index.php?option=com_content&amp;task=view&amp;id='. $row->prev .'&amp;Itemid='. $_Itemid );
+			} else {
+				$row->prev = 0;
+			}
+			if ( $row->next ) {
+				$row->next = sefRelToAbs( 'index.php?option=com_content&amp;task=view&amp;id='. $row->next .'&amp;Itemid='. $_Itemid );
+			} else {
+				$row->next = 0;
+			}
+		}
+
+		if ( $params->get( 'item_title' ) || $params->get( 'pdf' )  || $params->get( 'print' ) || $params->get( 'email' ) ) {
+			// link used by print button
+			$print_link = $mosConfig_live_site. '/index2.php?option=com_content&amp;task=view&amp;id='. $row->id .'&amp;Itemid='. $Itemid .'&amp;pop=1&amp;page='. @$page;
+			?>
+			<table class="contentpaneopen<?php echo $params->get( 'pageclass_sfx' ); ?>">
+			<tr>
+				<?php
+				// displays Item Title
+				HTML_content::Title( $row, $params, $link_on, $access );
+
+				// displays PDF Icon
+				HTML_content::PdfIcon( $row, $params, $link_on, $hide_js );
+
+				// displays Print Icon
+				mosHTML::PrintIcon( $row, $params, $hide_js, $print_link );
+
+				// displays Email Icon
+				HTML_content::EmailIcon( $row, $params, $hide_js );
+				?>
+			</tr>
+			</table>
+			<?php
+ 		} else if ( $access->canEdit ) {
+ 			// edit icon when item title set to hide
+ 			?>
+			<table class="contentpaneopen<?php echo $params->get( 'pageclass_sfx' ); ?>">
+ 			<tr>
+ 				<td>
+ 				<?php
+ 				HTML_content::EditIcon( $row, $params, $access );
+ 				?>
+ 				</td>
+ 			</tr>
+ 			</table>
+ 			<?php
+  		}
+
+		if ( !$params->get( 'intro_only' ) ) {
+			$results = $_MAMBOTS->trigger( 'onAfterDisplayTitle', array( &$row, &$params, $page ) );
+			echo trim( implode( "\n", $results ) );
+		}
+
+		$results = $_MAMBOTS->trigger( 'onBeforeDisplayContent', array( &$row, &$params, $page ) );
+		echo trim( implode( "\n", $results ) );
+		?>
+
+		<table class="contentpaneopen<?php echo $params->get( 'pageclass_sfx' ); ?>">
+		<?php
+		// displays Section & Category
+		HTML_content::Section_Category( $row, $params );
+
+		// displays Author Name
+		HTML_content::Author( $row, $params );
+
+		// displays Created Date
+		HTML_content::CreateDate( $row, $params );
+
+		// displays Urls
+		HTML_content::URL( $row, $params );
+		?>
+		<tr>
+			<td valign="top" colspan="2">
+			<?php
+			// displays Table of Contents
+			HTML_content::TOC( $row );
+
+			// displays Item Text
+			echo $row->text;
+			?>
+			</td>
+		</tr>
+		<?php
+
+		// displays Modified Date
+		HTML_content::ModifiedDate( $row, $params );
+
+		// displays Readmore button
+		HTML_content::ReadMore( $params, $link_on, $link_text );
+		?>
+		</table>
+		<?php
+		$results = $_MAMBOTS->trigger( 'onAfterDisplayContent', array( &$row, &$params, $page ) );
+		echo trim( implode( "\n", $results ) );
+
+		// displays the next & previous buttons
+		HTML_content::Navigation ( $row, $params );
+
+		// displays close button in pop-up window
+		mosHTML::CloseButton ( $params, $hide_js );
+
+		// displays back button in pop-up window
+		mosHTML::BackButton ( $params, $hide_js );
+	}
+
+
+	/**
+	* Writes Title
+	*/
+	function Title( $row, $params, $link_on, $access ) {
+		global $mosConfig_live_site, $Itemid;
+		if ( $params->get( 'item_title' ) ) {
+			if ( $params->get( 'link_titles' ) && $link_on != '' ) {
+				?>
+				<td class="contentheading<?php echo $params->get( 'pageclass_sfx' ); ?>" width="100%">
+				<a href="<?php echo $link_on;?>" class="contentpagetitle<?php echo $params->get( 'pageclass_sfx' ); ?>">
+				<?php echo $row->title;?>
+				</a>
+				<?php HTML_content::EditIcon( $row, $params, $access ); ?>
+				</td>
+				<?php
+			} else {
+				?>
+				<td class="contentheading<?php echo $params->get( 'pageclass_sfx' ); ?>" width="100%">
+				<?php echo $row->title;?>
+				<?php HTML_content::EditIcon( $row, $params, $access ); ?>
+				</td>
+				<?php
+			}
+		}
+	}
+
+	/**
+	* Writes Edit icon that links to edit page
+	*/
+	function EditIcon( $row, $params, $access ) {
+		global $mosConfig_live_site, $Itemid, $my;
+		if ( $params->get( 'popup' ) ) {
+			return;
+		}
+		if ( $row->state < 0 ) {
+			return;
+		}
+		if ( !$access->canEdit && !( $access->canEditOwn && $row->created_by == $my->id ) ) {
+			return;
+		}
+		$link = 'index.php?option=com_content&amp;task=edit&amp;id='. $row->id;
+		$mainframe =& mosMainFrame::getInstance();
+		$image = $mainframe->ImageCheck( 'edit.png', '/images/M_images/', NULL, NULL, T_('Edit') );
+		?>
+		<a href="<?php echo sefRelToAbs( $link ); ?>" title="<?php echo T_('Edit');?>">
+		<?php echo $image; ?>
+		</a>
+		<?php
+		if ( $row->state == 0 ) {
+			echo '( '. T_('Unpublished') .' )';
+		}
+		echo '  ( '. $row->groups .' )';
+	}
+
+
+	/**
+	* Writes PDF icon
+	*/
+	function PdfIcon( $row, $params, $link_on, $hide_js ) {
+		global $mosConfig_live_site;
+		if ( $params->get( 'pdf' ) && !$params->get( 'popup' ) && !$hide_js ) {
+			$status = 'status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no';
+			$link = $mosConfig_live_site. '/index2.php?option=com_content&amp;do_pdf=1&amp;id='. $row->id;
+			if ( $params->get( 'icons' ) ) {
+				$mainframe =& mosMainFrame::getInstance();
+				$image = $mainframe->ImageCheck( 'pdf_button.png', '/images/M_images/', NULL, NULL, T_('PDF') );
+			} else {
+				$image = T_('PDF') .'&nbsp;';
+			}
+			?>
+			<td align="right" class="buttonheading">
+			<a href="javascript:void window.open('<?php echo $link; ?>', 'win2', '<?php echo $status; ?>');" title="<?php echo T_('PDF');?>">
+			<?php echo $image; ?>
+			</a>
+			</td>
+			<?php
+		}
+	}
+
+
+	/**
+	* Writes Email icon
+	*/
+	function EmailIcon( $row, $params, $hide_js ) {
+		global $mosConfig_live_site;
+		if ( $params->get( 'email' ) && !$params->get( 'popup' ) && !$hide_js ) {
+			$status = 'status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=400,height=250,directories=no,location=no';
+			$link = $mosConfig_live_site .'/index2.php?option=com_content&amp;task=emailform&amp;id='. $row->id;
+			if ( $params->get( 'icons' ) ) {
+			    $mainframe =& mosMainFrame::getInstance();
+				$image = $mainframe->ImageCheck( 'emailButton.png', '/images/M_images/', NULL, NULL, T_('E-mail') );
+			} else {
+				$image = '&nbsp;'. T_('E-mail');
+			}
+			?>
+			<td align="right" class="buttonheading">
+			<a href="javascript:void window.open('<?php echo $link; ?>', 'win2', '<?php echo $status; ?>');" title="<?php echo T_('E-mail');?>">
+			<?php echo $image; ?>
+			</a>
+			</td>
+			<?php
+		}
+	}
+
+	/**
+	* Writes Container for Section & Category
+	*/
+	function Section_Category( $row, $params ) {
+		if ( $params->get( 'section' ) || $params->get( 'category' ) ) {
+			?>
+			<tr>
+				<td>
+			<?php
+		}
+
+		// displays Section Name
+		HTML_content::Section( $row, $params );
+
+		// displays Section Name
+		HTML_content::Category( $row, $params );
+
+		if ( $params->get( 'section' ) || $params->get( 'category' ) ) {
+			?>
+				</td>
+			</tr>
+		<?php
+		}
+	}
+
+	/**
+	* Writes Section
+	*/
+	function Section( $row, $params ) {
+		if ( $params->get( 'section' ) ) {
+				?>
+				<span>
+				<?php
+				echo $row->section;
+				// writes dash between section & Category Name when both are active
+				if ( $params->get( 'category' ) ) {
+					echo ' - ';
+				}
+				?>
+				</span>
+			<?php
+		}
+	}
+
+	/**
+	* Writes Category
+	*/
+	function Category( $row, $params ) {
+		if ( $params->get( 'category' ) ) {
+			?>
+			<span>
+			<?php
+			echo $row->category;
+			?>
+			</span>
+			<?php
+		}
+	}
+
+	/**
+	* Writes Author name
+	*/
+	function Author( $row, $params ) {
+		global $acl;
+		if ( ( $params->get( 'author' ) ) && ( $row->author != "" ) ) {
+			$grp = $acl->getAroGroup( $row->created_by );
+			$is_frontend_user = $acl->is_group_child_of( intval( $grp->group_id ), 'Public Frontend', 'ARO' );
+			$by = $is_frontend_user ? T_('Contributed by') : T_('Written by');
+		?>
+		<tr>
+			<td width="70%" align="left" valign="top" colspan="2">
+			<span class="small">
+			<?php echo $by. ' '.( $row->created_by_alias ? $row->created_by_alias : $row->author ); ?>
+			</span>
+			&nbsp;&nbsp;
+			</td>
+		</tr>
+		<?php
+		}
+	}
+
+
+	/**
+	* Writes Create Date
+	*/
+	function CreateDate( $row, $params ) {
+		$create_date = null;
+		if ( intval( $row->created ) != 0 ) {
+			$create_date = mosFormatDate( $row->created );
+		}
+		if ( $params->get( 'createdate' ) ) {
+			?>
+			<tr>
+				<td valign="top" colspan="2" class="createdate">
+				<?php echo $create_date; ?>
+				</td>
+			</tr>
+			<?php
+		}
+	}
+
+	/**
+	* Writes URL's
+	*/
+	function URL( $row, $params ) {
+		if ( $params->get( 'url' ) && $row->urls ) {
+			?>
+			<tr>
+				<td valign="top" colspan="2">
+				<a href="http://<?php echo $row->urls ; ?>" target="_blank">
+				<?php echo $row->urls; ?>
+				</a>
+				</td>
+			</tr>
+			<?php
+		}
+	}
+
+	/**
+	* Writes TOC
+	*/
+	function TOC( $row ) {
+		if ( @$row->toc ) {
+			echo $row->toc;
+		}
+	}
+
+	/**
+	* Writes Modified Date
+	*/
+	function ModifiedDate( $row, $params ) {
+		$mod_date = null;
+		if ( intval( $row->modified ) != 0) {
+			$mod_date = mosFormatDate( $row->modified );
+		}
+		if ( ( $mod_date != '' ) && $params->get( 'modifydate' ) ) {
+			?>
+			<tr>
+				<td colspan="2" align="left" class="modifydate">
+				<?php echo T_('Last Updated'); ?> ( <?php echo $mod_date; ?> )
+				</td>
+			</tr>
+			<?php
+		}
+	}
+
+	/**
+	* Writes Readmore Button
+	*/
+	function ReadMore ( $params, $link_on, $link_text ) {
+		if ( $params->get( 'readmore' ) ) {
+			if ( $params->get( 'intro_only' ) && $link_text ) {
+				?>
+				<tr>
+					<td align="left" colspan="2">
+					<a href="<?php echo $link_on;?>" class="readon<?php echo $params->get( 'pageclass_sfx' ); ?>">
+					<?php echo $link_text;?>
+					</a>
+					</td>
+				</tr>
+				<?php
+			}
+		}
+	}
+
+	/**
+	* Writes Next & Prev navigation button
+	*/
+	function Navigation( $row, $params ) {
+		$task = mosGetParam( $_REQUEST, 'task', '' );
+		if ( $params->get( 'item_navigation' ) && ( $task == "view" ) && !$params->get( 'popup' ) ) {
+		?>
+		<table align="center" style="margin-top: 25px;">
+		<tr>
+			<?php
+			if ( $row->prev ) {
+				?>
+				<th class="pagenav_prev">
+				<a href="<?php echo $row->prev; ?>">
+				&lt;<?php echo T_('Previous'); ?>
+				</a>
+				</th>
+				<?php
+			}
+			if ( $row->prev && $row->next ) {
+				?>
+				<td width="50px">&nbsp;
+
+				</td>
+				<?php
+			}
+			if ( $row->next ) {
+				?>
+				<th class="pagenav_next">
+				<a href="<?php echo $row->next; ?>">
+				<?php echo T_('Next'); ?>&gt;
+				</a>
+				</th>
+				<?php
+			}
+			?>
+		</tr>
+		</table>
+		<?php
+		}
+	}
+
+	/**
+	* Writes the edit form for new and existing content item
+	*
+	* A new record is defined when <var>$row</var> is passed with the <var>id</var>
+	* property set to 0.
+	* @param mosContent The category object
+	* @param string The html for the groups select list
+	*/
+	function editContent( &$row, $section, &$lists, &$images, &$access, $myid, $sectionid, $task, $Itemid ) {
+		global $mosConfig_live_site;
+		mosMakeHtmlSafe( $row );
+		$Returnid = intval( mosGetParam( $_REQUEST, 'Returnid', $Itemid ) );
+		?>
+  		<div id="overDiv" style="position:absolute; visibility:hidden; z-index:10000;"></div>
+  		<link rel="stylesheet" type="text/css" media="all" href="includes/js/calendar/calendar-mos.css" title="green" />
+			<!-- import the calendar script -->
+			<script type="text/javascript" src="<?php echo $mosConfig_live_site;?>/includes/js/calendar/calendar.js"></script>
+			<!-- import the language module -->
+			<script type="text/javascript" src="<?php echo $mosConfig_live_site;?>/includes/js/calendar/lang/calendar-en.js"></script>
+	  	<script language="Javascript" src="<?php echo $mosConfig_live_site;?>/includes/js/overlib_mini.js"></script>
+	  	<script language="javascript" type="text/javascript">
+		onunload = WarnUser;
+		var folderimages = new Array;
+		<?php
+		$i = 0;
+		foreach ($images as $k=>$items) {
+			foreach ($items as $v) {
+				echo "\n	folderimages[".$i++."] = new Array( '$k','".addslashes( $v->value )."','".addslashes( $v->text )."' );";
+			}
+		}
+		?>
+		function submitbutton(pressbutton) {
+			var form = document.adminForm;
+			if (pressbutton == 'cancel') {
+				submitform( pressbutton );
+				return;
+			}
+
+			// var goodexit=false;
+			// assemble the images back into one field
+			form.goodexit.value=1
+			var temp = new Array;
+			for (var i=0, n=form.imagelist.options.length; i < n; i++) {
+				temp[i] = form.imagelist.options[i].value;
+			}
+			form.images.value = temp.join( '\n' );
+			try {
+				form.onsubmit();
+			}
+			catch(e){}
+			// do field validation
+			if (form.title.value == "") {
+				alert ( "<?php echo T_('Content item must have a title'); ?>" );
+			} else if (parseInt('<?php echo $row->sectionid;?>')) {
+				// for content items
+				if (getSelectedValue('adminForm','catid') < 1) {
+					alert ( "<?php echo T_('Please select a category'); ?>" );
+				//} else if (form.introtext.value == "") {
+				//	alert ( "<?php echo T_('Content item must have intro text'); ?>" );
+				} else {
+					<?php
+					getEditorContents( 'editor1', 'introtext' );
+					getEditorContents( 'editor2', 'fulltext' );
+					?>
+					submitform(pressbutton);
+				}
+			//} else if (form.introtext.value == "") {
+			//	alert ( "<?php echo T_('Content item must have intro text'); ?>" );
+			} else {
+				// for static content
+				<?php
+				getEditorContents( 'editor1', 'introtext' ) ;
+				?>
+				submitform(pressbutton);
+			}
+		}
+
+		function setgood(){
+			document.adminForm.goodexit.value=1;
+		}
+
+		function WarnUser(){
+			if (document.adminForm.goodexit.value==0) {
+				alert('<?php echo T_('Please either Cancel or Save the current change');?>');
+				window.location="<?php echo sefRelToAbs("index.php?option=com_content&task=".$task."&sectionid=".$sectionid."&id=".$row->id."&Itemid=".$Itemid); ?>"
+			}
+		}
+		</script>
+
+		<?php
+		//$docinfo = "<strong>".T_('Subject:')."</strong> ";
+		//$docinfo .= $row->title."<br />";
+		$docinfo = "<strong>".T_('Expiry Date:')."</strong> ";
+		$docinfo .= $row->publish_down."<br />";
+		$docinfo .= "<strong>".T_('Version:')."</strong> ";
+		$docinfo .= $row->version."<br />";
+		$docinfo .= "<strong>".T_('Created:')."</strong> ";
+		$docinfo .= $row->created."<br />";
+		$docinfo .= "<strong>".T_('Last Modified:')."</strong> ";
+		$docinfo .= $row->modified."<br />";
+		$docinfo .= "<strong>".T_('Hits:')."</strong> ";
+		$docinfo .= $row->hits."<br />";
+		?>
+		<table cellspacing="0" cellpadding="0" border="0" width="100%">
+		<tr>
+			<td class="contentheading" >
+			<?php echo $section;?> / <?php echo $row->id ? T_('Edit') : T_('Add');?>&nbsp;
+			<?php echo T_('Content');?> &nbsp;&nbsp;&nbsp;
+			<a href="javascript: void(0);" onMouseOver="return overlib('<table><?php echo $docinfo; ?></table>', CAPTION, '<?php echo T_('Item Information');?>', BELOW, RIGHT);" onMouseOut="return nd();">
+			<strong>[<?php echo T_('Info')?>]</strong>
+			</a>
+			</td>
+			<td width="10%">
+			 <?php
+			 mosToolBar::startTable();
+			 mosToolBar::save();
+			 mosToolBar::spacer(25);
+			 mosToolBar::cancel();
+			 mosToolBar::endtable();
+			 $tabs = new mosTabs(0);
+			?>
+			</td>
+		</tr>
+		</table>
+
+		<form action="index.php" method="post" name="adminForm" onSubmit="javascript:setgood();">
+		<input type="hidden" name="images" value="" />
+		<table class="adminform">
+		<tr>
+			<td>
+			<?php echo T_('Title:'); ?>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<input class="inputbox" type="text" name="title" size="50" maxlength="100" value="<?php echo $row->title; ?>" />
+			</td>
+		</tr>
+        <tr>
+                <td>
+                <input class="inputbox" type="text" name="title_alias" size="50" maxlength="100" value="<?php echo $row->title_alias; ?>" />
+                </td>
+        </tr>
+
+		<?php
+		if ($row->sectionid) {
+			?>
+			<tr>
+				<td>
+				<?php echo T_('Category:'); ?>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<?php echo $lists['catid']; ?>
+				</td>
+			</tr>
+			<?php
+		}
+		?>
+		<tr>
+			<?php
+			if (intval( $row->sectionid ) > 0) {
+				?>
+				<td>
+				<?php echo T_('Intro Text').' ('.T_('Required').')'; ?>:
+				</td>
+				<?php
+			} else {
+				?>
+				<td>
+				<?php echo T_('Main Text').' ('.T_('Required').')'; ?>:
+				</td>
+			<?php
+			} ?>
+		</tr>
+		<tr>
+			<td>
+			<?php
+			// parameters : areaname, content, hidden field, width, height, rows, cols
+			editorArea( 'editor1',  $row->introtext , 'introtext', '500', '200', '65', '20' ) ;
+			?>
+			</td>
+		</tr>
+		<?php
+		if (intval( $row->sectionid ) > 0) {
+			?>
+			<tr>
+				<td>
+				<?php echo T_('Main Text').' ('.T_('Optional').')'; ?>:
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<?php
+				// parameters : areaname, content, hidden field, width, height, rows, cols
+				editorArea( 'editor2',  $row->fulltext , 'fulltext', '500', '400', '65', '20' ) ;
+				?>
+				</td>
+			</tr>
+			<?php
+		}
+		?>
+		</table>
+     	<?php
+		$tabs->startPane( 'content-pane' );
+		$tabs->startTab( T_('Images'), 'images-page' );
+		?>
+		<table class="adminform">
+		<tr>
+			<td colspan="6">
+			<?php echo T_('Sub-folder'); ?> :: <?php echo $lists['folders'];?>
+			</td>
+		</tr>
+		<tr>
+			<td align="top">
+			<?php echo T_('Gallery Images'); ?>
+			</td>
+			<td align="top">
+			<?php echo T_('Content Images'); ?>
+			</td>
+			<td align="top">
+			<?php echo T_('Edit Image'); ?>
+			</td>
+		<tr>
+			<td valign="top">
+			<?php echo $lists['imagefiles'];?>
+			<br />
+			<input class="button" type="button" value="<?php echo T_('Insert'); ?>" onclick="addSelectedToList('adminForm','imagefiles','imagelist')" />
+			</td>
+			<td valign="top">
+			<?php echo $lists['imagelist'];?>
+			<br />
+			<input class="button" type="button" value="<?php echo T_('Up'); ?>" onclick="moveInList('adminForm','imagelist',adminForm.imagelist.selectedIndex,-1)" />
+			<input class="button" type="button" value="<?php echo T_('Down'); ?>" onclick="moveInList('adminForm','imagelist',adminForm.imagelist.selectedIndex,+1)" />
+			<input class="button" type="button" value="<?php echo T_('Remove'); ?>" onclick="delSelectedFromList('adminForm','imagelist')" />
+			</td>
+			<td valign="top">
+				<table>
+				<tr>
+					<td align="right">
+					<?php echo T_('Source:'); ?>
+					</td>
+					<td>
+					<input class="inputbox" type="text" name= "_source" value="" size="15" />
+					</td>
+				</tr>
+				<tr>
+					<td align="right" valign="top">
+					<?php echo T_('Align:'); ?>
+					</td>
+					<td>
+					<?php echo $lists['_align']; ?>
+					</td>
+				</tr>
+				<tr>
+					<td align="right">
+					<?php echo T_('Alt Text:'); ?>
+					</td>
+					<td>
+					<input class="inputbox" type="text" name="_alt" value="" size="15" />
+					</td>
+				</tr>
+				<tr>
+					<td align="right">
+					<?php echo T_('Border:'); ?>
+					</td>
+					<td>
+					<input class="inputbox" type="text" name="_border" value="" size="3" maxlength="1" />
+					</td>
+				</tr>
+				<tr>
+					<td align="right"></td>
+					<td>
+					<input class="button" type="button" value="<?php echo T_('Apply'); ?>" onclick="applyImageProps()" />
+					</td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<img name="view_imagefiles" src="<?php echo $mosConfig_live_site;?>/images/M_images/blank.png" width="50" alt="<?php echo T_('No Image'); ?>" />
+			</td>
+			<td>
+			<img name="view_imagelist" src="<?php echo $mosConfig_live_site;?>/images/M_images/blank.png" width="50" alt="<?php echo T_('No Image'); ?>" />
+			</td>
+		</tr>
+		</table>
+		<?php
+		$tabs->endTab();
+		$tabs->startTab( T_('Publishing'), 'publish-page' );
+		?>
+		<table class="adminform">
+		<?php
+		if ($access->canPublish) {
+			?>
+			<tr>
+				<td align="left">
+				<?php echo T_('State:'); ?>
+				</td>
+				<td>
+				<?php echo $lists['state']; ?>
+				</td>
+			</tr>
+			<?php
+		} ?>
+		<tr>
+			<td align="left">
+			<?php echo T_('Access Level:'); ?>
+			</td>
+			<td>
+			<?php echo $lists['access']; ?>
+			</td>
+		</tr>
+		<tr>
+			<td align="left">
+			<?php echo T_('Author Alias:'); ?>
+			</td>
+			<td>
+			<input type="text" name="created_by_alias" size="50" maxlength="100" value="<?php echo $row->created_by_alias; ?>" class="inputbox" />
+			</td>
+		</tr>
+		<tr>
+			<td align="left">
+			<?php echo T_('Ordering:'); ?>
+			</td>
+			<td>
+			<?php echo $lists['ordering']; ?>
+			</td>
+		</tr>
+		<tr>
+			<td align="left">
+			<?php echo T_('Start Publishing:'); ?>
+			</td>
+			<td>
+			<input class="inputbox" type="text" name="publish_up" id="publish_up" size="25" maxlength="19" value="<?php echo $row->publish_up; ?>" />
+			<input type="reset" class="button" value="..." onclick="return showCalendar('publish_up', 'y-mm-dd');" />
+			</td>
+		</tr>
+		<tr>
+			<td align="left">
+			<?php echo T_('Finish Publishing:'); ?>
+			</td>
+			<td>
+			<input class="inputbox" type="text" name="publish_down" id="publish_down" size="25" maxlength="19" value="<?php echo $row->publish_down; ?>" />
+			<input type="reset" class="button" value="..." onclick="return showCalendar('publish_down', 'y-mm-dd');" />
+			</td>
+		</tr>
+		<tr>
+			<td align="left">
+			<?php echo T_('Show on Front Page:'); ?>
+			</td>
+			<td>
+			<input type="checkbox" name="frontpage" value="1" <?php echo $row->frontpage ? 'checked="checked"' : ''; ?> />
+			</td>
+		</tr>
+		</table>
+		<?php
+		$tabs->endTab();
+		$tabs->startTab( T_('Metadata'), 'meta-page' );
+		?>
+		<table class="adminform">
+		<tr>
+			<td align="left" valign="top">
+			<?php echo T_('Description:'); ?>
+			</td>
+			<td>
+			<textarea class="inputbox" cols="45" rows="3" name="metadesc"><?php echo str_replace('&','&amp;',$row->metadesc); ?></textarea>
+			</td>
+		</tr>
+		<tr>
+			<td align="left" valign="top">
+			<?php echo T_('Keywords:'); ?>
+			</td>
+			<td>
+			<textarea class="inputbox" cols="45" rows="3" name="metakey"><?php echo str_replace('&','&amp;',$row->metakey); ?></textarea>
+			</td>
+		</tr>
+		</table>
+		<input type="hidden" name="goodexit" value="0" />
+		<input type="hidden" name="option" value="com_content" />
+		<input type="hidden" name="Returnid" value="<?php echo $Returnid; ?>" />
+		<input type="hidden" name="id" value="<?php echo $row->id; ?>" />
+		<input type="hidden" name="version" value="<?php echo $row->version; ?>" />
+		<input type="hidden" name="sectionid" value="<?php echo $row->sectionid; ?>" />
+		<input type="hidden" name="created_by" value="<?php echo $row->created_by; ?>" />
+		<input type="hidden" name="task" value="" />
+		</form>
+		<?php
+		$tabs->endTab();
+		$tabs->endPane();
+		?>
+		<div style="clear:both;"></div>
+		<?php
+	}
+
+	/**
+	* Writes Email form for filling in the send destination
+	*/
+	function emailForm( $uid, $title, $template='' ) {
+		global $mosConfig_sitename;
+
+		session_start();
+		$_SESSION['_form_check_']['com_content'] = crypt(time());
+		$form_check = $_SESSION['_form_check_']['com_content'];
+		?>
+		<script language="javascript" type="text/javascript">
+		function submitbutton() {
+			var form = document.frontendForm;
+			// do field validation
+			if (form.email.value == "" || form.youremail.value == "") {
+				alert( '<?php echo addslashes( T_('You must enter valid e-mail addresses for both yourself and your recipient.') ); ?>' );
+				return false;
+			}
+			return true;
+		}
+		</script>
+
+		<title><?php echo $mosConfig_sitename; ?> :: <?php echo $title; ?></title>
+		<link rel="stylesheet" href="templates/<?php echo $template; ?>/css/template_css.css" type="text/css" />
+		<form action="index2.php?option=com_content&task=emailsend" name="frontendForm" method="post" onSubmit="return submitbutton();">
+		<input type="hidden" name="form_check" value="<?php echo $form_check;?>">
+		<table cellspacing="0" cellpadding="0" border="0">
+		<tr>
+			<td colspan="2">
+			<?php echo T_('E-mail this to a friend.'); ?>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp;</td>
+		</tr>
+		<tr>
+			<td width="130">
+			<?php echo T_("Your friend's E-mail:"); ?>
+			</td>
+			<td>
+			<input type="text" name="email" class="inputbox" size="25">
+			</td>
+		</tr>
+		<tr>
+			<td height="27">
+			<?php echo T_('Your Name:'); ?>
+			</td>
+			<td>
+			<input type="text" name="yourname" class="inputbox" size="25">
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<?php echo T_('Your E-mail:'); ?>
+			</td>
+			<td>
+			<input type="text" name="youremail" class="inputbox" size="25">
+			</td>
+		</tr>
+		<tr>
+			<td>
+			<?php echo T_('Message subject:'); ?>
+			</td>
+			<td>
+			<input type="text" name="subject" class="inputbox" maxlength="100" size="40">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+			<input type="submit" name="submit" class="button" value="<?php echo T_('Send e-mail'); ?>">
+			&nbsp;&nbsp; <input type="button" name="cancel" value="<?php echo T_('Cancel'); ?>" class="button" onclick="window.close();">
+			</td>
+		</tr>
+		</table>
+
+		<input type="hidden" name="id" value="<?php echo $uid; ?>">
+		</form>
+		<?php
+	}
+
+	/**
+	* Writes Email sent popup
+	* @param string Who it was sent to
+	* @param string The current template
+	*/
+	function emailSent( $to, $template='' ) {
+		global $mosConfig_sitename;
+		?>
+		<title><?php echo $mosConfig_sitename; ?></title>
+		<link rel="stylesheet" href="templates/<?php echo $template; ?>/css/template_css.css" type="text/css" />
+		<span class="contentheading"><?php printf(T_('This item has been sent to %s'), $to);?></span> <br />
+		<br />
+		<br />
+		<a href='javascript:window.close();'>
+		<span class="small"><?php echo T_('Close Window');?></span>
+		</a>
+		<?php
+	}
+}
+?>

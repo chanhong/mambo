@@ -1,0 +1,974 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/includes/admin.php:48
+#, php-format
+msgid "XML ERROR in %s: %s at line %d"
+msgstr ""
+
+#: administrator/includes/admin.php:54
+#, php-format
+msgid "Unable to open XML file %s"
+msgstr ""
+
+#: administrator/includes/admin.php:57
+#, php-format
+msgid "XML error in %s - unclosed tag(s) (%s) at end of file"
+msgstr ""
+
+#: administrator/includes/admin.php:87
+#, php-format
+msgid "XML error in %s: %s is not a valid containing element"
+msgstr ""
+
+#: administrator/includes/admin.php:88
+#, php-format
+msgid "XML error in %s: %s not permitted within %s"
+msgstr ""
+
+#: administrator/includes/admin.php:98
+#, php-format
+msgid "XML error in %s: expected MOSINSTALL but found %s"
+msgstr ""
+
+#: administrator/includes/admin.php:104
+#, php-format
+msgid "XML error in %s: last open tag was %s, but found end of %s"
+msgstr ""
+
+#: administrator/includes/admin.php:124
+#, php-format
+msgid "XML error in %s: mosinstall does not have type attribute"
+msgstr ""
+
+#: administrator/includes/admin.php:276
+msgid "Handler not defined for type"
+msgstr ""
+
+#: administrator/includes/admin.php:289
+msgid "There are no Parameters for this item"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:53
+#, php-format
+msgid "Please make a selection from the list to %s"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:58
+#, php-format
+msgid ""
+"You can translate only the default language.The curren default language is %"
+"s."
+msgstr ""
+
+#: administrator/includes/menubar.html.php:147
+#: administrator/includes/menubar.html.php:157
+msgid "New"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:166
+#: administrator/includes/menubar.html.php:176
+msgid "Publish"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:175
+msgid "Please make a selection from the list to publish"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:185
+msgid "Please select an item to make default"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:186
+msgid "Default"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:195
+msgid "Please select an item to assign"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:196
+msgid "Assign"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:205
+#: administrator/includes/menubar.html.php:215
+msgid "Unpublish"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:214
+msgid "Please make a selection from the list to unpublish"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:224
+msgid "Please make a selection from the list to archive"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:225
+#: administrator/modules/mod_fullmenu.php:150
+msgid "Archive"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:234
+msgid "Please select a news story to unarchive"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:235
+msgid "Unarchive"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:244
+#: administrator/includes/menubar.html.php:255
+#: administrator/includes/menubar.html.php:265
+#: administrator/includes/menubar.html.php:276
+#: administrator/includes/menubar.html.php:286
+#: administrator/includes/menubar.html.php:297
+msgid "Please select an item from the list to edit"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:245
+#: administrator/includes/menubar.html.php:256
+msgid "Edit"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:266
+#: administrator/includes/menubar.html.php:277
+msgid "Edit HTML"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:287
+#: administrator/includes/menubar.html.php:298
+msgid "Edit CSS"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:308
+#: administrator/includes/menubar.html.php:320
+msgid "Please make a selection from the list to delete"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:309
+#: administrator/includes/menubar.html.php:321
+msgid "Delete"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:328
+#: administrator/modules/mod_quickicon.php:64
+#: administrator/modules/mod_quickicon.php:66
+msgid "Trash"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:336
+#: administrator/includes/menubar.html.php:337
+#: administrator/includes/menubar.html.php:355
+#: administrator/modules/mod_fullmenu.php:84
+msgid "Preview"
+msgstr ""
+
+#. Help Sub-Menu
+#. }
+#: administrator/includes/menubar.html.php:367
+#: administrator/includes/menubar.html.php:368
+#: administrator/includes/menubar.html.php:395
+#: administrator/modules/mod_fullmenu.php:315
+msgid "Help"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:408
+msgid "Apply"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:418
+#: administrator/includes/menubar.html.php:431
+#: administrator/includes/menubar.html.php:447
+msgid "Save"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:459
+msgid "Cancel"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:467
+msgid "Back"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:502
+msgid "Upload"
+msgstr ""
+
+#: administrator/includes/menubar.html.php:504
+#: administrator/includes/menubar.html.php:505
+msgid "Upload Image"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:81
+#: administrator/includes/mosAdminMenus.php:439
+msgid ""
+"New items default to the last place. Ordering can be changed after this item "
+"is saved."
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:207
+msgid "Parent Window With Browser Navigation"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:208
+msgid "New Window With Browser Navigation"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:209
+msgid "New Window Without Browser Navigation"
+msgstr ""
+
+#. prepare an array with 'all' as the first item
+#: administrator/includes/mosAdminMenus.php:268
+msgid "All"
+msgstr ""
+
+#. prepare an array with 'all' as the first item
+#: administrator/includes/mosAdminMenus.php:274
+#: administrator/includes/mosAdminMenus.php:480
+msgid "None"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:333
+#: administrator/includes/mosAdminMenus.php:524
+msgid "- All Sections -"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:419
+msgid "- Select Image -"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:437
+msgid ""
+"New items default to the first place. Ordering can be changed after this "
+"item is saved."
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:464
+msgid "- No User -"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:483
+msgid "Center"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:486
+msgid "Left"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:489
+msgid "Right"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:512
+msgid "- All Categories -"
+msgstr ""
+
+#: administrator/includes/mosAdminMenus.php:513
+msgid "You must create a category first."
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:77
+#, php-format
+msgid "Results %d to %d of %d"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:79
+msgid "No records found."
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:106
+#: administrator/includes/pageNavigation.php:109
+msgid "Start"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:106
+msgid "first page"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:107
+#: administrator/includes/pageNavigation.php:110
+msgid "Previous"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:107
+msgid "previous page"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:125
+#: administrator/includes/pageNavigation.php:128
+msgid "Next"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:125
+msgid "next page"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:126
+#: administrator/includes/pageNavigation.php:129
+msgid "End"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:126
+msgid "end page"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:138
+msgid "Display #"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:159
+msgid "Move Up"
+msgstr ""
+
+#: administrator/includes/pageNavigation.php:176
+msgid "Move Down"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:69
+msgid "Control Panel"
+msgstr ""
+
+#. Home Sub-Menu
+#: administrator/modules/mod_fullmenu.php:69
+msgid "Home"
+msgstr ""
+
+#. Site Sub-Menu
+#: administrator/modules/mod_fullmenu.php:73
+msgid "Site"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:73
+msgid "Site Management"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:76
+#: administrator/modules/mod_fullmenu.php:289
+msgid "Configuration"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:76
+#: administrator/modules/mod_quickicon.php:94
+#: administrator/modules/mod_quickicon.php:96
+msgid "Global Configuration"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:80
+msgid "Language Manager"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:80
+msgid "Manage languages"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:83
+msgid "Manage Media Files"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:83
+msgid "Media Manager"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:85
+msgid "In New Window"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:86
+msgid "Inline"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:87
+msgid "Inline with Positions"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:89
+msgid "Site Statistics"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:89
+msgid "Statistics"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:92
+msgid "Browser, OS, Domain"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:93
+msgid "Page Impressions"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:96
+msgid "Search Text"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:100
+#: administrator/modules/mod_fullmenu.php:101
+msgid "Change site template"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:100
+msgid "Template Manager"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:101
+msgid "Site Templates"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:102
+msgid "Administrator Templates"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:102
+msgid "Change admin template"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:103
+msgid "Module Positions"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:103
+msgid "Template positions"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:108
+msgid "Manage Trash"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:108
+msgid "Trash Manager"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:112
+msgid "Manage users"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:112
+msgid "User Manager"
+msgstr ""
+
+#. Menu Sub-Menu
+#: administrator/modules/mod_fullmenu.php:119
+#: administrator/modules/mod_stats.php:25
+msgid "Menu"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:119
+msgid "Menu Management"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:122
+msgid "Menu Manager"
+msgstr ""
+
+#. Content Sub-Menu
+#: administrator/modules/mod_fullmenu.php:134
+msgid "Content"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:134
+msgid "Content Management"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:137
+msgid "Content Managers"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:137
+msgid "Content by Section"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:144
+msgid "Items"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:147
+msgid "Add/Edit"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:147
+#: administrator/modules/mod_quickicon.php:47
+#: administrator/modules/mod_quickicon.php:49
+msgid "Categories"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:161
+#: administrator/modules/mod_quickicon.php:24
+#: administrator/modules/mod_quickicon.php:26
+#: administrator/modules/mod_quickicon.php:107
+#: administrator/modules/mod_quickicon.php:109
+msgid "All Content Items"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:161
+msgid "Manage Content Items"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:162
+msgid "Manage Typed Content Items"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:162
+msgid "Static Content Manager"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:164
+msgid "Manage Content Sections"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:164
+msgid "Section Manager"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:167
+msgid "Category Manager"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:167
+msgid "Manage Content Categories"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:171
+msgid "Frontpage Manager"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:171
+msgid "Manage Frontpage Items"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:172
+msgid "Archive Manager"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:172
+msgid "Manage Archive Items"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:178
+msgid "Component Management"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:178
+msgid "Components"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:179
+msgid "Install/Uninstall components"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:179
+#: administrator/modules/mod_fullmenu.php:234
+#: administrator/modules/mod_fullmenu.php:253
+msgid "Review/Uninstall"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:223
+msgid "More Components"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:223
+msgid "More Components..."
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:231
+msgid "Module Management"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:231
+msgid "Modules"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:234
+msgid "Install custom modules"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:239
+msgid "Manage Site modules"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:239
+msgid "Site Modules"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:240
+msgid "Administrator Modules"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:240
+msgid "Manage Administrator modules"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:250
+msgid "Mambot Management"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:250
+msgid "Mambots"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:253
+msgid "Install custom mambot"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:258
+msgid "Manage Site Mambots"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:258
+msgid "Site Mambots"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:269
+msgid "Installer List"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:269
+msgid "Installers"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:270
+msgid "Install Any Plugin"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:270
+msgid "Universal"
+msgstr ""
+
+#. this features uses simplexml which in not support pre php 5
+#: administrator/modules/mod_fullmenu.php:273
+msgid "Add-on Packages"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:273
+msgid "Mambo Add-on Pakcages"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:278
+msgid "Install from The Source"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:278
+msgid "The Source"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:287
+msgid "Messages"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:287
+msgid "Messaging Management"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:288
+msgid "Inbox"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:288
+msgid "Private Messages"
+msgstr ""
+
+#. System Sub-Menu
+#: administrator/modules/mod_fullmenu.php:294
+msgid "System"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:294
+msgid "System Management"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:297
+msgid "Check-in all checked-out items"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:297
+msgid "Global Checkin"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:298
+msgid "System Information"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:298
+msgid "View System Information"
+msgstr ""
+
+#. this features uses simplexml which in not support pre php 5
+#: administrator/modules/mod_fullmenu.php:301
+msgid "Check for Updates"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:305
+msgid "Clean Cache"
+msgstr ""
+
+#: administrator/modules/mod_fullmenu.php:305
+msgid "Clean the content items cache"
+msgstr ""
+
+#: administrator/modules/mod_latest.php:32
+msgid "Most Recently Added Content"
+msgstr ""
+
+#: administrator/modules/mod_latest.php:50
+#: administrator/modules/mod_logged.php:69
+msgid "Edit User"
+msgstr ""
+
+#: administrator/modules/mod_latest.xml
+msgid "Latest News"
+msgstr ""
+
+#: administrator/modules/mod_latest.xml
+msgid ""
+"This module shows a list of the most recently published Items that are still "
+"current (some may have expired even though they are the most recent). Items "
+"that are displayed on the Front Page Component are not included in the list."
+msgstr ""
+
+#: administrator/modules/mod_logged.php:61
+msgid "Currently Logged in Users"
+msgstr ""
+
+#: administrator/modules/mod_logged.php:89
+msgid "Force Logout User"
+msgstr ""
+
+#: administrator/modules/mod_logged.php:89
+#: administrator/templates/mambo_admin_blue/index.php:70
+msgid "Logout"
+msgstr ""
+
+#: administrator/modules/mod_logged.xml
+msgid "Logged in Users"
+msgstr ""
+
+#: administrator/modules/mod_logged.xml
+msgid "This module shows a list of the currently logged in users"
+msgstr ""
+
+#: administrator/modules/mod_online.php:27
+msgid "Users Online"
+msgstr ""
+
+#: administrator/modules/mod_popular.php:32
+msgid "Most Popular Items"
+msgstr ""
+
+#: administrator/modules/mod_popular.php:35
+msgid "Created"
+msgstr ""
+
+#: administrator/modules/mod_popular.php:38
+msgid "Hits"
+msgstr ""
+
+#: administrator/modules/mod_popular.xml administrator/modules/mod_stats.xml
+msgid "Popular Items"
+msgstr ""
+
+#: administrator/modules/mod_popular.xml
+msgid ""
+"This module shows a list of the popular published Items that are still "
+"current (some may have expired even though they are the most recent). Items "
+"that are displayed on the Front Page Component are not included in the list."
+msgstr ""
+
+#: administrator/modules/mod_quickicon.php:29
+#: administrator/modules/mod_quickicon.php:31
+#: administrator/modules/mod_quickicon.php:113
+#: administrator/modules/mod_quickicon.php:115
+msgid "Static Content"
+msgstr ""
+
+#: administrator/modules/mod_quickicon.php:33
+#: administrator/modules/mod_quickicon.php:34
+#: administrator/modules/mod_quickicon.php:119
+#: administrator/modules/mod_quickicon.php:121
+msgid "Frontpage"
+msgstr ""
+
+#: administrator/modules/mod_quickicon.php:37
+#: administrator/modules/mod_quickicon.php:38
+#: administrator/modules/mod_quickicon.php:124
+#: administrator/modules/mod_quickicon.php:125
+msgid "Get Support"
+msgstr ""
+
+#: administrator/modules/mod_quickicon.php:43
+#: administrator/modules/mod_quickicon.php:44
+msgid "Sections"
+msgstr ""
+
+#: administrator/modules/mod_quickicon.php:52
+#: administrator/modules/mod_quickicon.php:54
+msgid "Media"
+msgstr ""
+
+#: administrator/modules/mod_quickicon.php:56
+#: administrator/modules/mod_quickicon.php:58
+msgid "Languages"
+msgstr ""
+
+#: administrator/modules/mod_quickicon.php:72
+#: administrator/modules/mod_quickicon.php:74
+msgid "Menus"
+msgstr ""
+
+#: administrator/modules/mod_quickicon.php:83
+#: administrator/modules/mod_quickicon.php:85
+msgid "Users"
+msgstr ""
+
+#: administrator/modules/mod_stats.php:28
+msgid "# Items"
+msgstr ""
+
+#: administrator/modules/mod_stats.xml
+msgid ""
+"This module shows stats of Items that are still current (some may have "
+"expired even though they are the most recent). Items that are displayed on "
+"the Front Page Component are not included in the list."
+msgstr ""
+
+#: administrator/modules/mod_unread.php:22
+#: administrator/modules/mod_unread.php:24
+msgid "Mail"
+msgstr ""
+
+#: administrator/popups/contentwindow.php:27
+msgid "Content Preview"
+msgstr ""
+
+#: administrator/popups/contentwindow.php:66
+#: administrator/popups/modulewindow.php:55
+#: administrator/popups/pollwindow.php:66
+msgid "Close"
+msgstr ""
+
+#: administrator/popups/contentwindow.php:67
+msgid "Print"
+msgstr ""
+
+#: administrator/popups/modulewindow.php:26
+msgid "Module Preview"
+msgstr ""
+
+#: administrator/popups/pollwindow.php:41
+msgid "Poll Preview"
+msgstr ""
+
+#: administrator/popups/pollwindow.php:63
+msgid "Results"
+msgstr ""
+
+#: administrator/popups/pollwindow.php:63
+msgid "Vote"
+msgstr ""
+
+#: administrator/popups/uploadimage.php:30
+msgid "Please select an image to upload"
+msgstr ""
+
+#: administrator/popups/uploadimage.php:36
+msgid "File must only contain alphanumeric characters and no spaces please."
+msgstr ""
+
+#: administrator/popups/uploadimage.php:41
+#, php-format
+msgid "Image %s already exists."
+msgstr ""
+
+#: administrator/popups/uploadimage.php:46
+msgid "The file must be gif, png, jpg, bmp, swf, doc, xls or ppt"
+msgstr ""
+
+#: administrator/popups/uploadimage.php:53
+#: administrator/popups/uploadimage.php:61
+#, php-format
+msgid "Upload of %s failed"
+msgstr ""
+
+#: administrator/popups/uploadimage.php:57
+#: administrator/popups/uploadimage.php:65
+#, php-format
+msgid "Upload of %s to %s successful"
+msgstr ""
+
+#: administrator/popups/uploadimage.php:90
+msgid "File Upload :"
+msgstr ""
+
+#: administrator/popups/uploadimage.php:100
+msgid "Max size"
+msgstr ""
+
+#: administrator/templates/mambo_admin/index.php:58
+#: administrator/templates/mambo_admin/login.php:39
+#: administrator/templates/mambo_admin_blue/index.php:58
+#: administrator/templates/mambo_admin_blue/index.php:96
+msgid "Mambo Logo"
+msgstr ""
+
+#: administrator/templates/mambo_admin/login.php:24
+#: administrator/templates/mambo_admin_blue/index.php:27
+msgid "Administration"
+msgstr ""
+
+#: administrator/templates/mambo_admin/login.php:45
+#: administrator/templates/mambo_admin/login.php:53
+#: administrator/templates/mambo_admin_blue/login.php:45
+#: administrator/templates/mambo_admin_blue/login.php:53
+msgid "Login"
+msgstr ""
+
+#: administrator/templates/mambo_admin/login.php:48
+#: administrator/templates/mambo_admin_blue/login.php:48
+msgid "Username"
+msgstr ""
+
+#: administrator/templates/mambo_admin/login.php:50
+#: administrator/templates/mambo_admin_blue/login.php:50
+msgid "Password"
+msgstr ""
+
+#: administrator/templates/mambo_admin/login.php:59
+#: administrator/templates/mambo_admin_blue/login.php:59
+msgid "Welcome to Mambo!"
+msgstr ""
+
+#: administrator/templates/mambo_admin/login.php:60
+#: administrator/templates/mambo_admin_blue/login.php:60
+msgid ""
+"Use a valid username and password to gain access to the administration "
+"console."
+msgstr ""
+
+#: administrator/templates/mambo_admin/templateDetails.xml
+msgid "Mambo Admin"
+msgstr ""
+
+#: administrator/templates/mambo_admin_blue/login.php:67
+msgid ""
+"!Warning! Javascript must be enabled for proper operation of the "
+"Administrator"
+msgstr ""
+
+#: administrator/templates/mambo_admin_blue/templateDetails.xml
+msgid "Mambo Admin Blue"
+msgstr ""

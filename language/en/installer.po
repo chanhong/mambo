@@ -1,0 +1,701 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_installer/admin.installer.html.php:21
+msgid "Unwriteable"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:21
+msgid "Writeable"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:38
+#: administrator/components/com_installer/admin.installer.php:187
+msgid "Please select a directory"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:59
+msgid "Upload Package File"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:64
+msgid "Package File:"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:66
+msgid "Upload File &amp; Install"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:86
+msgid "Install from directory"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:91
+msgid "Install directory:"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:93
+msgid "Install"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:113
+msgid "Install from HTTP URL"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:118
+msgid "Install HTTP URL:"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:120
+msgid "Upload URL &amp; Install"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:140
+msgid ""
+"Failed to open addon.xml on The Source (source.mambo-foundation.org).  Check "
+"your Internet connection."
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:154
+msgid "Add-On Installation"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:157
+msgid "Install Package(s)"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:158
+msgid ""
+"Note: Check the package or packages you wish to install below. Any number of "
+"packages or types may be installed with a single click."
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:161
+#: administrator/components/com_installer/admin.installer.html.php:263
+msgid "Mark for installation"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:162
+#: administrator/components/com_installer/admin.installer.html.php:264
+msgid "Add-On Package"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:163
+#: administrator/components/com_installer/admin.installer.html.php:265
+msgid "Package Description"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:164
+#: administrator/components/com_installer/admin.installer.html.php:266
+#: administrator/components/com_installer/component/component.html.php:43
+#: administrator/components/com_installer/mambot/mambot.html.php:56
+#: administrator/components/com_installer/module/module.html.php:52
+msgid "Author"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:165
+#: administrator/components/com_installer/admin.installer.html.php:267
+msgid "Latest Version"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:166
+#: administrator/components/com_installer/admin.installer.html.php:268
+msgid "Installed Version"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:170
+#: administrator/components/com_installer/admin.installer.html.php:272
+msgid "Package Type: Mambots"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:197
+#: administrator/components/com_installer/admin.installer.html.php:303
+msgid "Package Type: Components"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:224
+#: administrator/components/com_installer/admin.installer.html.php:332
+msgid "Package Type: Modules"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:260
+msgid "Peer Reviewed / Certified 3rd Party Add-On Installation"
+msgstr ""
+
+#. If no 3rd party components exist then display the message below
+#. If no 3rd party modules exist then display the message below
+#: administrator/components/com_installer/admin.installer.html.php:298
+#: administrator/components/com_installer/admin.installer.html.php:327
+#: administrator/components/com_installer/admin.installer.html.php:356
+msgid "There are no qualifying packages at this time"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:372
+msgid "Sorry, it seems that The Source is not available"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.html.php:426
+msgid "Continue ..."
+msgstr ""
+
+#. *
+#. * @package Mambo
+#. * @subpackage Installer
+#. * @author Mambo Foundation Inc see README.php
+#. * @copyright Mambo Foundation Inc.
+#. * See COPYRIGHT.php for copyright notices and details.
+#. * @license GNU/GPL Version 2, see LICENSE.php
+#. * Mambo is free software; you can redistribute it and/or
+#. * modify it under the terms of the GNU General Public License
+#. * as published by the Free Software Foundation; version 2 of the License.
+#.
+#. * ensure this file is being included by a parent file
+#: administrator/components/com_installer/admin.installer.php:15
+msgid "Direct Access to this location is not allowed."
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:24
+#: administrator/components/com_installer/component/component.php:19
+#: administrator/components/com_installer/language/language.php:19
+#: administrator/components/com_installer/mambot/mambot.php:19
+#: administrator/components/com_installer/module/module.php:20
+#: administrator/components/com_installer/template/template.php:19
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:72
+msgid "There was nothing selected to be uninstalled"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:74
+#, php-format
+msgid "Uninstaller not found for element [%s]"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:83
+#, php-format
+msgid "Installer not found for element [%s]"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:89
+#, php-format
+msgid "Installer not available for element [%s]"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:139
+msgid ""
+"The installer can't continue before file uploads are enabled. Please use the "
+"install from directory method."
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:140
+#: administrator/components/com_installer/admin.installer.php:147
+#: administrator/components/com_installer/admin.installer.php:213
+#: administrator/components/com_installer/admin.installer.php:222
+msgid "Installer - Error"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:146
+#: administrator/components/com_installer/admin.installer.php:206
+msgid "The installer can't continue before zlib is installed"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:154
+msgid "No file selected"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:155
+msgid "Upload new module - error"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:168
+#, php-format
+msgid "Upload %s - Upload Failed"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:173
+#: administrator/components/com_installer/admin.installer.php:228
+#: administrator/components/com_installer/admin.installer.php:233
+msgid "Failed"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:173
+#: administrator/components/com_installer/admin.installer.php:196
+#: administrator/components/com_installer/admin.installer.php:233
+#: administrator/components/com_installer/admin.installer.php:353
+#: administrator/components/com_installer/admin.installer.php:366
+#: administrator/components/com_installer/admin.installer.php:400
+#: administrator/components/com_installer/admin.installer.php:443
+#: administrator/components/com_installer/admin.installer.php:469
+#: administrator/components/com_installer/admin.installer.php:488
+msgid "Success"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:173
+#: administrator/components/com_installer/admin.installer.php:228
+#: administrator/components/com_installer/admin.installer.php:233
+#: administrator/components/com_installer/admin.installer.php:236
+msgid "Upload "
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:176
+#, php-format
+msgid "Upload %s -  Upload Error"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:196
+#: administrator/components/com_installer/admin.installer.php:236
+#: administrator/components/com_installer/admin.installer.php:353
+#: administrator/components/com_installer/admin.installer.php:400
+#: administrator/components/com_installer/admin.installer.php:443
+#: administrator/components/com_installer/admin.installer.php:488
+msgid "Error"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:196
+msgid "Install new "
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:212
+msgid "Please select an HTTP URL"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:221
+msgid "The URL did not define a file name"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:256
+#: administrator/components/com_installer/admin.installer.php:309
+msgid "Failed to change the permissions of the uploaded file."
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:259
+#: administrator/components/com_installer/admin.installer.php:282
+msgid "Failed to move uploaded file to <code>/media</code> directory."
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:265
+msgid ""
+"<font color='red'>The uploaded file exceeds the 'upload_max_filesize' "
+"directive in php.ini.</font><br />"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:268
+msgid ""
+"<font color='red'>The uploaded file exceeds the MAX_FILE_SIZE directive that "
+"was specified in the HTML form.</font><br />"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:271
+msgid ""
+"<font color='red'>The uploaded file was only partially uploaded.</font><br />"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:274
+msgid "<font color='red'>No file was uploaded.</font><br />"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:277
+msgid ""
+"<font color='red'>Missing a temporary folder. Introduced in PHP 4.3.10 and "
+"PHP 5.0.3.</font><br />"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:280
+msgid ""
+"<font color='red'>Failed to write file to disk. Introduced in PHP 5.1.0.</"
+"font><br />"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:285
+#: administrator/components/com_installer/admin.installer.php:315
+msgid "Upload failed as <code>/media</code> directory is not writable."
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:311
+msgid "Failed to open the local file from the URL."
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:313
+msgid "Failed to open the specified URL."
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:317
+msgid "Upload failed as <code>/media</code> directory does not exist."
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:334
+#: administrator/components/com_installer/admin.installer.php:418
+#: administrator/components/com_installer/admin.installer.php:424
+#: administrator/components/com_installer/admin.installer.php:429
+#: administrator/components/com_installer/admin.installer.php:493
+msgid "Uninstall -  error"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:338
+#, php-format
+msgid ""
+"Component %s is a core component, and can not be uninstalled.<br />You need "
+"to unpublish it if you don't want to use it"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:353
+msgid "Uninstall component - "
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:365
+msgid "Uninstaller could not find XML file, but cleaned database"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:366
+msgid "Uninstall "
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:366
+msgid "component - "
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:384
+#, php-format
+msgid ""
+"%s is a core module, and can not be uninstalled.<br />You need to unpublish "
+"it if you don't want to use it"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:400
+msgid "Uninstall module - "
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:423
+msgid "Invalid object id"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:428
+msgid "Folder field empty, cannot remove files"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:441
+msgid "Uninstaller did its best with no XML file present"
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:443
+msgid "Uninstall mambot - "
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:468
+msgid "Uninstall template - "
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:488
+msgid "Uninstall language - "
+msgstr ""
+
+#: administrator/components/com_installer/admin.installer.php:492
+msgid "Language id empty, cannot remove files"
+msgstr ""
+
+#: administrator/components/com_installer/component/component.html.php:29
+msgid "Installed Components"
+msgstr ""
+
+#: administrator/components/com_installer/component/component.html.php:37
+msgid "Currently Installed"
+msgstr ""
+
+#: administrator/components/com_installer/component/component.html.php:40
+msgid "Component Menu Link"
+msgstr ""
+
+#: administrator/components/com_installer/component/component.html.php:46
+#: administrator/components/com_installer/mambot/mambot.html.php:59
+#: administrator/components/com_installer/module/module.html.php:55
+msgid "Version"
+msgstr ""
+
+#: administrator/components/com_installer/component/component.html.php:49
+#: administrator/components/com_installer/mambot/mambot.html.php:62
+#: administrator/components/com_installer/module/module.html.php:58
+msgid "Date"
+msgstr ""
+
+#: administrator/components/com_installer/component/component.html.php:52
+#: administrator/components/com_installer/mambot/mambot.html.php:65
+#: administrator/components/com_installer/module/module.html.php:61
+msgid "Author Email"
+msgstr ""
+
+#: administrator/components/com_installer/component/component.html.php:55
+#: administrator/components/com_installer/mambot/mambot.html.php:68
+#: administrator/components/com_installer/module/module.html.php:64
+msgid "Author URL"
+msgstr ""
+
+#: administrator/components/com_installer/component/component.html.php:95
+msgid "There are no custom components installed"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:59
+#, php-format
+msgid "XML error in %s: no handler %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:61
+#, php-format
+msgid "XML error in %s: mosinstall has no type"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:66
+#, php-format
+msgid "XML Error in %s: install has no name"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:93
+#, php-format
+msgid "XML error in %s: MENU found, but this is not component XML"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:130
+#, php-format
+msgid "XML Error in %s: Mambot does not have a group specified"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:158
+msgid "Your system is running in Safe Mode component install is aborting!"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:165
+#, php-format
+msgid "XML error in %s: no installer %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:183
+#, php-format
+msgid "Installer error with %s: unable to create admin directory for %s %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:190
+#, php-format
+msgid "Installer error with %s: unable to create user directory for %s %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:216
+#, php-format
+msgid "Installer error with %s: writing component menu SQL error %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:228
+#: administrator/components/com_installer/installer.class.php:303
+#: administrator/components/com_installer/installer.class.php:347
+#: administrator/components/com_installer/installer.class.php:376
+#: administrator/components/com_installer/installer.class.php:418
+#, php-format
+msgid "Installer error with %s: %s %s already installed"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:244
+#: administrator/components/com_installer/installer.class.php:327
+#: administrator/components/com_installer/installer.class.php:332
+#: administrator/components/com_installer/installer.class.php:367
+#: administrator/components/com_installer/installer.class.php:429
+#, php-format
+msgid "Installer error with %s: %s %s SQL error %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:258
+#, php-format
+msgid "Installer error with %s: writing component SQL error %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:282
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:284
+#, php-format
+msgid "The com_install() function for component \"%s\" aborted with: %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:294
+#: administrator/components/com_installer/installer.class.php:339
+#, php-format
+msgid "Installer error with %s: no file identified as the %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:441
+#, php-format
+msgid "Patch install error with %s: cannot write %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:447
+#, php-format
+msgid "Patch install error with %s: cannot delete %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:452
+#, php-format
+msgid "Patch install error with %s: file permissions prevent patch application"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:457
+#, php-format
+msgid "Patch install error with %s: failed to delete %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:463
+#, php-format
+msgid "Patch install error with %s: failed to write %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:467
+#, php-format
+msgid "Patch install error with %s: check was OK, but application failed"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:468
+#, php-format
+msgid "Patch install %s: completed successfully"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:536
+#, php-format
+msgid "Uninstaller error with %s: no uninstaller %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:576
+#, php-format
+msgid "Uninstaller error with %s: %s %s SQL error %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:586
+#: administrator/components/com_installer/installer.class.php:608
+#: administrator/components/com_installer/installer.class.php:627
+#, php-format
+msgid "Uninstaller error with %s: %s %s not fully deleted from database"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:599
+#, php-format
+msgid "Uninstaller error with %s: no file identified as the %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:704
+#, php-format
+msgid "Installer unrecoverable ZIP error %s in %s"
+msgstr ""
+
+#: administrator/components/com_installer/installer.class.php:713
+#, php-format
+msgid "Installer unrecoverable TAR error in %s"
+msgstr ""
+
+#: administrator/components/com_installer/language/language.php:22
+msgid "Back to Language Manager"
+msgstr ""
+
+#: administrator/components/com_installer/language/language.php:23
+msgid "Install new Language - Site"
+msgstr ""
+
+#: administrator/components/com_installer/mambot/mambot.html.php:28
+msgid "Installed Mambots"
+msgstr ""
+
+#: administrator/components/com_installer/mambot/mambot.html.php:33
+msgid ""
+"Only those Mambots that can be uninstalled are displayed - some Core Mambots "
+"cannot be removed."
+msgstr ""
+
+#: administrator/components/com_installer/mambot/mambot.html.php:44
+msgid "Mambot"
+msgstr ""
+
+#: administrator/components/com_installer/mambot/mambot.html.php:47
+msgid "Type"
+msgstr ""
+
+#: administrator/components/com_installer/mambot/mambot.html.php:123
+msgid "There are no non-core, custom mambots installed."
+msgstr ""
+
+#: administrator/components/com_installer/module/module.html.php:26
+msgid "Installed Modules"
+msgstr ""
+
+#: administrator/components/com_installer/module/module.html.php:29
+msgid "Filter:"
+msgstr ""
+
+#: administrator/components/com_installer/module/module.html.php:37
+msgid ""
+"Only those Modules that can be uninstalled are displayed - some Core Modules "
+"cannot be removed."
+msgstr ""
+
+#: administrator/components/com_installer/module/module.html.php:46
+msgid "Module File"
+msgstr ""
+
+#: administrator/components/com_installer/module/module.html.php:49
+msgid "Client"
+msgstr ""
+
+#: administrator/components/com_installer/module/module.html.php:76
+#: administrator/components/com_installer/template/template.php:27
+msgid "Administrator"
+msgstr ""
+
+#: administrator/components/com_installer/module/module.html.php:76
+#: administrator/components/com_installer/template/template.php:27
+msgid "Site"
+msgstr ""
+
+#: administrator/components/com_installer/module/module.html.php:100
+msgid "No custom modules installed"
+msgstr ""
+
+#: administrator/components/com_installer/module/module.php:34
+msgid "All"
+msgstr ""
+
+#: administrator/components/com_installer/module/module.php:35
+msgid "Site Modules"
+msgstr ""
+
+#: administrator/components/com_installer/module/module.php:36
+msgid "Admin Modules"
+msgstr ""
+
+#: administrator/components/com_installer/template/template.php:27
+msgid "Install new Template"
+msgstr ""
+
+#: administrator/components/com_installer/template/template.php:29
+msgid "Back to Templates"
+msgstr ""
+
+#: administrator/components/com_installer/toolbar.installer.html.php:28
+msgid "Uninstall"
+msgstr ""
+
+#: administrator/components/com_installer/universal/universal.php:26
+msgid ""
+"Install Mambo plugin (component, module, mambot, template, include, "
+"parameter, composite)"
+msgstr ""

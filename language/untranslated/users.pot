@@ -1,0 +1,284 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_users/admin.users.html.php:23
+msgid "User Manager"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:26
+msgid "Filter:"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:49
+msgid "Name"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:52
+#: administrator/components/com_users/admin.users.php:173
+msgid "Logged In"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:55
+msgid "Enabled"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:58
+msgid "UserID"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:61
+msgid "Group"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:64
+msgid "E-Mail"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:67
+msgid "Last Visit"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:149
+msgid "You must provide a name."
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:151
+msgid "You must provide a user login name."
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:153
+msgid "Your login name contains invalid characters or is too short."
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:155
+msgid "You must provide an email address."
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:157
+msgid "You must assign user to a group."
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:159
+msgid "Passwords do not match."
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:161
+msgid ""
+"Please Select another group as `Public Frontend` is not a selectable option"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:163
+msgid ""
+"Please Select another group as `Public Backend` is not a selectable option"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:180
+msgid "Add"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:180
+msgid "Edit"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:180
+msgid "User:"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:191
+msgid "User Details"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:196
+#: administrator/components/com_users/admin.users.html.php:325
+msgid "Name:"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:204
+msgid "Username:"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:211
+msgid "Email:"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:219
+msgid "New Password:"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:227
+msgid "Verify Password:"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:235
+msgid "Group:"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:246
+msgid "Block User"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:258
+msgid "Receive Submission Emails"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:270
+msgid "Register Date"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:278
+msgid "Last Visit Date"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:301
+#: administrator/components/com_users/admin.users.html.php:320
+msgid "Contact Information"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:307
+msgid "No Contact details linked to this User:"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:309
+msgid "See \"Components -> Contact -> Manage Contacts\" for details."
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:335
+msgid "Position:"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:345
+msgid "Telephone:"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:355
+msgid "Fax:"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:377
+msgid "Contact"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:386
+msgid "Change Contact Details"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.html.php:389
+msgid "Components -> Contact -> Manage Contacts"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:14
+#: administrator/components/com_users/admin.users.php:197
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:166
+msgid "- Select Group -"
+msgstr ""
+
+#. get list of Log Status for dropdown filter
+#: administrator/components/com_users/admin.users.php:172
+msgid "- Select Log Status - "
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:174
+msgid "Not Logged In"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:202
+msgid "Super Administrator"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:204
+msgid "Administrator"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:326
+msgid "New User Details"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:327
+#, php-format
+msgid ""
+"Hello %s,\n"
+"\n"
+"\n"
+"You have been added as a user to %s by an Administrator.\n"
+"\n"
+"This email contains your username and password to log into the %s\n"
+"\n"
+"Username - %s\n"
+"Password - %s\n"
+"\n"
+"\n"
+"Please do not respond to this message as it is automatically generated and "
+"is for information purposes only"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:356
+#, php-format
+msgid "Successfully Saved changes to User: %s"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:361
+#, php-format
+msgid "Successfully Saved User: %s"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:380
+msgid "Select an item to delete"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:392
+msgid "You cannot delete a Super Administrator"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:394
+msgid "You cannot delete Yourself!"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:396
+msgid ""
+"You cannot delete another `Administrator` only `Super Administrators` have "
+"this power"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:430
+msgid "block"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:430
+msgid "unblock"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:431
+#, php-format
+msgid "Select an item to %s"
+msgstr ""
+
+#: administrator/components/com_users/admin.users.php:466
+msgid "Please select a user"
+msgstr ""
+
+#. for existing content items the button is renamed `close`
+#: administrator/components/com_users/toolbar.users.html.php:27
+msgid "Close"
+msgstr ""
+
+#: administrator/components/com_users/toolbar.users.html.php:45
+msgid "Force Logout"
+msgstr ""

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="4.6" type="mambot" group="content">
+	<name>MOS Comment</name>
+	<author>Mambo Foundation</author>
+	<creationDate>April 2007</creationDate>
+	<copyright>copyright (C) 2005 - 2007 Mambo Foundation Inc.</copyright>
+	<license>http://www.opensource.org/licenses/gpl-license.php GNU/GPL v.2</license>
+	<authorEmail>core@mambo-foundation.org</authorEmail>
+	<authorUrl>mambo-foundation.org</authorUrl>
+	<version>1.2</version>
+  <description>Adds a commenting feature to articles within selected sections</description>
+  <files>
+    <filename mambot="moscomment">moscomment.php</filename>
+    <filename>moscomment.xml</filename>
+  </files>
+  <params/>
+</mosinstall>

@@ -1,0 +1,326 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:26
+msgid "Database Backup"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:33
+msgid "Where would you like to back up your Database Tables to?"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:35
+msgid "Display Results on the Screen"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:37
+msgid "Download to a file on my local computer"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:39
+msgid "Store the file in the backup directory on the server"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:42
+msgid "What format would you like to save them as?"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:46
+msgid "As a Zip file"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:52
+msgid "As a BZip file"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:58
+msgid "As a GZip file"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:62
+msgid "As a SQL (plain text) file"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:64
+msgid "As formatted HTML"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:67
+msgid "What do you want to back up?"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:68
+msgid "Data Only"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:69
+msgid "Structure Only"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:70
+msgid "Data and Structure"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:73
+msgid ""
+"Which Database Tables would you like to back up?<br />\n"
+"          Please note, it is highly recommended you select ALL your tables."
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:81
+msgid "Backup the Selected Tables"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:99
+msgid "Existing Backups"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:107
+msgid "Backup File Name"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:107
+msgid "Created Date/Time"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:122
+msgid ""
+"Error!<br />Invalid or non-existant backup path in your configuration file :"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:128
+msgid ""
+"Error!<br />Backup path in your configuration file has not been configured."
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:134
+msgid ""
+"Or alternatively, if you've downloaded a backup to your computer, you can "
+"restore from a local file :"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:147
+msgid "Perform the Restore"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:147
+msgid "Reset"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:174
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:187
+msgid "Execute Query"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:188
+msgid "Clear Query"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.html.php:189
+msgid "Batch Mode"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:18
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:60
+msgid "All Mambo Tables"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:77
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:279
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:284
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:304
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:323
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:328
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:352
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:357
+msgid "DB Admin"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:77
+msgid ""
+"Error! No database table(s) specified. Please select at least one table and "
+"re-try.</p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:279
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:323
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:352
+#, php-format
+msgid ""
+"Database backup FAILURE!!<br />File %s/%s not writable<br />Please contact "
+"your admin/webmaster!</p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:284
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:304
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:328
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:357
+#, php-format
+msgid ""
+"Database backup successful! Your file was saved on the server in directory :"
+"<br />%s/%s</p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:300
+#, php-format
+msgid ""
+"Database backup FAILURE!!<br />File %s/%s not writable<br />Please contact "
+"your admin/webmaster!"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:400
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:407
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:427
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:441
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:452
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:464
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:475
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:487
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:497
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:549
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:555
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:576
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:587
+msgid "DB Admin - Restore"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:400
+msgid "Error! could not move uploaded file.</p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:407
+msgid "Error! No restore file specified.</p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:427
+msgid ""
+"Error! Backup path in your configuration file has not been configured.</p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:441
+#, php-format
+msgid ""
+"Error! Invalid file extension in input file (%s).<br />Only *.sql, *.bz2, or "
+"*.gz files may be uploaded.</p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:452
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:475
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:497
+#, php-format
+msgid ""
+"Error! Unable to open input file (%s) for reading or file contains no "
+"records.</p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:464
+msgid ""
+"Error! Unable to process gzip file as gzinflate function is unavailable.</p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:487
+msgid ""
+"Error! Unable to process bzip file as bzdecompress function is unavailable.</"
+"p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:493
+msgid "trying to access"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:532
+#, php-format
+msgid "Unrecoverable error '%s'"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:549
+#, php-format
+msgid "No SQL file found in %s"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:555
+#, php-format
+msgid "Error! Unrecognized input file type. (%s : %s)</p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:576
+msgid ""
+"Error! Your input file contains a DROP or CREATE DATABASE statement. Please "
+"delete these statements before trying to restore the file.</p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:587
+#, php-format
+msgid ""
+"Success! Database has been restored to the backup you requested (%d SQL "
+"queries processed).</p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:622
+msgid "The query was empty."
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:624
+#, php-format
+msgid "You are not permitted to execute a <strong>%s</strong> query"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:634
+msgid "The query executed successfully."
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:635
+#, php-format
+msgid "<br />%d rows where affected."
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/admin.mostlydbadmin.php:641
+#, php-format
+msgid "The query was unsuccessful.  It return the error code %d"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/mostlydbadmin.xml
+msgid ""
+"<p>MOStlyDBAdmin is used for easy back up/restore of your database.</p><p>  "
+"It is a revival \tof the dbadmin component for use in the Mambo 4.6+ core.  "
+"The dbadmin \tcomponent stopped working with Mambo 4.5.3h and development "
+"appears to have ceased.</p>"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/mostlydbadmin.xml
+msgid "Backup Database"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/mostlydbadmin.xml
+msgid "MOStlyDBAdmin"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/mostlydbadmin.xml
+msgid "MOStlyDBAdmin DB Tools"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/mostlydbadmin.xml
+msgid "Query Database"
+msgstr ""
+
+#: administrator/components/com_mostlydbadmin/mostlydbadmin.xml
+msgid "Restore Database"
+msgstr ""

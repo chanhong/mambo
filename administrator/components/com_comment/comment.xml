@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<mosinstall type="component">
+  <name>Comment</name>
+	<author>Mambo Foundation</author>
+	<creationDate>August 2006</creationDate>
+	<copyright>copyright (C) 2000 - 2007 Mambo Foundation Inc.</copyright>
+	<license>http://www.opensource.org/licenses/gpl-license.php GNU/GPL v.2</license>
+	<authorEmail>core@mambo-foundation.org</authorEmail>
+	<authorUrl>mambo-foundation.org</authorUrl>
+	<version>1.0</version>
+  <description>Adds a commenting feature to articles within selected sections</description>
+  <files>
+    <filename>comment.php</filename>
+  </files>  
+  <install>
+    <queries>
+      <query>DROP TABLE IF EXISTS `#__comment`</query>
+      <query>
+        CREATE TABLE `#__comment` (
+          `id` int(10) NOT NULL auto_increment,
+          `articleid` int(10) NOT NULL default '0',
+          `ip` varchar(15) NOT NULL default '',
+          `name` varchar(30) NOT NULL default '',
+          `comments` text NOT NULL,
+          `startdate` datetime NOT NULL default '0000-00-00 00:00:00',
+          `published` tinyint(1) NOT NULL default '0',
+          PRIMARY KEY  (`id`)
+        ) TYPE=MyISAM;
+      </query>
+    </queries>
+  </install>
+  <uninstall>
+    <queries>
+      <query>DELETE FROM `#__comment`</query>
+      <query>DROP TABLE `#__comment`</query>
+    </queries>
+  </uninstall>
+    <installfile>install.comment.php</installfile>
+    <uninstallfile>uninstall.comment.php</uninstallfile>
+  <administration>
+    <menu>Comment</menu>
+    <submenu>
+      <menu task="comments">View Comments</menu>
+      <menu task="settings">Edit Settings</menu>
+    </submenu>
+    <files>
+      <filename>admin.comment.html.php</filename>
+      <filename>admin.comment.php</filename>
+      <filename>class.comment.php</filename>
+      <filename>config.comment.php</filename>
+      <filename>install.comment.php</filename>
+      <filename>toolbar.comment.html.php</filename>
+      <filename>toolbar.comment.php</filename>
+      <filename>uninstall.comment.php</filename>
+    </files>   
+</administration>
+</mosinstall>

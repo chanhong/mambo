@@ -1,0 +1,360 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: administrator/components/com_categories/admin.categories.html.php:36
+#: administrator/components/com_categories/admin.categories.html.php:54
+msgid "Category Manager"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:36
+msgid "Content: All"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:71
+msgid "Category Name"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:74
+msgid "Published"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:80
+msgid "Reorder"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:86
+msgid "Order"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:89
+msgid "Save Order"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:92
+msgid "Access"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:98
+msgid "Section"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:104
+msgid "Category ID"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:110
+msgid "Active"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:113
+msgid "Trash"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:182
+msgid "Edit Section"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:242
+msgid "Content"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:246
+#: administrator/components/com_categories/admin.categories.php:141
+msgid "Contact"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:261
+msgid "Please select a Menu"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:264
+msgid "Please select a menu type"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:267
+msgid "Please enter a Name for this menu item"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:273
+msgid "Category must have a name"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:321
+msgid "Category:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:323
+msgid "Edit"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:323
+msgid "New"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:335
+msgid "Show Advanced Details"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:338
+msgid "Hide Advanced Details"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:349
+msgid "Category Details"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:354
+msgid "Category Title:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:357
+msgid "A short name to appear in menus"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:362
+msgid "Category Name:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:365
+msgid "A long name to be displayed in headings"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:370
+msgid "Section:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:378
+msgid "Image:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:390
+msgid "Preview"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:396
+msgid "Image Position:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:404
+msgid "Ordering:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:412
+msgid "Access Level:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:420
+msgid "Published:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:428
+msgid "Description:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:449
+#: administrator/components/com_categories/admin.categories.html.php:486
+msgid "Link to Menu"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:454
+msgid "This will create a new menu item in the menu you select"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:460
+msgid "Select a Menu"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:468
+msgid "Select Menu Type"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:476
+msgid "Menu Item Name"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:491
+msgid "Existing Menu Links"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:499
+msgid "None"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:517
+msgid "Menu links available when saved"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:554
+msgid "Move Category"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:564
+msgid "Move to Section:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:570
+msgid "Categories being moved:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:581
+msgid "Content Items being moved:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:596
+msgid ""
+"This will move the Categories listed <br />and all the items within the "
+"category (also listed) <br />to the selected Section."
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:627
+msgid "Copy Category"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:637
+msgid "Copy to Section:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:643
+msgid "Categories being copied:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:654
+msgid "Content Items being copied:"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.html.php:665
+msgid ""
+"\n"
+"\t\t\tThis will copy the Categories listed\n"
+"\t\t\t<br />\n"
+"\t\t\tand all the items within the category (also listed)\n"
+"\t\t\t<br />\n"
+"\t\t\tto the selected Section."
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:143
+msgid "Component: "
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:258
+#, php-format
+msgid "The category %s is currently being edited by another administrator"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:277
+msgid "Category Table"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:281
+msgid "Category Blog"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:285
+msgid "Category Blog Archive"
+msgstr ""
+
+#. build the html select list for category types
+#: administrator/components/com_categories/admin.categories.php:329
+msgid "Select Type"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:331
+#: administrator/components/com_categories/admin.categories.php:806
+msgid "Contact Category Table"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:334
+#: administrator/components/com_categories/admin.categories.php:811
+msgid "News Feed Category Table"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:337
+#: administrator/components/com_categories/admin.categories.php:816
+msgid "Web Link Category Table"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:339
+#: administrator/components/com_categories/admin.categories.php:791
+msgid "Content Category Table"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:340
+#: administrator/components/com_categories/admin.categories.php:796
+msgid "Content Category Blog"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:341
+msgid "Content Category Archive Blog"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:454
+msgid "Select a category to delete"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:530
+msgid "publish"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:530
+msgid "unpublish"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:531
+#, php-format
+msgid "Select a category to %s"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:594
+#: administrator/components/com_categories/admin.categories.php:664
+msgid "Select an item to move"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:750
+#, php-format
+msgid "%d Category copied to %s"
+msgid_plural "%d Categories copied to %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_categories/admin.categories.php:801
+msgid "Content Category Blog Archive"
+msgstr ""
+
+#: administrator/components/com_categories/admin.categories.php:842
+#, php-format
+msgid "%s ( %s ) in menu: %s successfully created"
+msgstr ""
+
+#. foreach
+#: administrator/components/com_categories/admin.categories.php:868
+msgid "New ordering saved"
+msgstr ""
+
+#. for existing content items the button is renamed `close`
+#: administrator/components/com_categories/toolbar.categories.html.php:31
+msgid "Close"
+msgstr ""
+
+#: administrator/components/com_categories/toolbar.categories.html.php:94
+msgid "Move"
+msgstr ""
+
+#: administrator/components/com_categories/toolbar.categories.html.php:96
+msgid "Copy"
+msgstr ""

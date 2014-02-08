@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_media/admin.media.html.php:83
+#: administrator/components/com_media/media.xml
+msgid "Media Manager"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.html.php:90
+msgid "Directory"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.html.php:111
+#: administrator/components/com_media/toolbar.media.html.php:24
+msgid "Upload"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.html.php:114
+msgid "Max size"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.html.php:118
+#: administrator/components/com_media/admin.media.html.php:211
+#: administrator/components/com_media/admin.media.html.php:280
+msgid "Code"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.html.php:122
+msgid "Create Directory"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.html.php:162
+msgid "No Images Found"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.html.php:173
+#, php-format
+msgid "Configuration Problem: &quot; %s &quot; does not exist."
+msgstr ""
+
+#: administrator/components/com_media/admin.media.html.php:213
+#: administrator/components/com_media/admin.media.html.php:250
+#: administrator/components/com_media/admin.media.html.php:282
+msgid "Delete"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.html.php:269
+msgid "Insert your text here"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.html.php:368
+msgid "\"Delete file \\\"\"+file+\"\\\"?\""
+msgstr ""
+
+#: administrator/components/com_media/admin.media.html.php:376
+msgid ""
+"\"There are \"+numFiles+\" files/folders in \\\"\"+folder+\"\\\".\\n"
+"\\nPlease delete all files/folder in \\\"\"+folder+\"\\\" first.\""
+msgstr ""
+
+#: administrator/components/com_media/admin.media.html.php:380
+msgid "\"Delete folder \\\"\"+folder+\"\\\"?\""
+msgstr ""
+
+#: administrator/components/com_media/admin.media.php:16
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_media/admin.media.php:35
+msgid "NO HACKING PLEASE"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.php:47
+msgid ""
+"Directory creation not allowed while running in SAFE MODE as this can cause "
+"problems."
+msgstr ""
+
+#: administrator/components/com_media/admin.media.php:91
+msgid ""
+"Directory name must only contain alphanumeric characters and no spaces "
+"please."
+msgstr ""
+
+#: administrator/components/com_media/admin.media.php:127
+msgid "Unable to delete: not empty!"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.php:159
+msgid "Upload FAILED. File already exists"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.php:163
+msgid ""
+"Only files of type gif, png, jpg, bmp, pdf, swf, doc, xls or ppt can be "
+"uploaded"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.php:167
+msgid "Upload FAILED"
+msgstr ""
+
+#: administrator/components/com_media/admin.media.php:171
+msgid "Upload complete"
+msgstr ""
+
+#: administrator/components/com_media/media.xml
+msgid "This component manages site media"
+msgstr ""
+
+#: administrator/components/com_media/toolbar.media.html.php:26
+msgid "Create"
+msgstr ""

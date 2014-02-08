@@ -1,0 +1,1192 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: administrator/components/com_content/admin.content.html.php:32
+#: administrator/components/com_content/admin.content.html.php:36
+msgid "Content Items Manager"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:32
+msgid "Section: All"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:36
+#: administrator/components/com_content/admin.content.html.php:301
+#: administrator/components/com_content/admin.content.html.php:305
+#: administrator/components/com_content/admin.content.html.php:582
+#: administrator/components/com_content/admin.content.html.php:624
+msgid "Section:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:59
+#: administrator/components/com_content/admin.content.html.php:328
+msgid "Filter:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:76
+#: administrator/components/com_content/admin.content.html.php:345
+msgid "Title"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:79
+#: administrator/components/com_content/admin.content.html.php:131
+#: administrator/components/com_content/admin.content.html.php:134
+#: administrator/components/com_content/admin.content.html.php:777
+#: components/com_content/content.php:1278
+msgid "Published"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:82
+msgid "Front Page"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:85
+msgid "Reorder"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:88
+#: administrator/components/com_content/admin.content.html.php:348
+#: components/com_content/content.html.php:174
+msgid "Order"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:91
+#: administrator/components/com_content/admin.content.html.php:351
+msgid "Save Order"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:94
+msgid "Access"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:97
+msgid "ID"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:103
+msgid "Section"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:109
+#: administrator/components/com_content/admin.content.html.php:354
+msgid "Category"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:112
+#: administrator/components/com_content/admin.content.html.php:357
+#: components/com_content/content.html.php:219
+msgid "Author"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:115
+#: administrator/components/com_content/admin.content.html.php:360
+#: components/com_content/content.html.php:205
+msgid "Date"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:137
+msgid "Expired"
+msgstr ""
+
+#. make the select list for the states
+#: administrator/components/com_content/admin.content.html.php:140
+#: components/com_content/content.html.php:595
+#: components/com_content/content.php:1277
+msgid "Unpublished"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:145
+msgid "Always"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:145
+#: administrator/components/com_content/admin.content.html.php:147
+msgid "Start:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:152
+#: administrator/components/com_content/admin.content.html.php:154
+msgid "Finish:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:152
+msgid "No Expiry"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:163
+#: administrator/components/com_content/admin.content.html.php:375
+msgid "Edit User"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:191
+msgid "Edit Content"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:202
+msgid "Publish Information"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:211
+#: administrator/components/com_content/content.xml
+msgid "No"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:211
+#: administrator/components/com_content/content.xml
+msgid "Yes"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:233
+msgid "Edit Section"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:241
+#: administrator/components/com_content/admin.content.html.php:401
+msgid "Edit Category"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:284
+msgid "Please make a selection from the list to send to Trash"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:285
+msgid ""
+"Are you sure you want to Trash the selected items? \\nThis will not "
+"permanently delete the items."
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:301
+msgid "All"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:301
+#: administrator/components/com_content/admin.content.html.php:305
+msgid "Archive Manager"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:495
+msgid "Please select a Menu"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:498
+msgid "Please enter a Name for this menu item"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:516
+#: components/com_content/content.html.php:909
+msgid "Content item must have a title"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:518
+msgid "You must select a Section."
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:520
+#: administrator/components/com_content/admin.content.html.php:522
+msgid "You must select a Category."
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:574
+msgid "Content Item:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:576
+#: components/com_content/content.html.php:588
+#: components/com_content/content.html.php:590
+#: components/com_content/content.html.php:963
+msgid "Edit"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:576
+#: components/com_content/content.html.php:321
+#: components/com_content/content.html.php:322
+msgid "New"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:595
+msgid "Show Advanced Details"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:598
+msgid "Hide Advanced Details"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:613
+msgid "Item Details"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:618
+#: components/com_content/content.html.php:987
+msgid "Title:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:632
+msgid "Title Alias:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:638
+#: components/com_content/content.html.php:1000
+msgid "Category:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:650
+msgid "Intro Text:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:650
+msgid "required"
+msgstr ""
+
+#. parameters : areaname, content, hidden field, width, height, rows, cols
+#: administrator/components/com_content/admin.content.html.php:658
+msgid "Main Text:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:658
+msgid "optional"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:677
+#: components/com_content/content.html.php:1142
+msgid "Publishing"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:682
+msgid "Publishing Info"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:687
+msgid "Show on Frontpage:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:695
+msgid "Published:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:703
+#: components/com_content/content.html.php:1160
+msgid "Access Level:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:710
+#: components/com_content/content.html.php:1168
+msgid "Author Alias:"
+msgstr ""
+
+#. cause Mambo to be extremely slow w/ huge user table, comment out for now echo T_('Change Creator:');
+#. cause Mambo to be extremely slow w/ huge user table, comment out for now echo $lists['created_by'];
+#: administrator/components/com_content/admin.content.html.php:724
+#: components/com_content/content.html.php:1176
+msgid "Ordering:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:730
+msgid "Override Created Date"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:739
+#: components/com_content/content.html.php:1184
+msgid "Start Publishing:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:748
+#: components/com_content/content.html.php:1193
+msgid "Finish Publishing:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:763
+msgid "Content ID:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:774
+#: components/com_content/content.html.php:1150
+msgid "State:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:777
+msgid "Archived"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:777
+msgid "Draft Unpublished"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:783
+#: components/com_content/content.html.php:226
+msgid "Hits"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:789
+msgid "Reset Hit Count"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:796
+msgid "Revised"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:800
+msgid "times"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:806
+msgid "Created"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:810
+#: administrator/components/com_content/admin.content.html.php:820
+msgid "By"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:816
+msgid "Last Modified"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:826
+#: components/com_content/content.html.php:1057
+msgid "Images"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:831
+msgid "MOSImage Control"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:835
+msgid "Sub-folder:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:839
+msgid "Gallery Images:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:849
+#: components/com_content/content.html.php:963
+msgid "Add"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:854
+msgid "Content Images:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:864
+msgid "up"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:865
+msgid "down"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:866
+msgid "remove"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:871
+msgid "Edit the image selected:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:875
+#: components/com_content/content.html.php:1092
+msgid "Source:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:883
+msgid "Image Align:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:891
+#: components/com_content/content.html.php:1108
+msgid "Alt Text:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:899
+#: components/com_content/content.html.php:1116
+msgid "Border:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:907
+msgid "Caption:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:915
+msgid "Caption Position:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:923
+msgid "Caption Align:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:931
+msgid "Width:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:939
+#: components/com_content/content.html.php:1125
+msgid "Apply"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:948
+msgid "Parameters"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:953
+msgid "Parameter Control"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:958
+msgid ""
+"These Parameters only control what you see when you click to view an item "
+"fully"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:970
+msgid "Meta Info"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:975
+msgid "Meta Data"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:980
+#: components/com_content/content.html.php:1216
+msgid "Description:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:987
+#: components/com_content/content.html.php:1224
+msgid "Keywords:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:994
+msgid "Add Sect/Cat/Title"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1000
+#: administrator/components/com_content/admin.content.html.php:1005
+#: administrator/components/com_content/admin.content.html.php:1034
+msgid "Link to Menu"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1010
+msgid "This will create a 'Link - Content Item' in the menu you select"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1016
+msgid "Select a Menu"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1024
+msgid "Menu Item Name"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1039
+msgid "Existing Menu Links"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1047
+msgid "None"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1109
+msgid "Please select something"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1121
+msgid "Move Items"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1130
+msgid "Move to Section/Category:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1136
+msgid "Items being Moved:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1179
+msgid "Please select a Section/Category to copy the items to"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1190
+msgid "Copy Content Items"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1199
+msgid "Copy to Section/Category:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.html.php:1205
+msgid "Items being copied:"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:160
+msgid "All Content Items"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:241
+#: administrator/components/com_content/admin.content.php:352
+msgid "- All Authors -"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:383
+msgid "You cannot edit an archived item"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:408
+#, php-format
+msgid "The module %s is currently being edited by another administrator"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:424
+#: administrator/components/com_content/admin.content.php:456
+#: administrator/components/com_content/admin.content.php:596
+msgid "Never"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:475
+msgid "Select Section"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:477
+msgid "Add Section(s) First"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:486
+#: administrator/components/com_content/admin.content.php:501
+#: administrator/components/com_content/admin.content.php:509
+msgid "Select Category"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:496
+msgid "Add Categories First"
+msgstr ""
+
+#. build the select list for the image caption position
+#: administrator/components/com_content/admin.content.php:551
+msgid "Bottom"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:552
+msgid "Top"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:679
+msgid "Successfully Saved changes to Item: "
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:684
+msgid "Successfully Saved Item: "
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:703
+msgid "archive"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:703
+msgid "publish"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:703
+msgid "unpublish"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:704
+#, php-format
+msgid "Select an item to %s"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:725
+#, php-format
+msgid "%d Item successfully Archived"
+msgid_plural "%d Items successfully Archived"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_content/admin.content.php:727
+#, php-format
+msgid "%d Item successfully Published"
+msgid_plural "%d Items successfully Published"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_content/admin.content.php:729
+#, php-format
+msgid "%d Item successfully Unpublished"
+msgid_plural "%d Items successfully Unpublished"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_content/admin.content.php:755
+msgid "Select an item to toggle"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:790
+msgid "Select an item to delete"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:807
+#, php-format
+msgid "%d Item sent to the Trash"
+msgid_plural "%d Items sent to the Trash"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_content/admin.content.php:851
+#: administrator/components/com_content/admin.content.php:951
+msgid "Select an item to move"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:890
+#: administrator/components/com_content/admin.content.php:994
+msgid "An error has occurred"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:939
+#, php-format
+msgid "%d Item successfully moved to Section: %s, Category: %s"
+msgid_plural "%d Items successfully moved to Section: %s, Category: %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_content/admin.content.php:1066
+#, php-format
+msgid "%d Item successfully copied to Section: %s, Category: %s"
+msgid_plural "%d Items successfully copied to Section: %s, Category: %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_content/admin.content.php:1083
+msgid "Successfully Reset Hit count"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:1114
+msgid "- All Categories -"
+msgstr ""
+
+#: administrator/components/com_content/admin.content.php:1150
+#, php-format
+msgid "%s (Link - Static Content) in menu: %s successfully created"
+msgstr ""
+
+#. foreach
+#: administrator/components/com_content/admin.content.php:1192
+msgid "New ordering saved"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid ""
+"A suffix to be applied to the css classes of the page, this allows "
+"individual page styling"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Author Names"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Back Button"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Category Name"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Category Name Linkable"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Content Page"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Created Date and Time"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Email Icon"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Hide"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+#: components/com_content/content.html.php:1016
+msgid "Intro Text"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Item Rating"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Linked Titles"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Make the Category text a link to the actual Category page"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Make the Section text a link to the actual section page"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Make your Item titles linkable"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Modified Date and Time"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "PDF Icon"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Page Class Suffix"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Page Title"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Print Icon"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Section Name"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Section Name Linkable"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Show"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Show/Hide a Back Button, that returns you to the previously view page"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Show/Hide the Category the item belongs to"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Show/Hide the Section the item belongs to"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Show/Hide the intro text"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Show/Hide the item author - only affects this page"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Show/Hide the item creation date - only affects this page"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Show/Hide the item email button - only affects this page"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Show/Hide the item modification date - only affects this page"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Show/Hide the item pdf button - only affects this page"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Show/Hide the item print button - only affects this page"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Show/Hide the item rating - only affects this page"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Show/Hide the items title"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "This shows a single content page"
+msgstr ""
+
+#: administrator/components/com_content/content.xml
+msgid "Use Global"
+msgstr ""
+
+#. for existing content items the button is renamed `close`
+#: administrator/components/com_content/toolbar.content.html.php:25
+msgid "Close"
+msgstr ""
+
+#: administrator/components/com_content/toolbar.content.html.php:42
+msgid "Trash"
+msgstr ""
+
+#: administrator/components/com_content/toolbar.content.html.php:50
+#: administrator/components/com_content/toolbar.content.html.php:60
+msgid "Save"
+msgstr ""
+
+#: administrator/components/com_content/toolbar.content.html.php:78
+msgid "Move"
+msgstr ""
+
+#: administrator/components/com_content/toolbar.content.html.php:80
+msgid "Copy"
+msgstr ""
+
+#: components/com_content/content.html.php:71
+msgid "This Category is currently empty"
+msgstr ""
+
+#: components/com_content/content.html.php:117
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: components/com_content/content.html.php:133
+msgid "Registered Users Only"
+msgstr ""
+
+#: components/com_content/content.html.php:163
+msgid "Filter"
+msgstr ""
+
+#: components/com_content/content.html.php:185
+msgid "Display #"
+msgstr ""
+
+#: components/com_content/content.html.php:212
+msgid "Item Title"
+msgstr ""
+
+#: components/com_content/content.html.php:269
+#: components/com_content/content.html.php:421
+msgid "Register to read more..."
+msgstr ""
+
+#: components/com_content/content.html.php:349
+msgid "More..."
+msgstr ""
+
+#: components/com_content/content.html.php:416
+msgid "Read more..."
+msgstr ""
+
+#: components/com_content/content.html.php:611
+#: components/com_content/content.html.php:613
+#: components/com_content/content.html.php:617
+msgid "PDF"
+msgstr ""
+
+#: components/com_content/content.html.php:636
+#: components/com_content/content.html.php:638
+#: components/com_content/content.html.php:642
+msgid "E-mail"
+msgstr ""
+
+#: components/com_content/content.html.php:717
+msgid "Contributed by"
+msgstr ""
+
+#: components/com_content/content.html.php:717
+msgid "Written by"
+msgstr ""
+
+#: components/com_content/content.html.php:789
+msgid "Last Updated"
+msgstr ""
+
+#: components/com_content/content.html.php:829
+msgid "Previous"
+msgstr ""
+
+#: components/com_content/content.html.php:845
+msgid "Next"
+msgstr ""
+
+#: components/com_content/content.html.php:913
+msgid "Please select a category"
+msgstr ""
+
+#: components/com_content/content.html.php:915
+#: components/com_content/content.html.php:924
+msgid "Content item must have intro text"
+msgstr ""
+
+#: components/com_content/content.html.php:940
+msgid "Please either Cancel or Save the current change"
+msgstr ""
+
+#. $docinfo = "<strong>".T_('Subject:')."</strong> ";
+#. $docinfo .= $row->title."<br />";
+#: components/com_content/content.html.php:949
+msgid "Expiry Date:"
+msgstr ""
+
+#: components/com_content/content.html.php:951
+msgid "Version:"
+msgstr ""
+
+#: components/com_content/content.html.php:953
+msgid "Created:"
+msgstr ""
+
+#: components/com_content/content.html.php:955
+msgid "Last Modified:"
+msgstr ""
+
+#: components/com_content/content.html.php:957
+msgid "Hits:"
+msgstr ""
+
+#: components/com_content/content.html.php:964
+msgid "Content"
+msgstr ""
+
+#: components/com_content/content.html.php:965
+msgid "Item Information"
+msgstr ""
+
+#: components/com_content/content.html.php:966
+msgid "Info"
+msgstr ""
+
+#: components/com_content/content.html.php:1016
+#: components/com_content/content.html.php:1022
+msgid "Required"
+msgstr ""
+
+#: components/com_content/content.html.php:1022
+#: components/com_content/content.html.php:1040
+msgid "Main Text"
+msgstr ""
+
+#: components/com_content/content.html.php:1040
+msgid "Optional"
+msgstr ""
+
+#: components/com_content/content.html.php:1062
+msgid "Sub-folder"
+msgstr ""
+
+#: components/com_content/content.html.php:1067
+msgid "Gallery Images"
+msgstr ""
+
+#: components/com_content/content.html.php:1070
+msgid "Content Images"
+msgstr ""
+
+#: components/com_content/content.html.php:1073
+msgid "Edit Image"
+msgstr ""
+
+#: components/com_content/content.html.php:1079
+msgid "Insert"
+msgstr ""
+
+#: components/com_content/content.html.php:1084
+msgid "Up"
+msgstr ""
+
+#: components/com_content/content.html.php:1085
+msgid "Down"
+msgstr ""
+
+#: components/com_content/content.html.php:1086
+msgid "Remove"
+msgstr ""
+
+#: components/com_content/content.html.php:1100
+msgid "Align:"
+msgstr ""
+
+#: components/com_content/content.html.php:1133
+#: components/com_content/content.html.php:1136
+msgid "No Image"
+msgstr ""
+
+#: components/com_content/content.html.php:1202
+msgid "Show on Front Page:"
+msgstr ""
+
+#: components/com_content/content.html.php:1211
+msgid "Metadata"
+msgstr ""
+
+#: components/com_content/content.html.php:1263
+#: components/com_content/content.php:1472
+msgid ""
+"You must enter valid e-mail addresses for both yourself and your recipient."
+msgstr ""
+
+#: components/com_content/content.html.php:1277
+msgid "E-mail this to a friend."
+msgstr ""
+
+#: components/com_content/content.html.php:1285
+msgid "Your friend's E-mail:"
+msgstr ""
+
+#: components/com_content/content.html.php:1293
+msgid "Your Name:"
+msgstr ""
+
+#: components/com_content/content.html.php:1301
+msgid "Your E-mail:"
+msgstr ""
+
+#: components/com_content/content.html.php:1309
+msgid "Message subject:"
+msgstr ""
+
+#: components/com_content/content.html.php:1320
+msgid "Send e-mail"
+msgstr ""
+
+#: components/com_content/content.html.php:1321
+msgid "Cancel"
+msgstr ""
+
+#: components/com_content/content.html.php:1341
+#, php-format
+msgid "This item has been sent to %s"
+msgstr ""
+
+#: components/com_content/content.html.php:1345
+msgid "Close Window"
+msgstr ""
+
+#: components/com_content/content.php:438
+msgid "Date Asc"
+msgstr ""
+
+#: components/com_content/content.php:439
+msgid "Date Desc"
+msgstr ""
+
+#: components/com_content/content.php:443
+msgid "Title Asc"
+msgstr ""
+
+#: components/com_content/content.php:444
+msgid "Title Desc"
+msgstr ""
+
+#: components/com_content/content.php:448
+msgid "Hits Asc"
+msgstr ""
+
+#: components/com_content/content.php:449
+msgid "Hits Desc"
+msgstr ""
+
+#: components/com_content/content.php:453
+msgid "Author Asc"
+msgstr ""
+
+#: components/com_content/content.php:454
+msgid "Author Desc"
+msgstr ""
+
+#: components/com_content/content.php:457
+msgid "Ordering"
+msgstr ""
+
+#. if no archives for category, hides search and outputs empty message
+#: components/com_content/content.php:651
+#: components/com_content/content.php:733
+msgid "There are currently no Archived Entries for this Category"
+msgstr ""
+
+#. Search Success message
+#: components/com_content/content.php:832
+#, php-format
+msgid "Here are the Archived entries for %s %s"
+msgstr ""
+
+#. Search Failure message for Archives
+#: components/com_content/content.php:966
+#, php-format
+msgid "There are no Archived entries for %s %s"
+msgstr ""
+
+#. Generic blog empty display
+#: components/com_content/content.php:970
+msgid "There are no items to display"
+msgstr ""
+
+#: components/com_content/content.php:1188
+#, php-format
+msgid "The module [ %s ] is currently being edited by another person."
+msgstr ""
+
+#: components/com_content/content.php:1397
+#, php-format
+msgid ""
+"A new content item has been submitted by [ %s ]  titled [ %s ]  from section "
+"[ %s ]  and category  [ %s ]"
+msgstr ""
+
+#: components/com_content/content.php:1397
+msgid "New Item"
+msgstr ""
+
+#: components/com_content/content.php:1402
+msgid "Item saved successfully."
+msgstr ""
+
+#: components/com_content/content.php:1402
+msgid ""
+"Thanks for your submission; it will be reviewed before being posted to the "
+"site."
+msgstr ""
+
+#: components/com_content/content.php:1462
+#, php-format
+msgid "Item sent by %s"
+msgstr ""
+
+#. message text
+#: components/com_content/content.php:1483
+#, php-format
+msgid ""
+" The following page from the \\\"%s\\\" website has been sent to you by %s "
+"( %s ).\\n\\nYou can access it at the following url:\\n%s"
+msgstr ""
+
+#: components/com_content/content.php:1531
+msgid "You already voted for this poll today!"
+msgstr ""
+
+#: components/com_content/content.php:1534
+msgid "Thanks for your vote!"
+msgstr ""

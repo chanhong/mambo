@@ -1,0 +1,273 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_modules/admin.modules.html.php:29
+#: administrator/components/com_modules/admin.modules.html.php:239
+#: administrator/components/com_modules/admin.modules.php:384
+msgid "Administrator"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:29
+msgid "Module Manager"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:29
+#: administrator/components/com_modules/admin.modules.html.php:239
+msgid "Site"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:40
+msgid "Filter:"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:55
+msgid "Module Name"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:58
+msgid "Published"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:61
+msgid "Reorder"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:64
+msgid "Order"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:67
+msgid "Save Order"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:73
+msgid "Access"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:79
+msgid "Position"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:82
+msgid "Pages"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:85
+msgid "ID"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:88
+msgid "Type"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:149
+msgid "None"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:151
+msgid "Varies"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:153
+msgid "All"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:161
+msgid "User"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:209
+msgid "Module must have a title"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:212
+msgid "Special Access groups required for access level Special"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:240
+msgid "Module:"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:242
+msgid "Edit"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:242
+msgid "New"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:257
+msgid "Details"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:262
+msgid "Title:"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:271
+msgid "Show title:"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:279
+msgid "Position:"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:287
+msgid "Module Order:"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:299
+msgid "Access Level:"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:307
+msgid "Special Access:"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:310
+msgid ""
+"If Access Level is Special, only the selected groups will have access to the "
+"module"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:310
+msgid "Special Access Groups"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:315
+msgid "Published:"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:327
+msgid "ID:"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:335
+msgid "Description:"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:346
+msgid "Parameters"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:360
+msgid "Pages / Items"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:365
+msgid "Menu Item Link(s):"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:381
+msgid "Custom Output"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.html.php:386
+msgid "Content:"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:15
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:148
+msgid "- All Positions -"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:160
+msgid "- All Types -"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:210
+#, php-format
+msgid "Module Copied [%s]"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:274
+#, php-format
+msgid "Successfully Saved changes to Module: %s"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:280
+#, php-format
+msgid "Successfully Saved Module: %s"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:301
+#, php-format
+msgid "The module %s is currently being edited by another administrator"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:385
+#: administrator/components/com_modules/admin.modules.php:386
+#: administrator/components/com_modules/admin.modules.php:389
+#: administrator/components/com_modules/admin.modules.php:390
+msgid "N/A"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:427
+msgid "Select a module to delete"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:450
+msgid ""
+"You cannot delete mod_mainmenu module that displays the \"mainmenu\" as it "
+"is a core Menu"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:476
+#, php-format
+msgid ""
+"Module(s): \"%s\" cannot be deleted they can only be un-installed as they "
+"are Mambo modules."
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:491
+msgid "publish"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:491
+msgid "unpublish"
+msgstr ""
+
+#: administrator/components/com_modules/admin.modules.php:492
+#, php-format
+msgid "Select a module to %s"
+msgstr ""
+
+#. foreach
+#: administrator/components/com_modules/admin.modules.php:620
+msgid "New ordering saved"
+msgstr ""
+
+#: administrator/components/com_modules/toolbar.modules.html.php:37
+msgid "Preview"
+msgstr ""
+
+#: administrator/components/com_modules/toolbar.modules.html.php:37
+msgid "You can only preview typed modules."
+msgstr ""
+
+#. for existing content items the button is renamed `close`
+#: administrator/components/com_modules/toolbar.modules.html.php:46
+msgid "Close"
+msgstr ""
+
+#: administrator/components/com_modules/toolbar.modules.html.php:71
+msgid "Copy"
+msgstr ""

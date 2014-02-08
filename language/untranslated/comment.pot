@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_comment/admin.comment.html.php:35
+msgid "Comment Manager"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.html.php:38
+msgid "Filter:"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.html.php:49
+msgid "Author"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.html.php:50
+#: administrator/components/com_comment/admin.comment.html.php:126
+#: administrator/components/com_comment/admin.comment.html.php:140
+msgid "Comments"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.html.php:51
+msgid "Date"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.html.php:52
+#: administrator/components/com_comment/admin.comment.html.php:154
+msgid "Content Item"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.html.php:53
+#: administrator/components/com_comment/admin.comment.html.php:147
+msgid "Published"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.html.php:115
+msgid "You must add a comment"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.html.php:117
+msgid "You must select a content item."
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.html.php:133
+msgid "Name"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.php:189
+msgid "Sections available"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.php:210
+msgid "Autopublish Comments"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.php:214
+msgid "Automatically publish new comments"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.php:217
+msgid "Anonymous Comments"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.php:221
+msgid "Allow unregistered users to post comments"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.php:224
+msgid "Comments Per Page"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.php:239
+msgid "When comments exceed the set level the page will automatically paginate"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.php:248
+msgid "Notify Admin"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.php:254
+msgid ""
+"Notify the administrator by email\r\n"
+"        upon new comments"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.php:258
+msgid "Administrator Email"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.php:260
+msgid "set in Global Configuration / Mail"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.php:269
+msgid "Comment Length"
+msgstr ""
+
+#: administrator/components/com_comment/admin.comment.php:273
+msgid ""
+"The length of comment to show\r\n"
+"\t\t\tin the admin screen before it is truncated."
+msgstr ""
+
+#: administrator/components/com_comment/comment.xml
+msgid "Adds a commenting feature to articles within selected sections"
+msgstr ""
+
+#: administrator/components/com_comment/comment.xml
+msgid "Comment"
+msgstr ""
+
+#: administrator/components/com_comment/comment.xml
+msgid "Edit Settings"
+msgstr ""
+
+#: administrator/components/com_comment/comment.xml
+msgid "View Comments"
+msgstr ""
+
+#: administrator/components/com_comment/toolbar.comment.html.php:17
+msgid "Save"
+msgstr ""

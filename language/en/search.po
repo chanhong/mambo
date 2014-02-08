@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: administrator/components/com_search/search.xml
+msgid ""
+"A small image to be placed to the left or right of your menu item, images "
+"must be in images/stories/"
+msgstr ""
+
+#: administrator/components/com_search/search.xml
+msgid ""
+"A suffix to be applied to the css classes of the page, this allows "
+"individual page styling"
+msgstr ""
+
+#: administrator/components/com_search/search.xml
+msgid "Back Button"
+msgstr ""
+
+#: administrator/components/com_search/search.xml
+msgid "Hide"
+msgstr ""
+
+#: administrator/components/com_search/search.xml
+msgid "Menu Image"
+msgstr ""
+
+#: administrator/components/com_search/search.xml
+msgid "Page Class Suffix"
+msgstr ""
+
+#: administrator/components/com_search/search.xml
+msgid "Page Title"
+msgstr ""
+
+#: administrator/components/com_search/search.xml
+#: components/com_search/search.html.php:37
+#: components/com_search/search.php:37 components/com_search/search.php:43
+#: components/com_search/search.php:173
+msgid "Search"
+msgstr ""
+
+#: administrator/components/com_search/search.xml
+msgid "Show"
+msgstr ""
+
+#: administrator/components/com_search/search.xml
+msgid "Show/Hide a Back Button, that returns you to the previously view page"
+msgstr ""
+
+#: administrator/components/com_search/search.xml
+msgid "Show/Hide the pages Title"
+msgstr ""
+
+#: administrator/components/com_search/search.xml
+msgid ""
+"Text to display at the top of the page. If left blank, the Menu name will be "
+"used instead"
+msgstr ""
+
+#: administrator/components/com_search/search.xml
+msgid "This component manages the Search functionality."
+msgstr ""
+
+#: administrator/components/com_search/search.xml
+msgid "Use Global"
+msgstr ""
+
+#: components/com_search/search.html.php:35
+#: components/com_search/search.html.php:60
+msgid "Search Keyword"
+msgstr ""
+
+#: components/com_search/search.html.php:45
+msgid "Ordering"
+msgstr ""
+
+#. number of matches found
+#: components/com_search/search.html.php:91
+#, php-format
+msgid "returned %d match"
+msgid_plural "returned %d matches"
+msgstr[0] ""
+msgstr[1] ""
+
+#: components/com_search/search.php:62
+msgid "Newest first"
+msgstr ""
+
+#: components/com_search/search.php:63
+msgid "Oldest first"
+msgstr ""
+
+#: components/com_search/search.php:64
+msgid "Most popular"
+msgstr ""
+
+#: components/com_search/search.php:65
+msgid "Alphabetical"
+msgstr ""
+
+#: components/com_search/search.php:66
+msgid "Section/Category"
+msgstr ""
+
+#: components/com_search/search.php:78
+msgid "Any words"
+msgstr ""
+
+#: components/com_search/search.php:83
+msgid "All words"
+msgstr ""
+
+#: components/com_search/search.php:88
+msgid "Exact phrase"
+msgstr ""
+
+#: components/com_search/search.php:109 components/com_search/search.php:123
+msgid "One or more common words were ignored in the search"
+msgstr ""
+
+#. html output
+#. no matches found
+#: components/com_search/search.php:118
+msgid "No results were found"
+msgstr ""

@@ -1,0 +1,453 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_languages/actions/default.action.php:48
+msgid "Default Language succesfully updated!"
+msgstr ""
+
+#: administrator/components/com_languages/actions/default.action.php:50
+#: administrator/components/com_languages/actions/publish.action.php:48
+msgid "Error! Make sure that configuration.php is writeable."
+msgstr ""
+
+#: administrator/components/com_languages/actions/publish.action.php:46
+msgid "Configuration succesfully updated!"
+msgstr ""
+
+#: administrator/components/com_languages/admin.languages.php:15
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_languages/toolbar.languages.php:45
+msgid "Auto Translate"
+msgstr ""
+
+#: administrator/components/com_languages/toolbar.languages.php:68
+msgid "Scan Sources"
+msgstr ""
+
+#: administrator/components/com_languages/toolbar.languages.php:71
+msgid "Install"
+msgstr ""
+
+#: administrator/components/com_languages/toolbar.languages.php:73
+msgid "Manage Translations"
+msgstr ""
+
+#: administrator/components/com_languages/toolbar.languages.php:75
+msgid "Export"
+msgstr ""
+
+#: administrator/components/com_languages/toolbar.languages.php:100
+msgid "Update"
+msgstr ""
+
+#: administrator/components/com_languages/views/catalogs.view.php:35
+#, php-format
+msgid "Manage Translations: %s"
+msgstr ""
+
+#: administrator/components/com_languages/views/edit.view.php:36
+#: administrator/components/com_languages/views/edit.view.php:51
+#: administrator/components/com_languages/views/templates/langform.tpl.php:123
+#: administrator/components/com_languages/views/templates/langform.tpl.php:171
+#: administrator/components/com_languages/views/templates/languages.tpl.php:49
+msgid "Language"
+msgstr ""
+
+#: administrator/components/com_languages/views/edit.view.php:36
+msgid "New language"
+msgstr ""
+
+#: administrator/components/com_languages/views/edit.view.php:51
+msgid "Edit language"
+msgstr ""
+
+#: administrator/components/com_languages/views/edit.view.php:80
+#, php-format
+msgid "Translate Catalog: %s [%s]"
+msgstr ""
+
+#. *
+#. * @package Mambo
+#. * @subpackage Languages
+#. * @copyright  Refer to copyright.php
+#. * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+#. * @author Mambo Foundation Inc see README.php
+#.
+#: administrator/components/com_languages/views/templates/catalogs.tpl.php:31
+msgid "Language File"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/catalogs.tpl.php:32
+msgid "% Translated"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/catalogs.tpl.php:33
+msgid "Total Strings"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/catalogs.tpl.php:34
+msgid "Translated Strings"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/catalogs.tpl.php:35
+msgid "Fuzzy"
+msgstr ""
+
+#. *
+#. * @package Mambo
+#. * @subpackage Languages
+#. * @copyright  Refer to copyright.php
+#. * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+#. * @author Mambo Foundation Inc see README.php
+#.
+#: administrator/components/com_languages/views/templates/edit.tpl.php:20
+msgid "You must provide a Language Name."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:22
+msgid "You must provide a Language Identifier."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:24
+msgid "You must provide a locale."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:26
+msgid "You must provide a character encoding."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:28
+msgid "You must provide a date format."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:42
+msgid "New Language"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:49
+#: administrator/components/com_languages/views/templates/langform.tpl.php:165
+msgid "Details"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:52
+msgid "Language Identifier"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:55
+msgid ""
+"The identifier for this language. This is used for naming the language xml "
+"file and translations directory."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:59
+msgid "Language Name"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:62
+msgid "The official name for this language"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:66
+msgid "Locale"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:69
+msgid ""
+"The locale list for this language. \\nLocale names must be comma separated."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:73
+msgid "Encoding"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:76
+msgid "The character encoding for this language. Ex. utf-8"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:80
+msgid "Direction"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:83
+msgid "Left-to-Right"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:84
+msgid "Right-to-Left"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:86
+msgid "Text direction."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:90
+#: administrator/components/com_languages/views/templates/langform.tpl.php:250
+msgid "Date Format"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:93
+#: administrator/components/com_languages/views/templates/langform.tpl.php:253
+msgid "Date format for strftime()."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:97
+msgid "Plural forms"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/edit.tpl.php:100
+msgid "Plural forms for gettext."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:27
+msgid "Messages"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:33
+msgid "Verified"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:36
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:124
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:131
+msgid "Original"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:39
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:126
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:135
+msgid "Translation"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:42
+msgid "Ref"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:65
+msgid "Translation OK"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:65
+msgid "Verify Translation"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:96
+msgid "Headers"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:110
+msgid "Comments"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:132
+msgid "Singular"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:133
+#: administrator/components/com_languages/views/templates/editcatalog.tpl.php:142
+msgid "Plural"
+msgstr ""
+
+#. *
+#. * @package Mambo
+#. * @subpackage Languages
+#. * @copyright  Refer to copyright.php
+#. * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+#. * @author Mambo Foundation Inc see README.php
+#.
+#: administrator/components/com_languages/views/templates/form.tpl.php:47
+msgid "Mambo Language Editor"
+msgstr ""
+
+#. <!--
+#. <td>
+#. <?php if ($task == 'index'): ? >
+#. <select name="lang" class="inputbox" size="1" onchange="document.adminForm.submit();">
+#. <option value="en">< ?php echo T_('Select Language') ? ></option>
+#. < ?php foreach ($languages as $name => $obj): ? >
+#. <option value="< ?php echo $name.'"';? > < ?php echo $lang==$name?' selected="selected"':''? >>< ?php echo $obj->title; if (!empty($obj->territory)) echo ' ('.$obj->territory.')' ?></option>
+#. < ?php endforeach; ? >
+#. </select>
+#. < ?php endif; ? >
+#. </td> -->
+#. <?php
+#: administrator/components/com_languages/views/templates/form.tpl.php:64
+msgid "No content to display."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:24
+msgid "You must choose a language."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:26
+msgid "You must choose a character set."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:50
+#: administrator/components/com_languages/views/templates/langform.tpl.php:126
+msgid "choose language"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:57
+#: administrator/components/com_languages/views/templates/langform.tpl.php:137
+msgid "choose territory"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:58
+msgid "choose character set"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:134
+#: administrator/components/com_languages/views/templates/langform.tpl.php:179
+msgid "Territory"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:142
+#: administrator/components/com_languages/views/templates/langform.tpl.php:187
+#: administrator/components/com_languages/views/templates/languages.tpl.php:52
+msgid "Character Set"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:145
+msgid "choose charset"
+msgstr ""
+
+#. if (class_exists('ConvertCharset')) : ? >
+#. <div style="display:inline;text-align:right;margin-right:0px">
+#. <button class="button" onclick="submitbutton('convert')"><?php echo T_('Convert to') ? >:</button>
+#. <select name="newcharset" id="newcharset">
+#. < ?php foreach ($language->codesets as $chr):
+#. if ($chr != $language->charset) echo '<option value="'.$chr.'">'.$chr.'</option>';
+#. endforeach; ? >
+#. </select>
+#. </div>
+#. <?php endif;
+#: administrator/components/com_languages/views/templates/langform.tpl.php:207
+msgid "Description"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:213
+#: administrator/components/com_languages/views/templates/table.tpl.php:38
+msgid "Author"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:219
+#: administrator/components/com_languages/views/templates/table.tpl.php:41
+msgid "Author Email"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:225
+msgid "Author Url"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:231
+msgid "Text Direction"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:234
+msgid "left to right"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:235
+msgid "right to left"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:240
+msgid "Plural Forms"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:257
+msgid "Locales"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:261
+msgid ""
+"The locale list for setlocale(). \\nLocale names must be comma separated."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:265
+msgid "Days"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/langform.tpl.php:279
+msgid "Months"
+msgstr ""
+
+#. *
+#. * @package Mambo
+#. * @subpackage Languages
+#. * @copyright  Refer to copyright.php
+#. * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+#. * @author Mambo Foundation Inc see README.php
+#.
+#: administrator/components/com_languages/views/templates/languages.tpl.php:16
+msgid "You cannot delete English."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/languages.tpl.php:24
+msgid "You cannot delete default language."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/languages.tpl.php:34
+msgid "You cannot translate default English."
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/languages.tpl.php:50
+msgid "Country - Region"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/languages.tpl.php:51
+#: administrator/components/com_languages/views/templates/table.tpl.php:29
+msgid "Default"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/languages.tpl.php:53
+#: administrator/components/com_languages/views/templates/table.tpl.php:32
+msgid "Version"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/languages.tpl.php:54
+#: administrator/components/com_languages/views/templates/table.tpl.php:35
+msgid "Date"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/languages.tpl.php:72
+#: administrator/components/com_languages/views/templates/table.tpl.php:53
+msgid "No"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/languages.tpl.php:72
+#: administrator/components/com_languages/views/templates/table.tpl.php:53
+msgid "Yes"
+msgstr ""
+
+#. *
+#. * @package Mambo
+#. * @subpackage Languages
+#. * @copyright  Refer to copyright.php
+#. * @license http://www.gnu.org/copyleft/gpl.html GNU/GPL
+#. * @author Mambo Foundation Inc see README.php
+#.
+#: administrator/components/com_languages/views/templates/table.tpl.php:13
+msgid "Language Manager"
+msgstr ""
+
+#: administrator/components/com_languages/views/templates/table.tpl.php:26
+msgid "Languages"
+msgstr ""

@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_templates/admin.templates.html.php:41
+msgid "No preview available"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:54
+msgid "Administrator"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:54
+msgid "Site"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:54
+msgid "Template Manager"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:57
+msgid "Preview Template"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:69
+msgid "Name"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:75
+#: administrator/components/com_templates/admin.templates.html.php:81
+#: administrator/components/com_templates/admin.templates.html.php:152
+#: administrator/components/com_templates/toolbar.templates.html.php:21
+msgid "Default"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:84
+#: administrator/components/com_templates/admin.templates.html.php:165
+msgid "Assigned"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:90
+msgid "Author"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:93
+msgid "Version"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:96
+msgid "Date"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:99
+msgid "Author URL"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:136
+msgid "Published"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:222
+msgid "Template HTML Editor"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:225
+#: administrator/components/com_templates/admin.templates.html.php:279
+msgid "Unwriteable"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:225
+#: administrator/components/com_templates/admin.templates.html.php:279
+msgid "Writeable"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:234
+#: administrator/components/com_templates/admin.templates.html.php:288
+msgid "Make unwriteable after saving"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:241
+#: administrator/components/com_templates/admin.templates.html.php:295
+msgid "Override write protection while saving"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:276
+msgid "Template CSS Editor"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:327
+#, php-format
+msgid "Assign template %s to menu items"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:332
+msgid "Page(s):"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:360
+msgid "Module Positions"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:374
+msgid "Position"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.html.php:377
+msgid "Description"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.php:19
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.php:232
+msgid "You can not delete template in use."
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.php:259
+#: administrator/components/com_templates/admin.templates.php:324
+#, php-format
+msgid "Operation Failed: Could not open %s"
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.php:271
+#: administrator/components/com_templates/admin.templates.php:335
+msgid "Operation failed: No template specified."
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.php:274
+#: administrator/components/com_templates/admin.templates.php:339
+msgid "Operation failed: Content empty."
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.php:289
+#, php-format
+msgid "Operation failed: %s is not writable."
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.php:304
+#: administrator/components/com_templates/admin.templates.php:369
+msgid "Operation failed: Failed to open file for writing."
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.php:354
+msgid "Operation failed: The file is not writable."
+msgstr ""
+
+#: administrator/components/com_templates/admin.templates.php:451
+msgid "Positions saved"
+msgstr ""
+
+#: administrator/components/com_templates/toolbar.templates.html.php:70
+msgid "Save"
+msgstr ""

@@ -1,0 +1,1840 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: administrator/components/com_menus/admin.menus.html.php:24
+#, php-format
+msgid "Menu Manager <small><small>[ %s ]</small></small>"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:27
+msgid "Max Levels"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:33
+msgid "Filter:"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:44
+msgid ""
+"You cannot `delete` this menu as it is required for the proper operation of "
+"Mambo"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:47
+msgid ""
+"The 1st Published item in this menu [mainmenu] is the default `Homepage` for "
+"the site"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:65
+msgid "Menu Item"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:68
+msgid "Published"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:71
+msgid "Reorder"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:74
+msgid "Order"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:77
+msgid "Save Order"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:80
+msgid "Access"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:83
+msgid "Itemid"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:86
+msgid "Type"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:89
+msgid "CID"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:179
+msgid "New Menu Item"
+msgstr ""
+
+#. echo _MENU_GROUP;
+#: administrator/components/com_menus/admin.menus.html.php:198
+msgid "Content"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:230
+msgid "Miscellaneous"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:261
+msgid ""
+"Note that some menu types appear in more that one grouping, but they are "
+"still the same menu type."
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:265
+msgid "Components"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:297
+msgid "Links"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:354
+msgid "Move Menu Items"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:364
+msgid "Move to Menu:"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:371
+msgid "Menu Items being moved:"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:414
+msgid "Copy Menu Items"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:425
+msgid "Copy to Menu:"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.html.php:433
+msgid "Menu Items being copied:"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.php:404
+msgid "publish"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.php:404
+msgid "unpublish"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.php:405
+#, php-format
+msgid "Select an item to %s"
+msgstr ""
+
+#: administrator/components/com_menus/admin.menus.php:448
+#, php-format
+msgid "%d Item sent to the Trash"
+msgid_plural "%d Items sent to the Trash"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_menus/admin.menus.php:521
+#: administrator/components/com_menus/admin.menus.php:626
+msgid "Select an item to move"
+msgstr ""
+
+#. if
+#: administrator/components/com_menus/admin.menus.php:615
+#, php-format
+msgid "%d Menu Item moved to %s"
+msgid_plural "%d Menu Items moved to %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. foreach
+#: administrator/components/com_menus/admin.menus.php:685
+#, php-format
+msgid "%d Menu Item Copied to %s"
+msgid_plural "%d Menu Items Copied to %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. foreach
+#: administrator/components/com_menus/admin.menus.php:733
+msgid "New ordering saved"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.class.php:25
+#: administrator/components/com_menus/contact_category_table/contact_category_table.class.php:28
+#, php-format
+msgid "The module %s is currently being edited by another administrator"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:32
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:32
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:38
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:39
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:32
+#: administrator/components/com_menus/url/url.menu.html.php:35
+msgid "Link must have a name"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:34
+msgid "You must select a Component to link to"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:45
+#: administrator/components/com_menus/components/components.menu.html.php:69
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:63
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:47
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:65
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:67
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:61
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:61
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:65
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:53
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:65
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:54
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:63
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:47
+#: administrator/components/com_menus/separator/separator.menu.html.php:41
+#: administrator/components/com_menus/url/url.menu.html.php:48
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:63
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:56
+msgid "Add"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:45
+#: administrator/components/com_menus/components/components.menu.html.php:69
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:63
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:47
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:65
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:67
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:61
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:61
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:65
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:53
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:65
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:54
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:63
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:47
+#: administrator/components/com_menus/separator/separator.menu.html.php:41
+#: administrator/components/com_menus/url/url.menu.html.php:48
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:63
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:56
+msgid "Edit"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:45
+msgid "Menu Item :: Link - Component Item"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:56
+#: administrator/components/com_menus/components/components.menu.html.php:80
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:74
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:58
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:76
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:78
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:72
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:72
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:76
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:64
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:76
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:65
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:74
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:58
+#: administrator/components/com_menus/separator/separator.menu.html.php:52
+#: administrator/components/com_menus/url/url.menu.html.php:59
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:74
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:67
+msgid "Details"
+msgstr ""
+
+#. outputs item name, category & section instead of the select list
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:61
+#: administrator/components/com_menus/components/components.menu.html.php:84
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:79
+#: administrator/components/com_menus/contact_item_link/contact_item_link.class.php:56
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:63
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:80
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:82
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:76
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:76
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:81
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:69
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:80
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:70
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:79
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:63
+#: administrator/components/com_menus/url/url.menu.html.php:64
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:80
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:72
+msgid "Name:"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:69
+msgid "Component to Link:"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:76
+#: administrator/components/com_menus/components/components.menu.html.php:96
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:102
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:99
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:101
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:97
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:97
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:104
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:84
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:99
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:102
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:103
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:88
+msgid "Url:"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:83
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:85
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:91
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:85
+#: administrator/components/com_menus/url/url.menu.html.php:80
+msgid "On Click, Open in:"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:91
+#: administrator/components/com_menus/components/components.menu.html.php:102
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:110
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:93
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:105
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:107
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:103
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:103
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:112
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:99
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:105
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:100
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:110
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:93
+#: administrator/components/com_menus/separator/separator.menu.html.php:65
+#: administrator/components/com_menus/url/url.menu.html.php:88
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:111
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:96
+msgid "Parent Item:"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:99
+#: administrator/components/com_menus/components/components.menu.html.php:109
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:118
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:101
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:111
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:113
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:109
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:109
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:120
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:107
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:111
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:108
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:118
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:101
+#: administrator/components/com_menus/separator/separator.menu.html.php:73
+#: administrator/components/com_menus/url/url.menu.html.php:96
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:119
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:104
+msgid "Ordering:"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:107
+#: administrator/components/com_menus/components/components.menu.html.php:115
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:126
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:109
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:117
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:119
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:115
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:115
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:128
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:115
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:117
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:116
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:126
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:109
+#: administrator/components/com_menus/separator/separator.menu.html.php:81
+#: administrator/components/com_menus/url/url.menu.html.php:104
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:127
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:112
+msgid "Access Level:"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:114
+#: administrator/components/com_menus/components/components.menu.html.php:121
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:134
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:116
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:123
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:125
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:121
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:121
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:136
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:122
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:123
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:123
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:134
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:116
+#: administrator/components/com_menus/separator/separator.menu.html.php:88
+#: administrator/components/com_menus/url/url.menu.html.php:112
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:135
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:120
+msgid "Published:"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.menu.html.php:128
+#: administrator/components/com_menus/components/components.menu.html.php:135
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:149
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:130
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:137
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:139
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:135
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:135
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:151
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:136
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:137
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:137
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:149
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:130
+#: administrator/components/com_menus/separator/separator.menu.html.php:102
+#: administrator/components/com_menus/url/url.menu.html.php:124
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:150
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:135
+msgid "Parameters"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.xml
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/contact_item_link/contact_item_link.xml
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_item_link/content_item_link.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/content_typed/content_typed.xml
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+#: administrator/components/com_menus/separator/separator.xml
+#: administrator/components/com_menus/url/url.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid ""
+"A small image to be placed to the left or right of your menu item, images "
+"must be in images/stories/"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.xml
+msgid "Creates a link to an existing Mambo Component"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.xml
+msgid "Link - Component Item"
+msgstr ""
+
+#: administrator/components/com_menus/component_item_link/component_item_link.xml
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/contact_item_link/contact_item_link.xml
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_item_link/content_item_link.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/content_typed/content_typed.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+#: administrator/components/com_menus/separator/separator.xml
+#: administrator/components/com_menus/url/url.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid "Menu Image"
+msgstr ""
+
+#: administrator/components/com_menus/components/components.class.php:30
+#, php-format
+msgid "\"The module %s is currently being edited by another administrator"
+msgstr ""
+
+#: administrator/components/com_menus/components/components.menu.html.php:55
+msgid "Item must have a name"
+msgstr ""
+
+#: administrator/components/com_menus/components/components.menu.html.php:57
+msgid "Please select a Component"
+msgstr ""
+
+#: administrator/components/com_menus/components/components.menu.html.php:69
+#, php-format
+msgid "Menu Item :: Component <small><small>%s</small></small>"
+msgstr ""
+
+#: administrator/components/com_menus/components/components.menu.html.php:90
+msgid "Component:"
+msgstr ""
+
+#: administrator/components/com_menus/components/components.menu.html.php:145
+msgid "Parameter list will be available once you save this New menu item"
+msgstr ""
+
+#: administrator/components/com_menus/components/components.xml
+msgid "Component"
+msgstr ""
+
+#: administrator/components/com_menus/components/components.xml
+msgid "Displays the frontend interface for a Component"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:36
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:36
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:36
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:36
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:36
+msgid "You must select a category"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:50
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:52
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:53
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:37
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:46
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:37
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:46
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:52
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:49
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:50
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:50
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:32
+msgid "This Menu item must have a title"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:63
+msgid "Menu Item :: Table - Contact Category"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:87
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:87
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:89
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:87
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:88
+msgid "If you leave this blank the Category name will be automatically used"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.menu.html.php:94
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:93
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:85
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:96
+#: administrator/components/com_menus/content_item_link/content_item_link.class.php:70
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:94
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:95
+msgid "Category:"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+msgid "# Category Items"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/contact_item_link/contact_item_link.xml
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid ""
+"A suffix to be applied to the css classes of the page, this allows "
+"individual page styling"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid "Back Button"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+msgid "Category Description"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+msgid "Email Column"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+msgid "Fax Column"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/contact_item_link/contact_item_link.xml
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid "Hide"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+msgid "Other Categories"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/contact_item_link/contact_item_link.xml
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid "Page Class Suffix"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/contact_item_link/contact_item_link.xml
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid "Page Title"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+msgid "Position Column"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/contact_item_link/contact_item_link.xml
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid "Show"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid "Show/Hide a Back Button, that returns you to the previously view page"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+msgid "Show/Hide the Description for the list of other catgeories"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+msgid "Show/Hide the Email column"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+msgid "Show/Hide the Fax column"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+msgid "Show/Hide the Position column"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+msgid "Show/Hide the Table Headings"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+msgid "Show/Hide the Telephone column"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+msgid "Show/Hide the number of items in each category"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/contact_item_link/contact_item_link.xml
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+msgid "Show/Hide the pages Title"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+msgid "Shows a Table view of Contact items for a particular Category"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+msgid "Table - Contact Category"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+msgid "Table Headings"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+msgid "Telephone Column"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/contact_item_link/contact_item_link.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid ""
+"Text to display at the top of the page. If left blank, the Menu name will be "
+"used instead"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid "Use Global"
+msgstr ""
+
+#: administrator/components/com_menus/contact_category_table/contact_category_table.xml
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+msgid "When viewing a Category, Show/Hide the list of other Categories"
+msgstr ""
+
+#: administrator/components/com_menus/contact_item_link/contact_item_link.class.php:27
+#: administrator/components/com_menus/content_archive_category/content_archive_category.class.php:27
+#: administrator/components/com_menus/content_archive_section/content_archive_section.class.php:26
+#: administrator/components/com_menus/content_blog_category/content_blog_category.class.php:28
+#: administrator/components/com_menus/content_blog_section/content_blog_section.class.php:28
+#: administrator/components/com_menus/content_category/content_category.class.php:28
+#: administrator/components/com_menus/content_item_link/content_item_link.class.php:27
+#: administrator/components/com_menus/content_section/content_section.class.php:27
+#: administrator/components/com_menus/content_typed/content_typed.class.php:24
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.class.php:28
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.class.php:27
+#: administrator/components/com_menus/separator/separator.class.php:27
+#: administrator/components/com_menus/url/url.class.php:28
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.class.php:28
+#: administrator/components/com_menus/wrapper/wrapper.class.php:27
+msgid "The module % is currently being edited by another administrator"
+msgstr ""
+
+#: administrator/components/com_menus/contact_item_link/contact_item_link.class.php:64
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.class.php:65
+msgid "Position:"
+msgstr ""
+
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:34
+msgid "You must select a Contact to link to"
+msgstr ""
+
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:47
+msgid "Menu Item :: Link - Contact Item"
+msgstr ""
+
+#: administrator/components/com_menus/contact_item_link/contact_item_link.menu.html.php:71
+msgid "Contact to Link:"
+msgstr ""
+
+#: administrator/components/com_menus/contact_item_link/contact_item_link.xml
+msgid "Creates a link to a Published Contact Item"
+msgstr ""
+
+#: administrator/components/com_menus/contact_item_link/contact_item_link.xml
+msgid "Link - Contact Item"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.menu.html.php:65
+msgid "Menu Item :: Blog - Content Category Archive"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "# Intro"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "# Leading"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "# Links"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+msgid "Author Alphabetical"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Author Names"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+msgid "Author Reverse-Alphabetical"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Auto"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+msgid "Blog - Content Category Archive"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Columns"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Created Date and Time"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Default"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Display {mosimages}."
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Email Icon"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Item Rating"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+msgid "Item Title"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+msgid "Least Hits"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Linked Titles"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "MOSImages"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+msgid "Make the Section text a link to the actual section page"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Make your Item titles linkable"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Modified Date and Time"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+msgid "Most Hits"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+msgid "Most recent first"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "No"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Number of Items to display as Links."
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid ""
+"Number of Items to display as a leading (full width) item. 0 will mean that "
+"no items will be displayed as leading."
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Number of Items to display with the introduction text shown."
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+msgid "Oldest first"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Order by"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Ordering"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "PDF Icon"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Pagination"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Pagination Results"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Print Icon"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Read More"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+msgid "Section Name"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+msgid "Section Name Linkable"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Show/Hide Pagination Results info ( e.g 1-4 of 4 )"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Show/Hide Pagination support"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Show/Hide the Read More link"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+msgid "Show/Hide the Section the item belongs to"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Show/Hide the item author - only affects this page"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Show/Hide the item creation date - only affects this page"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Show/Hide the item email button - only affects this page"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Show/Hide the item modification date - only affects this page"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Show/Hide the item pdf button - only affects this page"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Show/Hide the item print button - only affects this page"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Show/Hide the item rating - only affects this page"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Show/Hide the items title"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+msgid "Shows a listing of Content items archived for a particular category"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+msgid "Text to display at the top of the page"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "This overrides the ordering of the items."
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Title Alphabetical"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Title Reverse-Alphabetical"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "When displaying the intro text, how many columns to use per row"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_category/content_archive_category.xml
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Yes"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:36
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:36
+msgid "You must select a Section"
+msgstr ""
+
+#. build the html select list for section
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:42
+#: administrator/components/com_menus/content_blog_section/content_blog_section.class.php:59
+msgid "All Sections"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:67
+msgid "Menu Item :: Blog - Content Section Archive"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:89
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:87
+msgid "If you leave this blank the Section name will be automatically used"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.menu.html.php:95
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:85
+#: administrator/components/com_menus/content_item_link/content_item_link.class.php:78
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:93
+msgid "Section:"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+msgid "Blog - Content Section Archive"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Category Name"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Category Name Linkable"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Category Order"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Make the Category text a link to the actual Category page"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "No, order by Primary Order only"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Order items by catgeory"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Order that the items will be displayed in."
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Primary Order"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Show/Hide the Category the item belongs to"
+msgstr ""
+
+#: administrator/components/com_menus/content_archive_section/content_archive_section.xml
+msgid "Shows a listing of Content items archived for a particular section"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:61
+msgid "Menu Item :: Blog - Content Category"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_category/content_blog_category.menu.html.php:92
+msgid "You can select multiple Categories"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+msgid "Blog - Content Category"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Description"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Description Image"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+msgid ""
+"Displays a page of content items from multiple categories in a blog format"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Item Titles"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Show/Hide the Category Description"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_category/content_blog_category.xml
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid "Show/Hide the Page title"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:61
+msgid "Menu Item :: Blog - Content Section"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_section/content_blog_section.menu.html.php:92
+msgid "You can select multiple Sections"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Blog - Content Section"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid ""
+"Displays a page of content items from multiple sections in a blog format"
+msgstr ""
+
+#: administrator/components/com_menus/content_blog_section/content_blog_section.xml
+msgid "Show/Hide the Section Description"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.menu.html.php:65
+msgid "Menu Item :: Table - Content Category"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "10"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "15"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "20"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "25"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "30"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "5"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "50"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Author"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Author Column"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Date Column"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Date Format"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Display Number"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Display Select"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Empty Categories"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Filter"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Filter Field"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+msgid "His"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Hits Column"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Navigation Bar"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Number of items to be displayed by default"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Order Select"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Show/Hide empty(no items) categories"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Show/Hide the Author column"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid ""
+"Show/Hide the Category Description, it will appear below the Category Name"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Show/Hide the Date column"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Show/Hide the Display Select dropdown"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Show/Hide the Filter ability"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+msgid "Show/Hide the Hits column"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Show/Hide the Navigation bar"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Show/Hide the Order Select dropdown"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+msgid "Show/Hide the listing of other Categories"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+msgid "Shows a Table view of Content items for a particular Category"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+msgid "Table - Content Category"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid ""
+"The format of the date displayed, using PHPs strftime Command Format - if "
+"left blank it will load the format from your language file"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Title"
+msgstr ""
+
+#: administrator/components/com_menus/content_category/content_category.xml
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Which field shall the filter apply to"
+msgstr ""
+
+#. outputs item name, category & section instead of the select list
+#: administrator/components/com_menus/content_item_link/content_item_link.class.php:63
+msgid "Edit Content Item"
+msgstr ""
+
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:40
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:41
+msgid "You must select a Content to link to"
+msgstr ""
+
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:53
+msgid "Menu Item :: Link - Content Item"
+msgstr ""
+
+#: administrator/components/com_menus/content_item_link/content_item_link.menu.html.php:77
+msgid "Content to Link:"
+msgstr ""
+
+#: administrator/components/com_menus/content_item_link/content_item_link.xml
+msgid "Creates a link to a published Content Item in full view"
+msgstr ""
+
+#: administrator/components/com_menus/content_item_link/content_item_link.xml
+msgid "Link - Content Item"
+msgstr ""
+
+#: administrator/components/com_menus/content_section/content_section.menu.html.php:65
+msgid "Menu Item :: Table - Content Section"
+msgstr ""
+
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Category List - Category"
+msgstr ""
+
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Category List - Section"
+msgstr ""
+
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Creates a listing of Content categories for a particular section"
+msgstr ""
+
+#: administrator/components/com_menus/content_section/content_section.xml
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+msgid "Hits"
+msgstr ""
+
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Section Title"
+msgstr ""
+
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Show/Hide the Category Description Image"
+msgstr ""
+
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Show/Hide the List of Categories in List view page"
+msgstr ""
+
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Show/Hide the List of Categories in Table view page"
+msgstr ""
+
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Show/hide the section title"
+msgstr ""
+
+#: administrator/components/com_menus/content_section/content_section.xml
+msgid "Table - Content Section"
+msgstr ""
+
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:54
+msgid "Menu Item :: Link - Static Content"
+msgstr ""
+
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:78
+msgid "Static Content:"
+msgstr ""
+
+#: administrator/components/com_menus/content_typed/content_typed.menu.html.php:92
+msgid "On Click, open:"
+msgstr ""
+
+#: administrator/components/com_menus/content_typed/content_typed.xml
+msgid "Creates a link to Static Content Item"
+msgstr ""
+
+#: administrator/components/com_menus/content_typed/content_typed.xml
+msgid "Link - Static Content"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.menu.html.php:63
+msgid "Menu Item :: Table - News Feed Category"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+msgid ""
+"A small image to be placed to the left or right of your menu item, images "
+"must be in /images"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+msgid "Articles Column"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+msgid "Link Column"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+msgid "Name Column"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+msgid "Show/Hide the Articles column"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+msgid "Show/Hide the Link column"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+msgid "Show/Hide the Name column"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+msgid "Shows a Table view of News Feed items for a particular Category"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_category_table/newsfeed_category_table.xml
+msgid "Table - News Feed Category"
+msgstr ""
+
+#. outputs item name, category & section instead of the select list
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.class.php:57
+msgid "Item:"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:34
+msgid "You must select a News Feed to link to"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:47
+msgid "Menu Item :: Link - News Feed"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.menu.html.php:71
+msgid "News Feed to Link:"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+msgid ""
+"Allows you to limit the amount of visible item description text. 0 will show "
+"all the text"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+msgid "Creates a link to an individual Published Newsfeed"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+msgid "Feed Description"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+msgid "Feed Image"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+msgid "Item Description"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+msgid "Link - Newsfeed"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+msgid "Show/Hide the description or intro text of an item"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+msgid "Show/Hide the description text of the feed"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+msgid "Show/Hide the image of the feed"
+msgstr ""
+
+#: administrator/components/com_menus/newsfeed_link/newsfeed_link.xml
+msgid "Word Count"
+msgstr ""
+
+#: administrator/components/com_menus/separator/separator.menu.html.php:41
+msgid "Menu Item :: Separator / Placeholder"
+msgstr ""
+
+#: administrator/components/com_menus/separator/separator.menu.html.php:57
+msgid "Pattern/Name:"
+msgstr ""
+
+#: administrator/components/com_menus/separator/separator.xml
+msgid "Creates a menu placeholder or separator"
+msgstr ""
+
+#: administrator/components/com_menus/separator/separator.xml
+msgid "Separator / Placeholder"
+msgstr ""
+
+#: administrator/components/com_menus/toolbar.menus.html.php:19
+msgid "Next"
+msgstr ""
+
+#: administrator/components/com_menus/toolbar.menus.html.php:32
+#: administrator/components/com_menus/toolbar.menus.html.php:97
+msgid "Move"
+msgstr ""
+
+#: administrator/components/com_menus/toolbar.menus.html.php:45
+#: administrator/components/com_menus/toolbar.menus.html.php:99
+msgid "Copy"
+msgstr ""
+
+#: administrator/components/com_menus/toolbar.menus.html.php:69
+msgid "Back"
+msgstr ""
+
+#. for existing content items the button is renamed `close`
+#: administrator/components/com_menus/toolbar.menus.html.php:78
+msgid "Close"
+msgstr ""
+
+#: administrator/components/com_menus/url/url.menu.html.php:37
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:38
+msgid "You must provide a url."
+msgstr ""
+
+#: administrator/components/com_menus/url/url.menu.html.php:48
+msgid "Menu Item :: Link - URL"
+msgstr ""
+
+#: administrator/components/com_menus/url/url.menu.html.php:72
+msgid "Link:"
+msgstr ""
+
+#: administrator/components/com_menus/url/url.xml
+msgid "Creates url link"
+msgstr ""
+
+#: administrator/components/com_menus/url/url.xml
+msgid "Link - Url"
+msgstr ""
+
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.menu.html.php:63
+msgid "Menu Item :: Table - Web Link Category"
+msgstr ""
+
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+msgid "Link Descriptions"
+msgstr ""
+
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+msgid "Show/Hide the Description text of the Links"
+msgstr ""
+
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+msgid "Shows a Table view of Weblink items for a particular Weblink Category"
+msgstr ""
+
+#: administrator/components/com_menus/weblink_category_table/weblink_category_table.xml
+msgid "Table - Weblink Category"
+msgstr ""
+
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:56
+msgid "Menu Item :: Wrapper"
+msgstr ""
+
+#: administrator/components/com_menus/wrapper/wrapper.menu.html.php:80
+msgid "Wrapper Link:"
+msgstr ""
+
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid "Creates an IFrame that will wrap an external page/site into Mambo"
+msgstr ""
+
+#: administrator/components/com_menus/wrapper/wrapper.xml
+msgid "Wrapper"
+msgstr ""

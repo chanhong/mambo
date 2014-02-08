@@ -1,0 +1,19 @@
+# Mambo Open Source.
+# Copyright (C) 2005 - 2008 Mambo Foundation Inc.
+# This file is distributed under the same license as the Mambo package.
+# Translation Team <translation@mambo-foundation.org>, 2008#
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mambo 4.6\n"
+"Report-Msgid-Bugs-To: translation@mambo-foundation.org\n"
+"POT-Creation-Date: 2008-03-18 04:54-0500\n"
+"PO-Revision-Date: 2008-03-18 04:54-0500\n"
+"Last-Translator: Translation <translation@mambo-foundation.org>\n"
+"Language-Team: Translation <translation@mambo-foundation.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+

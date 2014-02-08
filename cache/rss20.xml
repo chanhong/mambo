@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<rss version="0.91">
+    <channel>
+        <title>OngETC RSS news</title>
+        <description>OngETC site syndication</description>
+        <link>http://dev.local/support</link>
+        <lastBuildDate>Sat, 08 Feb 2014 14:39:30 +0100</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <image>
+            <url>http://dev.local/support/images/M_images/mambo_rss.png</url>
+            <title>OngETC RSS news</title>
+            <link>http://dev.local/support</link>
+            <description>OngETC site syndication</description>
+        </image>
+        <item>
+            <title>A2 Hosting Celebrating 10 Years Of Hosting and prize!</title>
+            <link>http://dev.local/support/index.php?option=com_content&amp;task=view&amp;id=317&amp;Itemid=4</link>
+            <description>During June, in celebration of A2 hosting 10-year anniversary, they will be
+giving away:
+
+. Grand prize: 10 SSD Hosting accounts for free for life during June. 
+
+. Second prize: they will be giving away 60, 1-year SSD Hosting accounts for
+free.
+
+. If you don't win the prize, you still win a discount coupon for
+hosting.
+
+
+</description>
+            <author>Chanh Ong</author>
+        </item>
+        <item>
+            <title>Is there a perfect CMS/Blog?</title>
+            <link>http://dev.local/support/index.php?option=com_content&amp;task=view&amp;id=316&amp;Itemid=182</link>
+            <description>I have been searching for this answer for many years but the real answer is
+what is your definition of &quot;perfect&quot;.
+
+To some people, they would be perfectly happy to use any of the social
+networking like Facebook, Twitter, Google+, LinkedIn to share their thought,
+photo, links, etc and have fun along the way.
+
+</description>
+            <author>Chanh Ong</author>
+        </item>
+        <item>
+            <title>How to &quot;describe&quot; a table in MSSQL?</title>
+            <link>http://dev.local/support/index.php?option=com_content&amp;task=view&amp;id=315&amp;Itemid=25</link>
+            <description>Do you ever wish to be able to &quot;describe&quot; a table in MSSQL?
+
+It is not avaialble in MSSQL but it can be done with the help of function and store procedure.
+
+In this article I will show you how it can be done.
+
+
+</description>
+            <author>Chanh Ong</author>
+        </item>
+        <item>
+            <title>Custom error page 101</title>
+            <link>http://dev.local/support/index.php?option=com_content&amp;task=view&amp;id=314&amp;Itemid=25</link>
+            <description>If you have an error on your site and if you don't have any custom handler it will be handle by the server default configuration which might not be very user friendly way.
+
+This article will show you how to can use .htaccess to have your own custom error page that handel by either HTML or PHP code.</description>
+            <author>Chanh Ong</author>
+        </item>
+        <item>
+            <title>404 error page 101</title>
+            <link>http://dev.local/support/index.php?option=com_content&amp;task=view&amp;id=313&amp;Itemid=25</link>
+            <description>Simply put, the 404 or Not Found error message is the server could not find the page that was requested.
+
+But there is more to it and sometime it is hard to know where to look for the cause of the error but with this article it will tell your some common causes of the error and what to do.
+</description>
+            <author>Chanh Ong</author>
+        </item>
+        <item>
+            <title>SharePoint 2010 allow_page_locks issue</title>
+            <link>http://dev.local/support/index.php?option=com_content&amp;task=view&amp;id=312&amp;Itemid=25</link>
+            <description>When you install SharePoint 2010 you might discover that you can't use the SQL maintenance to clean up your indexes.  You will get message like &quot;failed to reorganize indexes due to page level locking is disabled&quot;
+
+I spent sometime look into this issue and developed a store procedure that will fix this issue.
+</description>
+            <author>Chanh Ong</author>
+        </item>
+        <item>
+            <title>How to publish to site with client like iWeb that support ftp protocol?</title>
+            <link>http://dev.local/support/index.php?option=com_content&amp;task=view&amp;id=307&amp;Itemid=25</link>
+            <description>In the old day, publishing to your web site requires special client that
+uses their own protocol like FrontPage which requires the FrontPage server
+extension but now aday most client support standard protocol and no longer
+need special server side extension but there seems to be lot of question on
+that too.
+
+
+
+This article will show what you need...</description>
+            <author>Chanh Ong</author>
+        </item>
+        <item>
+            <title>LOB development in Silverlight</title>
+            <link>http://dev.local/support/index.php?option=com_content&amp;task=view&amp;id=305&amp;Itemid=182</link>
+            <description>What is LOB?
+
+LOB is short for Line of Business
+
+
+
+Traditionally business need solve by either through a web application or a
+desktop application respectively, not both.</description>
+            <author>Chanh Ong</author>
+        </item>
+    </channel>
+</rss>

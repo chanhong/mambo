@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_mambots/admin.mambots.html.php:29
+#: administrator/components/com_mambots/admin.mambots.php:223
+msgid "Administrator"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:29
+msgid "Mambot Manager"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:29
+msgid "Site"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:32
+msgid "Filter:"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:50
+msgid "Mambot Name"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:53
+msgid "Published"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:56
+msgid "Reorder"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:59
+msgid "Order"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:62
+msgid "Save Order"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:65
+msgid "Access"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:68
+msgid "Type"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:71
+msgid "File"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:174
+msgid "Mambot must have a name"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:176
+msgid "Mambot must have a filename"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:185
+msgid "Site Mambot:"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:187
+msgid "Edit"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:187
+msgid "New"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:201
+msgid "Mambot Details"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:206
+msgid "Name:"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:214
+msgid "Folder:"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:222
+msgid "Mambot file:"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:230
+msgid "Mambot Order:"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:238
+msgid "Access Level:"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:246
+msgid "Published:"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:259
+msgid "Description:"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:271
+msgid "Parameters"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.html.php:280
+msgid "No Parameters"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.php:16
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.php:136
+msgid "- All Types -"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.php:183
+#, php-format
+msgid "Successfully Saved changes to Mambot: %s"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.php:188
+#, php-format
+msgid "Successfully Saved Mambot: %s"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.php:211
+#, php-format
+msgid "The module %s is currently being edited by another administrator"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.php:246
+msgid "This mambot cannot be reordered"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.php:268
+msgid ""
+"New items default to the last place. Ordering can be changed after this item "
+"is saved."
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.php:289
+msgid "Select a module to delete"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.php:305
+msgid "publish"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.php:305
+msgid "unpublish"
+msgstr ""
+
+#: administrator/components/com_mambots/admin.mambots.php:306
+#, php-format
+msgid "Select a mambot to %s"
+msgstr ""
+
+#. foreach
+#: administrator/components/com_mambots/admin.mambots.php:426
+msgid "New ordering saved"
+msgstr ""
+
+#. for existing content items the button is renamed `close`
+#: administrator/components/com_mambots/toolbar.mambots.html.php:24
+msgid "Close"
+msgstr ""

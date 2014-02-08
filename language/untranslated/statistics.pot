@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_statistics/admin.statistics.html.php:30
+msgid "Browser, OS, Domain Statistics"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:36
+msgid "Browsers"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:40
+msgid "Browser"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:79
+msgid "OS Stats"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:83
+msgid "Operating System"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:122
+msgid "Domain Stats"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:126
+msgid "Domain"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:177
+msgid "Page Impression Statistics"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:185
+msgid "Title"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:186
+msgid "Page Impressions"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:225
+msgid "Search Engine Text :"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:226
+msgid "logging is :"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:227
+msgid "Disabled"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:227
+msgid "Enabled"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:236
+msgid "Search Text"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:237
+msgid "Times Requested"
+msgstr ""
+
+#: administrator/components/com_statistics/admin.statistics.html.php:238
+msgid "Results Returned"
+msgstr ""

@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:43
+#: administrator/components/com_menumanager/menumanager.xml
+msgid "Menu Manager"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:54
+msgid "Menu Name"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:57
+msgid "Menu Items"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:60
+msgid "# Published"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:63
+msgid "# Unpublished"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:66
+msgid "# Trash"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:69
+msgid "# Modules"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:95
+msgid "Edit Menu Name"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:100
+msgid "Edit Menu Items"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:157
+msgid "Please enter a menu name"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:165
+msgid "Please enter a module name for your menu"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:183
+msgid "Menu Details"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:191
+msgid "Menu Name:"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:196
+msgid ""
+"This is the identification name used by mambo to identify this menu within "
+"the code - it must be unique. It is recommended that you do not have any "
+"spaces in your Menu Name"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:206
+msgid "Module Title:"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:211
+msgid "Title of the mod_mainmenu module required to show this Menu"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:217
+msgid ""
+"A new mod_mainmenu module, with the Title you have entered above will "
+"automatically be created when you save this menu."
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:219
+msgid ""
+"Parameters for the module created are to be edited through the \"Modules "
+"Manager [site]\": Modules -> Site Modules"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:267
+#, php-format
+msgid "Delete Menu: %s"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:280
+msgid "Module(s) being Deleted:"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:302
+msgid "Menu Items being Deleted:"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:322
+msgid ""
+"This will <span style=\"font-weight:bold;color:#FF0000\">Delete</span> this "
+"Menu, <br />ALL its Menu Items and the Module(s) associated with it"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:325
+msgid ""
+"Are you sure you want to Delete this menu? \\nThis will Delete the Menu, its "
+"Items and the Module(s)."
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:326
+#: administrator/components/com_menumanager/admin.menumanager.html.php:327
+#: administrator/components/com_menumanager/toolbar.menumanager.html.php:29
+msgid "Delete"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:357
+msgid "Please enter a name for the copy of the Menu"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:360
+msgid "Please enter a name for the new Module"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:374
+msgid "Copy Menu"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:384
+msgid "New Menu Name:"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:388
+msgid "New Module Name:"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:395
+msgid "Menu being copied:"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.html.php:405
+msgid "Menu Items being copied:"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.php:19
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.php:210
+msgid ""
+"You cannot rename the \"mainmenu\" Menu as this will disrupt the proper "
+"operation of Mambo"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.php:226
+msgid ""
+"A menu already exists with that name - you must enter a unique Menu Name"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.php:261
+#, php-format
+msgid "New Menu created [ %s ]"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.php:315
+msgid "Menu Items & Modules updated"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.php:330
+#: administrator/components/com_menumanager/admin.menumanager.php:381
+msgid "You cannot delete the \"mainmenu\" menu as it is a core menu"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.php:472
+msgid ""
+"A menu with that name already exists - you must enter a unique Menu Name"
+msgstr ""
+
+#: administrator/components/com_menumanager/admin.menumanager.php:532
+#, php-format
+msgid "Copy of Menu `%s` created, consisting of %d item"
+msgid_plural "Copy of Menu `%s` created, consisting of %d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_menumanager/menumanager.xml
+msgid "This component manages your Menus."
+msgstr ""
+
+#: administrator/components/com_menumanager/toolbar.menumanager.html.php:27
+#: administrator/components/com_menumanager/toolbar.menumanager.html.php:62
+msgid "Copy"
+msgstr ""
+
+#: administrator/components/com_menumanager/toolbar.menumanager.html.php:49
+msgid "Save"
+msgstr ""

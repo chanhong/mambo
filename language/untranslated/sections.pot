@@ -1,0 +1,327 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_sections/admin.sections.html.php:28
+msgid "Section Manager"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:42
+msgid "Section Name"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:45
+msgid "Published"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:48
+msgid "Reorder"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:51
+msgid "Order"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:54
+msgid "Save Order"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:57
+msgid "Access"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:60
+msgid "Section ID"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:63
+msgid "# Categories"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:66
+msgid "# Active"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:69
+msgid "# Trash"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:170
+msgid "New Section"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:186
+msgid "Please select a Menu"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:189
+msgid "Please select a menu type"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:192
+msgid "Please enter a Name for this menu item"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:198
+msgid "Section must have a name"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:200
+msgid "Section must have a title"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:248
+msgid "Section:"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:250
+msgid "Edit"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:250
+msgid "New"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:262
+msgid "Show Advanced Details"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:265
+msgid "Hide Advanced Details"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:276
+msgid "Section Details"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:281
+msgid "Scope:"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:291
+msgid "Title:"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:294
+msgid "A short name to appear in menus"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:299
+msgid "Category"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:299
+msgid "Name:"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:299
+msgid "Section"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:302
+msgid "A long name to be displayed in headings"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:307
+msgid "Image:"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:319
+msgid "Preview"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:324
+msgid "Image Position:"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:332
+msgid "Ordering:"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:340
+msgid "Access Level:"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:348
+msgid "Published:"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:356
+msgid "Description:"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:377
+#: administrator/components/com_sections/admin.sections.html.php:414
+msgid "Link to Menu"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:382
+msgid "This will create a new menu item in the menu you select"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:388
+msgid "Select a Menu"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:396
+msgid "Select Menu Type"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:404
+msgid "Menu Item Name"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:419
+msgid "Existing Menu Links"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:427
+msgid "None"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:446
+msgid "Menu links available when saved"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:482
+msgid "Copy Section"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:492
+msgid "Copy to Section:"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:494
+msgid "The new Section name"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:498
+msgid "Categories being copied:"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:514
+msgid "Content Items being copied:"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.html.php:530
+msgid ""
+"This will copy the Categories listed\n"
+"\t\t\t<br />\n"
+"\t\t\tand all the items within the category (also listed)\n"
+"\t\t\t<br />\n"
+"\t\t\tto the new Section created."
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:188
+#, php-format
+msgid "The section %s is currently being edited by another administrator"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:206
+#: administrator/components/com_sections/admin.sections.php:625
+msgid "Section Table"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:210
+#: administrator/components/com_sections/admin.sections.php:230
+#: administrator/components/com_sections/admin.sections.php:630
+msgid "Section Blog"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:214
+#: administrator/components/com_sections/admin.sections.php:635
+msgid "Section Blog Archive"
+msgstr ""
+
+#. build the html select list for section types
+#: administrator/components/com_sections/admin.sections.php:228
+msgid "Select Type"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:229
+msgid "Section List"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:231
+msgid "Section Archive Blog"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:305
+msgid "Changes to Section saved"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:311
+msgid "Section saved"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:326
+msgid "Select a section to delete"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:364
+#, php-format
+msgid "Sections(s): %s cannot be removed as they contain categories"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:369
+#, php-format
+msgid "Section(s): %s successfully deleted"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:386
+msgid "publish"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:386
+msgid "unpublish"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:387
+msgid "Select a section to "
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:395
+msgid "Cannot Publish an Empty Section"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:468
+msgid "Select an item to move"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:586
+#, php-format
+msgid "Section %s and all its Categories and Items have been copied as %s"
+msgstr ""
+
+#: administrator/components/com_sections/admin.sections.php:659
+#, php-format
+msgid "%s ( %s ) in menu: %s successfully created"
+msgstr ""
+
+#. foreach
+#: administrator/components/com_sections/admin.sections.php:686
+msgid "New ordering saved"
+msgstr ""
+
+#. for existing content items the button is renamed `close`
+#: administrator/components/com_sections/toolbar.sections.html.php:29
+msgid "Close"
+msgstr ""
+
+#: administrator/components/com_sections/toolbar.sections.html.php:62
+msgid "Copy"
+msgstr ""

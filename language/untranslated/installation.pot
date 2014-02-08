@@ -1,0 +1,663 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: installation/index.php:109 installation/index.php:339
+#: installation/index.php:343 installation/index.php:344
+#: installation/index.php:345 installation/index.php:346
+msgid "OFF"
+msgstr ""
+
+#: installation/index.php:109 installation/index.php:340
+#: installation/index.php:341 installation/index.php:342
+msgid "ON"
+msgstr ""
+
+#: installation/index.php:116 installation/index.php:295
+#: installation/index.php:305 installation/index.php:410
+#: installation/install.php:29
+msgid "Unwriteable"
+msgstr ""
+
+#: installation/index.php:116 installation/index.php:291
+#: installation/index.php:293 installation/index.php:305
+#: installation/index.php:406 installation/index.php:408
+#: installation/install.php:29
+msgid "Writeable"
+msgstr ""
+
+#: installation/index.php:125 installation/install.php:37
+#: installation/install1.php:36 installation/install2.php:191
+#: installation/install3.php:56 installation/install4.php:314
+msgid "Mambo - Web Installer"
+msgstr ""
+
+#: installation/index.php:148 installation/install.php:61
+msgid "Please read/accept license to continue installation"
+msgstr ""
+
+#: installation/index.php:160 installation/install.php:72
+#: installation/install1.php:70 installation/install2.php:214
+#: installation/install3.php:118 installation/install4.php:322
+msgid "Mambo Installation"
+msgstr ""
+
+#: installation/index.php:167 installation/index.php:180
+#: installation/install.php:79 installation/install1.php:77
+#: installation/install2.php:228 installation/install3.php:131
+#: installation/install4.php:329
+msgid "pre-installation check"
+msgstr ""
+
+#: installation/index.php:168 installation/install.php:80
+#: installation/install.php:90 installation/install1.php:78
+#: installation/install2.php:229 installation/install3.php:132
+#: installation/install4.php:330
+msgid "license"
+msgstr ""
+
+#: installation/index.php:169 installation/install.php:81
+#: installation/install1.php:79 installation/install1.php:88
+#: installation/install2.php:230 installation/install3.php:133
+#: installation/install4.php:331
+msgid "step 1"
+msgstr ""
+
+#: installation/index.php:170 installation/install.php:82
+#: installation/install1.php:80 installation/install2.php:231
+#: installation/install3.php:134 installation/install4.php:332
+msgid "step 2"
+msgstr ""
+
+#: installation/index.php:171 installation/install.php:83
+#: installation/install1.php:81 installation/install2.php:232
+#: installation/install3.php:135 installation/install3.php:142
+#: installation/install4.php:333
+msgid "step 3"
+msgstr ""
+
+#: installation/index.php:172 installation/install.php:84
+#: installation/install1.php:82 installation/install2.php:233
+#: installation/install3.php:136 installation/install4.php:334
+#: installation/install4.php:355
+msgid "step 4"
+msgstr ""
+
+#: installation/index.php:174 installation/install.php:86
+#: installation/install1.php:84 installation/install2.php:236
+#: installation/install3.php:138
+msgid "Next"
+msgstr ""
+
+#: installation/index.php:184
+msgid "Pre-installation check for:"
+msgstr ""
+
+#: installation/index.php:186
+msgid "Mambo installation language"
+msgstr ""
+
+#: installation/index.php:187
+msgid ""
+"The installer automatically detects your browser language preferences. "
+"However, you can select one of the available languages."
+msgstr ""
+
+#: installation/index.php:195 installation/index.php:219
+msgid "Installation language"
+msgstr ""
+
+#: installation/index.php:217
+msgid "Language check"
+msgstr ""
+
+#: installation/index.php:236
+msgid ""
+"If any of these items are highlighted in red then please take actions to "
+"correct them. Failure to do so could lead to your Mambo installation not "
+"functioning correctly."
+msgstr ""
+
+#: installation/index.php:246
+msgid "PHP version"
+msgstr ""
+
+#: installation/index.php:249
+msgid "No"
+msgstr ""
+
+#: installation/index.php:249
+msgid "Yes"
+msgstr ""
+
+#: installation/index.php:254
+msgid "zlib compression support"
+msgstr ""
+
+#: installation/index.php:257 installation/index.php:265
+#: installation/index.php:273
+msgid "Available"
+msgstr ""
+
+#: installation/index.php:257 installation/index.php:265
+#: installation/index.php:273
+msgid "Unavailable"
+msgstr ""
+
+#: installation/index.php:262
+msgid "XML support"
+msgstr ""
+
+#: installation/index.php:270
+msgid "MySQL support"
+msgstr ""
+
+#: installation/index.php:278
+msgid "Note:"
+msgstr ""
+
+#: installation/index.php:281
+msgid "MySQL Strict Mode is not supported"
+msgstr ""
+
+#: installation/index.php:295
+msgid ""
+"You can still continue the install as the configuration will be displayed at "
+"the end, just copy & paste this and upload."
+msgstr ""
+
+#: installation/index.php:301
+msgid "Session save path"
+msgstr ""
+
+#: installation/index.php:313
+msgid "Recommended settings:"
+msgstr ""
+
+#: installation/index.php:315
+msgid ""
+"These settings are recommended for PHP in order to ensure full compatibility "
+"with Mambo. However, Mambo will still operate if your settings do not quite "
+"match the recommended."
+msgstr ""
+
+#: installation/index.php:329
+msgid "Directive"
+msgstr ""
+
+#: installation/index.php:332
+msgid "Recommended"
+msgstr ""
+
+#: installation/index.php:335
+msgid "Actual"
+msgstr ""
+
+#: installation/index.php:377
+msgid "Directory and File Permissions:"
+msgstr ""
+
+#: installation/index.php:379
+msgid ""
+"In order for Mambo to function correctly it needs to be able to access or "
+"write to certain files or directories. If you see \"Unwriteable\" you need "
+"to change the permissions on the file or directory to allow Mambo to write "
+"to it."
+msgstr ""
+
+#. if
+#. echo $chmod_report
+#: installation/index.php:436 installation/install.php:119
+#: installation/install1.php:146 installation/install2.php:303
+#: installation/install3.php:315 installation/install4.php:484
+msgid ""
+"<a href=\"http://www.mambo-foundation.org\" target=\"_blank\">Mambo </a> is "
+"Free Software released under the <a href=\"http://www.gnu.org/copyleft/gpl."
+"html\" target=\"_blank\">GNU/GPL License</a>."
+msgstr ""
+
+#: installation/install.php:93
+msgid "GNU/GPL License:"
+msgstr ""
+
+#: installation/install.php:95
+msgid ""
+"<a href=\"http://www.mambo-foundation.org\" target=\"_blank\">Mambo </a> is "
+"Free Software released under the <a href=\"http://www.gnu.org/copyleft/gpl."
+"html\" target=\"_blank\">GNU/GPL License</a>.<div class=\"error\">*** To "
+"continue installing Mambo you must check the box under the license ***</div>"
+msgstr ""
+
+#: installation/install.php:109
+msgid "I understand that this software is released under the GNU/GPL License"
+msgstr ""
+
+#: installation/install1.php:48
+msgid "Please enter a Host name"
+msgstr ""
+
+#: installation/install1.php:52
+msgid "Please enter a Database User Name"
+msgstr ""
+
+#: installation/install1.php:56
+msgid "Please enter a Name for your new Database"
+msgstr ""
+
+#: installation/install1.php:59
+msgid ""
+"Are you sure these settings are correct? \\nMambo will now attempt to "
+"populate a Database with the settings you have supplied"
+msgstr ""
+
+#: installation/install1.php:91
+msgid "MySQL database configuration:"
+msgstr ""
+
+#: installation/install1.php:92
+msgid ""
+"<p>Setting up Mambo to run on your server involves 4 simple steps...</"
+"p><p>Please enter the hostname of the server Mambo is to be installed on.</"
+"p><p>Enter the MySQL username, password and database name you wish to use "
+"with Mambo.</p><p>Enter the table name prefix to be used by this Mambo "
+"instance and select how to do with in case existing tables from former "
+"installations.</p><p>Install the samples unless you are experienced Mambo "
+"user wanting to start with a completely empty site.</p><p><span class=\"red"
+"\">Note:</span> MySQL Strict Mode is not supported!</p>"
+msgstr ""
+
+#: installation/install1.php:103
+msgid "Host Name"
+msgstr ""
+
+#: installation/install1.php:104
+msgid "This is usually \"localhost\""
+msgstr ""
+
+#: installation/install1.php:107
+msgid "MySQL User Name"
+msgstr ""
+
+#: installation/install1.php:108
+msgid "Either something as \"root\" or a username given by the hoster"
+msgstr ""
+
+#: installation/install1.php:111
+msgid "MySQL Password"
+msgstr ""
+
+#: installation/install1.php:112
+msgid "For site security using a password for the mysql account is mandatory"
+msgstr ""
+
+#: installation/install1.php:115
+msgid "Verify MySQL Password"
+msgstr ""
+
+#: installation/install1.php:116
+msgid "Retype password for verification"
+msgstr ""
+
+#: installation/install1.php:119
+msgid "MySQL Database Name"
+msgstr ""
+
+#: installation/install1.php:120
+msgid ""
+"Some hosts allow only a certain DB name per site. Use table prefix in this "
+"case for distinct mambo sites."
+msgstr ""
+
+#: installation/install1.php:123
+msgid "MySQL Table Prefix"
+msgstr ""
+
+#: installation/install1.php:124
+msgid "Dont use \"old_\" since this is used for backup tables"
+msgstr ""
+
+#: installation/install1.php:128
+msgid "Backup Old Tables"
+msgstr ""
+
+#: installation/install1.php:129
+msgid ""
+"Any tables with the same prefix as that given in MySQL Table Prefix are "
+"renamed with the prefix old_ in preparation for a fresh install. If any "
+"tables with the old_ prefix already exist they will be removed and replaced "
+"by these new backups. Not selecting this option will cause any existing "
+"tables with the same names to simply be dropped without any backup copies "
+"being made."
+msgstr ""
+
+#: installation/install1.php:133
+msgid "Install Sample Data"
+msgstr ""
+
+#: installation/install1.php:134
+msgid "Dont uncheck this unless you are experienced with mambo!"
+msgstr ""
+
+#: installation/install2.php:42
+msgid "The database details provided are incorrect and/or empty."
+msgstr ""
+
+#: installation/install2.php:46
+msgid "The database passwords provided do not match.  Please try again."
+msgstr ""
+
+#: installation/install2.php:50
+msgid "The password and username provided are incorrect."
+msgstr ""
+
+#: installation/install2.php:54
+msgid "The database name provided is empty."
+msgstr ""
+
+#: installation/install2.php:69
+msgid "A database error occurred: "
+msgstr ""
+
+#: installation/install2.php:202
+msgid "Please enter a Site Name"
+msgstr ""
+
+#: installation/install2.php:244
+msgid "Step 2"
+msgstr ""
+
+#: installation/install2.php:247
+msgid "Step 1 - Error Report"
+msgstr ""
+
+#: installation/install2.php:253
+msgid "Enter the name of your Mambo site:"
+msgstr ""
+
+#: installation/install2.php:256
+msgid ""
+"Looks like there have been some errors with inserting data into your "
+"database!<br /><br />\n"
+"  \t\t\tYou cannot continue."
+msgstr ""
+
+#: installation/install2.php:259
+msgid "SUCCESS!"
+msgstr ""
+
+#: installation/install2.php:262
+msgid ""
+"Type in the name for your Mambo site. This name is used in email messages so "
+"make it something meaningful."
+msgstr ""
+
+#: installation/install2.php:272
+msgid "Error log:"
+msgstr ""
+
+#: installation/install2.php:283
+msgid "Site name"
+msgstr ""
+
+#: installation/install2.php:288
+msgid "e.g. The Home of Mambo"
+msgstr ""
+
+#: installation/install3.php:47
+msgid "The sitename has not been provided"
+msgstr ""
+
+#: installation/install3.php:67
+msgid "Please enter Site URL"
+msgstr ""
+
+#: installation/install3.php:71
+msgid "Please enter the absolute path to your site"
+msgstr ""
+
+#: installation/install3.php:75
+msgid "Please enter an email address to contact your administrator"
+msgstr ""
+
+#: installation/install3.php:79
+msgid "Please enter a password for you administrator"
+msgstr ""
+
+#: installation/install3.php:145
+msgid "Confirm the site URL, path, admin e-mail and file/directory chmods"
+msgstr ""
+
+#: installation/install3.php:146
+msgid ""
+"<p>If URL and Path looks correct then please do not change. If you are not "
+"sure then please contact your ISP or administrator. Usually the values "
+"displayed will work for your site.<br/><br/>Enter your e-mail address, this "
+"will be the e-mail address of the site SuperAdministrator.<br /><br />The "
+"permission settings will be used while installing mambo itself, by the mambo "
+"addon-installers and by the media manager. If you are unsure what flags "
+"shall be set, leave the default settings at the moment. You can still change "
+"these flags later in the site global configuration.</p>"
+msgstr ""
+
+#: installation/install3.php:152
+msgid "URL"
+msgstr ""
+
+#: installation/install3.php:166
+msgid "Path"
+msgstr ""
+
+#: installation/install3.php:181
+msgid "Your E-mail"
+msgstr ""
+
+#: installation/install3.php:185
+msgid "Admin password"
+msgstr ""
+
+#. if
+#: installation/install3.php:198
+msgid "File Permissions"
+msgstr ""
+
+#: installation/install3.php:202
+msgid "Dont CHMOD files (use server defaults)"
+msgstr ""
+
+#: installation/install3.php:206
+msgid "CHMOD files to:"
+msgstr ""
+
+#: installation/install3.php:213
+msgid "User:"
+msgstr ""
+
+#: installation/install3.php:215 installation/install3.php:224
+#: installation/install3.php:233 installation/install3.php:273
+#: installation/install3.php:282 installation/install3.php:291
+msgid "read"
+msgstr ""
+
+#: installation/install3.php:217 installation/install3.php:226
+#: installation/install3.php:235 installation/install3.php:275
+#: installation/install3.php:284 installation/install3.php:293
+msgid "write"
+msgstr ""
+
+#: installation/install3.php:219 installation/install3.php:228
+#: installation/install3.php:237
+msgid "execute"
+msgstr ""
+
+#: installation/install3.php:222
+msgid "Group:"
+msgstr ""
+
+#: installation/install3.php:231
+msgid "World:"
+msgstr ""
+
+#. if
+#: installation/install3.php:256
+msgid "Directory Permissions"
+msgstr ""
+
+#: installation/install3.php:260
+msgid "Dont CHMOD directories (use server defaults)"
+msgstr ""
+
+#: installation/install3.php:264
+msgid "CHMOD directories to:"
+msgstr ""
+
+#: installation/install3.php:277 installation/install3.php:286
+#: installation/install3.php:295
+msgid "search"
+msgstr ""
+
+#: installation/install4.php:75
+msgid "You must provide a valid admin email address."
+msgstr ""
+
+#: installation/install4.php:101
+msgid "The database details provided are incorrect and/or empty"
+msgstr ""
+
+#: installation/install4.php:163
+msgid "This site is down for maintenance.<br /> Please check back again soon."
+msgstr ""
+
+#: installation/install4.php:164
+msgid ""
+"This site is temporarily unavailable.<br /> Please notify the System "
+"Administrator"
+msgstr ""
+
+#: installation/install4.php:167
+msgid "This site uses Mambo - the free, open source content management system"
+msgstr ""
+
+#. chmod files and directories if desired
+#: installation/install4.php:243
+msgid "Directory and file permissions left unchanged."
+msgstr ""
+
+#: installation/install4.php:285
+msgid "File and directory permissions successfully changed."
+msgstr ""
+
+#: installation/install4.php:287
+msgid "File and directory permissions could not be changed.<br />"
+msgstr ""
+
+#: installation/install4.php:288
+msgid "Please CHMOD mambo files and directories manually."
+msgstr ""
+
+#: installation/install4.php:306
+msgid "The site url has not been provided"
+msgstr ""
+
+#: installation/install4.php:336
+msgid "View Site"
+msgstr ""
+
+#: installation/install4.php:344
+msgid "Administration"
+msgstr ""
+
+#: installation/install4.php:358
+msgid "Congratulations! Mambo is installed"
+msgstr ""
+
+#: installation/install4.php:359
+msgid ""
+"<p>Click the \"View Site\" button to start Mambo site or \"Administration\" "
+"to take you to administrator login. <br /><br />Please take a moment to fill "
+"out the form below.</p>"
+msgstr ""
+
+#: installation/install4.php:364
+msgid "PLEASE REMEMBER TO COMPLETELY<br />REMOVE THE INSTALLATION DIRECTORY"
+msgstr ""
+
+#: installation/install4.php:365
+msgid "Administration Login Details"
+msgstr ""
+
+#: installation/install4.php:366
+msgid "Username :"
+msgstr ""
+
+#: installation/install4.php:367
+msgid "Password :"
+msgstr ""
+
+#: installation/install4.php:372
+msgid ""
+"Your configuration file or directory is not writeable, or there was a "
+"problem creating the configuration file. You'll have to upload the following "
+"code by hand. Click in the textarea to highlight all of the code."
+msgstr ""
+
+#: installation/language/en.xml
+msgid "Character Set"
+msgstr ""
+
+#: installation/language/en.xml
+msgid "Character set for this language."
+msgstr ""
+
+#: installation/language/en.xml
+msgid "Date Format"
+msgstr ""
+
+#: installation/language/en.xml
+msgid "Date format for strftime() (eg. %A, %d %B %Y)"
+msgstr ""
+
+#: installation/language/en.xml
+msgid "English"
+msgstr ""
+
+#: installation/language/en.xml
+msgid "English Locale"
+msgstr ""
+
+#: installation/language/en.xml
+msgid "Locale String"
+msgstr ""
+
+#: installation/language/en.xml
+msgid "Locale string for setlocale() (eg. en, english)"
+msgstr ""
+
+#: installation/language/en.xml
+msgid "Plural Forms"
+msgstr ""
+
+#: installation/language/en.xml
+msgid "Plural Forms expression"
+msgstr ""
+
+#: installation/language/en.xml
+msgid "Text Direction"
+msgstr ""
+
+#: installation/language/en.xml
+msgid "left-to-right or right-to-left"
+msgstr ""

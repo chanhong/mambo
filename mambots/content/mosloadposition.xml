@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="4.5.2" type="mambot" group="content">
+	<name>mosloadposition</name>
+	<author>Mambo Foundation</author>
+	<creationDate>January 2005</creationDate>
+	<copyright>copyright (C) 2000 - 2007 Mambo Foundation Inc.</copyright>
+	<license>http://www.opensource.org/licenses/gpl-license.php GNU/GPL v.2</license>
+	<authorEmail>core@mambo-foundation.org</authorEmail>
+	<authorUrl>mambo-foundation.org</authorUrl>
+	<version>4.5.2</version>
+	<description>Loads module positions within Content, Syntax: {mosloadposition user1}</description>
+	<files>
+		<filename mambot="mosloadposition">mosloadposition.php</filename>
+	</files>
+	<params>
+		<param name="style" type="list" default="0" label="Style" description="Code that will wrap modules">
+			<option value="0">Wrapped by Table - Column</option>
+			<option value="1">Wrapped by Table - Horizontal</option>
+			<option value="-2">Wrapped by Divs</option>
+			<option value="-1">No wrapping - raw output</option>
+		</param>
+	</params>
+</mosinstall>

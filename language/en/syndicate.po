@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_syndicate/admin.syndicate.html.php:27
+msgid "Syndication Settings"
+msgstr ""
+
+#: administrator/components/com_syndicate/admin.syndicate.html.php:35
+msgid "Parameters"
+msgstr ""
+
+#: administrator/components/com_syndicate/admin.syndicate.html.php:50
+msgid "Manage Syndication Settings"
+msgstr ""
+
+#: administrator/components/com_syndicate/admin.syndicate.php:19
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_syndicate/admin.syndicate.php:98
+msgid "Settings successfully Saved"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "# Items"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "ATOM 1.0"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Activate support for Firefox Live Bookmarks functionality"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Alt text for image"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Author Alphabetical"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Author Reverse-Alphabetical"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Bookmark file"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Cache"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Cache Time"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Cache file will refresh every x seconds"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Cache the feed files"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Default"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Description"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Frontpage Ordering"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Image"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Image Alt"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Image to be included in feed"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Least Hits"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Limit Text"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Limit the article text to the value indicated below"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Live Bookmarks"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Most Hits"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Most recent first"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "No"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Number of Items to syndicate"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Off"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Oldest first"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Order"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Order that the items will be displayed"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "RSS 0.91"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "RSS 1.0"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "RSS 2.0"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Special file name, if empty the default will be used."
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Syndicate"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Syndication Description"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Syndication Title"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Text Length"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "The word length of the article text - 0 will show no text"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "This component controls the Syndication settings"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Title"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Title Alphabetical"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Title Reverse-Alphabetical"
+msgstr ""
+
+#: administrator/components/com_syndicate/syndicate.xml
+msgid "Yes"
+msgstr ""

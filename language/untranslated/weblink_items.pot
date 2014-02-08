@@ -1,0 +1,47 @@
+# Mambo Open Source.
+# Copyright (C) 2005 - 2007 Mambo Foundation Inc.
+# This file is distributed under the same license as the Mambo package.
+# Translation Team <translation@mambo-foundation.org>, 2007#
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version:  Mambo 4.6\n\n"
+"Report-Msgid-Bugs-To:  translation@mambo-foundation.org\n\n"
+"POT-Creation-Date:  2007-07-28 10:21-0500\n\n"
+"PO-Revision-Date:  2007-07-28 10:21-0500\n\n"
+"Last-Translator:  Translation <translation@mambo-foundation.org>\n\n"
+"Language-Team:  Translation <translation@mambo-foundation.org>\n\n"
+"MIME-Version:  1.0\n\n"
+"Content-Type:  text/plain; charset=utf-8\n\n"
+"Content-Transfer-Encoding:  8bit\n\n"
+"Plural-Forms:  nplurals=2; plural=n == 1 ? 0 : 1;\n\n"
+
+#: administrator/components/com_weblink_items/weblink_items.xml
+msgid "Weblinks"
+msgstr ""
+
+#: administrator/components/com_weblink_items/weblink_items.xml
+msgid "This component shows a listing of Weblinks"
+msgstr ""
+
+#: administrator/components/com_weblink_items/weblink_items.xml
+msgid "Target"
+msgstr ""
+
+#: administrator/components/com_weblink_items/weblink_items.xml
+msgid "Target window when the link is clicked"
+msgstr ""
+
+#: administrator/components/com_weblink_items/weblink_items.xml
+msgid "Parent Window With Browser Navigation"
+msgstr ""
+
+#: administrator/components/com_weblink_items/weblink_items.xml
+msgid "New Window With Browser Navigation"
+msgstr ""
+
+#: administrator/components/com_weblink_items/weblink_items.xml
+msgid "New Window Without Browser Navigation"
+msgstr ""
+

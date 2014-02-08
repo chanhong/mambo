@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+	<name>crystal_mambo451</name>
+	<creationDate>29/7/2004</creationDate>
+	<author>Karsten Sill</author>
+	<copyright>This template is released under the GNU GPL license.</copyright>
+	<description>Fast, clean and dynamic business template</description>
+	<authorEmail>karstensill@crystal7even.de</authorEmail>
+	<authorUrl>http://mambo.karstensill.de</authorUrl>
+	<version>1.2</version>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/banner.png</filename>
+	</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>
+
+

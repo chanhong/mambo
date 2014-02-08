@@ -1,0 +1,375 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:28
+msgid "News Feed Manager"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:45
+msgid "News Feed"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:48
+msgid "Published"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:51
+msgid "Reorder"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:54
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:195
+msgid "Category"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:57
+#: components/com_newsfeeds/newsfeeds.html.php:105
+msgid "# Articles"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:60
+msgid "Cache time"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:90
+msgid "Checked Out"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:94
+msgid "Edit News Feed"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:113
+msgid "Edit Category"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:153
+msgid "Please fill in the news feed name."
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:155
+msgid "Please select a Category."
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:157
+msgid "Please fill in the news feed link."
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:159
+msgid "Please select a category."
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:161
+msgid "Please fill in the number of articles to display."
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:163
+msgid "Please fill in the cache refresh time."
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:174
+msgid "Edit"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:174
+msgid "New"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:174
+msgid "News Feed:"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:182
+msgid "Details"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:187
+msgid "Name"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:203
+msgid "Link"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:211
+msgid "Number of Articles"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:219
+msgid "Cache time (in seconds)"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:227
+msgid "Ordering"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.html.php:235
+msgid "Published:"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.php:20
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.php:205
+msgid "publish"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.php:205
+msgid "unpublish"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.php:206
+#, php-format
+msgid "Select a module to %s"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/admin.newsfeeds.php:239
+msgid "Select an item to delete"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "# Articles Column"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "# Category Items"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid ""
+"A small image to be placed to the left or right of your menu item, images "
+"must be in images/stories/"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid ""
+"A suffix to be applied to the css classes of the page, this allows "
+"individual page styling"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Alignment of the image"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid ""
+"Allows you to limit the amount of visible item description text. 0 will show "
+"all the text"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Back Button"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Category Description"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Category List - Category"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Category List - Section"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Description"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Description Text"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Description for page"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Feed Description"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Feed Image"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Hide"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Image"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Image Align"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid ""
+"Image for page, must be located in the /images/stories folder. Default will "
+"load web_links.jpg, No image will mean an image is not loaded"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Item Description"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Left"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Link Column"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Manage Categories"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Manage News Feeds"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Menu Image"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Name Column"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "News Feeds"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Newsfeeds"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Page Class Suffix"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Page Title"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Right"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide a Back Button, that returns you to the previously view page"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide the # of articles in the feed"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide the Description below"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide the Description for the list of other catgeories"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide the Feed Link column"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide the Feed Name column"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide the List of Categories in List view page"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide the List of Categories in Table view page"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide the Table Headings"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide the description or intro text of an item"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide the description text of the feed"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide the image of the feed"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide the number of items in each category"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Show/Hide the pages Title"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Table Headings"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid ""
+"Text to display at the top of the page. If left blank, the Menu name will be "
+"used instead"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "This component manages RSS/RDF newsfeeds"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Use Global"
+msgstr ""
+
+#: administrator/components/com_newsfeeds/newsfeeds.xml
+msgid "Word Count"
+msgstr ""
+
+#. for existing content items the button is renamed `close`
+#: administrator/components/com_newsfeeds/toolbar.newsfeeds.html.php:52
+msgid "Close"
+msgstr ""
+
+#: components/com_newsfeeds/newsfeeds.html.php:38
+msgid "Web Links"
+msgstr ""
+
+#: components/com_newsfeeds/newsfeeds.html.php:96
+msgid "Feed Name"
+msgstr ""
+
+#: components/com_newsfeeds/newsfeeds.html.php:114
+msgid "Feed Link"
+msgstr ""

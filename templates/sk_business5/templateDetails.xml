@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+	<name>SK_Business5</name>
+	<creationDate>18/10/2003</creationDate>
+	<author>Stefan Kellenberger</author>
+	<copyright>This template is released under the GNU/GPL License</copyright>
+	<authorEmail>webmaster@cyberdine.ch</authorEmail>
+	<authorUrl>www.cyberdine.ch</authorUrl>
+	<version>1.2</version>
+	<description>Business Template with Tab-Menu extension. This one is only for RC1+</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/bg.gif</filename>
+		<filename>images/corner.gif</filename>
+		<filename>images/header.jpg</filename>
+		<filename>images/off_bg.gif</filename>
+		<filename>images/off_end.gif</filename>
+		<filename>images/off_off.gif</filename>
+		<filename>images/off_on.gif</filename>
+		<filename>images/off_start.gif</filename>
+		<filename>images/on_bg.gif</filename>
+		<filename>images/on_end.gif</filename>
+		<filename>images/on_off.gif</filename>
+		<filename>images/on_start.gif</filename>
+		<filename>images/search.gif</filename>
+		<filename>images/spacer.gif</filename>
+	</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="4.6" type="mambot" group="content">
+	<name>moscode</name>
+	<author>Mambo Foundation</author>
+	<creationDate>August 2006</creationDate>
+	<copyright>copyright (C) 2000 - 2007 Mambo Foundation Inc.</copyright>
+	<license>http://www.opensource.org/licenses/gpl-license.php GNU/GPL v.2</license>
+	<authorEmail>core@mambo-foundation.org</authorEmail>
+	<authorUrl>mambo-foundation.org</authorUrl>
+	<version>1.0</version>
+	<description>Displays formatted code in content items</description>
+	<files>
+		<filename mambot="moscode">moscode.php</filename>
+		<filename>moscode.xml</filename>
+	</files>
+	<params/>
+</mosinstall>

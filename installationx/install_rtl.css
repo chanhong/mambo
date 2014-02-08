@@ -1,0 +1,353 @@
+/**
+* @package Mambo
+* @author Mambo Foundation Inc see README.php
+* @copyright Mambo Foundation Inc.
+* See COPYRIGHT.php for copyright notices and details.
+* @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see
+* LICENSE.php
+* Mambo is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public License
+* as published by the Free Software Foundation; version 2 of the
+* License.
+*/ 
+body {
+	margin: 0px;
+	padding: 0px;
+	color : #333;
+	background-color : #FFF;
+	font-size : 11px;
+	direction:rtl;
+}
+
+#wrapper {
+        border: 0px;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px;
+}
+
+#header {
+        background-color: #FFF;
+        background-position: left top;
+        border-bottom: 4px solid #80B5D7;
+}
+
+#mambo {
+        position: relative;
+        width: 100%;
+        background: url(header_blue.jpg) #30569D no-repeat;
+        background-position: top left;
+        margin: 0px;
+        padding: 0px;
+}
+
+#stepbar {
+    /*background-color: #F1F3F5;*/
+	width: 750px !important;
+	width: 750px;
+	height: 30px;
+	font-size: 11px;
+	float: right;
+	text-align: right;
+	padding-top: 0px;
+	margin-bottom: -3px;
+	/*background: url(osi_certified.png) no-repeat;
+	background-position: right;*/
+}
+/*#stepbar {
+    background-color: #F1F3F5;
+	width: 170px !important;
+	width: 170px;
+	height: 400px;
+	font-size: 11px;
+	float: left;
+	text-align: left;
+	background: url(osi_certified.png) no-repeat;
+	background-position: bottom;
+}*/
+#step {
+	background: url(install_logo.png) no-repeat;
+	font-size: 30px;
+	font-family:Tahoma;
+	font-weight:bold;
+	text-align: right;
+	color: #666666;
+	padding: 10px 0px 20px 80px;
+	white-space: nowrap;
+	position: relative;
+	float: right;
+}
+#steposi {
+	width: 120px !important;
+	width: 120px;
+	height: 100px;
+	float: left;
+	margin-left: 10px;
+	background: url(osi_certified.png) no-repeat;
+	background-position: left;
+	
+}
+.step-on {
+	color: #ff9900;
+	background: #30569d;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 5px;
+	border-top: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	margin: 3px;
+	width: auto;
+	float: right;
+	font-family:Tahoma;
+}
+
+.step-off {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 13px;
+	padding: 5px;
+	border-top: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	margin: 3px;
+	width: auto;
+	float: right;
+	background: #80b5d7;
+	font-family:Tahoma;
+}
+
+#right {
+  float: right;
+  width: 750px !important;
+  width: 750px;
+  border-top: 5px solid #30569d;
+  border-bottom: 1px solid #30569d;
+  border-left: 1px solid #30569d;
+  border-right: 1px solid #30569d;
+  padding: 4px;
+  background: #f1f3f5;
+}
+#right2 {
+  float: right;
+  width: 750px !important;
+  width: 750px;
+  border-top: 5px solid #30569d;
+  border-bottom: 0px solid #30569d;
+  border-left: 1px solid #30569d;
+  border-right: 1px solid #30569d;
+  padding: 4px;
+  background: #f1f3f5;
+}
+#survey {
+  float: left;
+  width: 750px !important;
+  width: 750px;
+  border-top: 0px solid #30569d;
+  border-bottom: 1px solid #30569d;
+  border-left: 1px solid #30569d;
+  border-right: 1px solid #30569d;
+  padding: 4px;
+  margin-bottom: 1em;
+  background: #f1f3f5;
+}
+#break {
+	height: 20px;
+}
+
+.licensetext {
+  text-align: right;
+}
+
+.license {
+  padding: 0px;
+  width: 730px;
+  height: 300px;
+}
+
+.license-form {
+  float: right;
+}
+
+.install {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding: 2px;
+	/*border: 1px solid #ff0000;*/
+	width: 750px;
+	background: #ffffff;
+}
+	
+.install h1 {
+	font-size: 15px;
+	font-weight: bold;
+ 	color: #FF9900;
+	padding: 10px 10px 4px 0px;
+ 	text-align: right;
+	border-bottom: 1px solid #FF9900;
+	margin-bottom: 10px;
+
+}
+
+.install-form {
+  position: relative;
+	text-align: right;
+	float: right;
+	width: 58%;
+}
+
+.install-text {
+  /*position: relative;*/
+	text-align: right;
+	width: 40%;
+	float: right;
+}
+
+.form-block {
+	border: 1px solid #cccccc;
+	background: #E9ECEF;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+}
+
+.left {
+  position: relative;
+	text-align: left;
+	float: left;
+	width: 50%;
+}
+
+.right {
+  position: relative;
+	text-align: left;
+	float: right;
+	width: 50%;
+}
+
+.far-right {
+  position: relative;
+	text-align: left;
+	float: left;
+}
+
+.far-left {
+  position: relative; 
+	text-align: right;
+	float: right;
+}
+
+.clr {
+    clear:both;
+    }
+
+.ctr {
+	text-align: center;
+}
+
+.button {
+	border : solid 1px #cccccc;
+	background: #E9ECEF;
+	color : #666666;
+	font-weight : bold;
+	font-size : 11px;
+	padding: 3px;
+}
+
+table.content {
+	width: 80%;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+}
+
+table.content td {
+	color : #333333;
+	font-size: 11px;
+	width: 50%;
+}
+
+table.content2 {
+	width: 90%;
+}
+
+table.content2 td {
+	color : #333333;
+	font-size: 11px;
+}
+
+.toggle {
+	font-weight: bold;
+}
+
+
+/*  old stuff */
+
+
+a {
+	color : #FF9900;
+	text-decoration : none;
+}
+a:hover {
+	color : #999999;
+	text-decoration : underline;
+}
+a:active {
+	color : #FF6600;
+	text-decoration : underline;
+}
+
+.inputbox {
+
+	color: blue;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: -3;
+	font-size: 11px;
+	text-align:left;
+	direction:ltr;
+}
+
+.small {
+	color : #333;
+	font-size : 10px;
+}
+
+.error {
+	color : #cc0000;
+	font-size : 12px;
+	font-weight : bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+select.options, input.options {
+	font-size: 8pt;
+	border: 1px solid #999;
+}
+
+form {
+	margin: 0px 0px 0px 0px;
+}
+
+
+.dottedline {
+	border-bottom: 1px solid #333;
+}
+
+.installheader {
+	color : #FFF;
+	font-size : 24px;
+}
+
+textarea {
+	color : #0000dd;
+	font-family : Arial;
+	font-size : 11px;
+	border: 1px;
+}
+
+.red {color:red}
+.green {color:green}

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<mosinstall type="component" version="4.7">
+<name>mostlyce_frontend</name>
+<version>3.0</version>
+<creationDate>Feb 2008</creationDate>
+<author>Chad Auld</author>
+<authorEmail>cauld@mambo-foundation.org</authorEmail>
+<authorUrl>http://opensourcepenguin.net</authorUrl>
+<copyright>This component is released under the LGPL License</copyright>
+<description>
+<![CDATA[
+<p>MOStlyCE Frontend is a basic component that just builds dynamic image and content lists for the mambot.  It is required for the proper function of the mambot.</p>
+]]>
+</description>
+	<files>
+	    <filename>mostlyce_frontend.php</filename>
+	</files>
+</mosinstall>

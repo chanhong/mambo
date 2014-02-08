@@ -1,0 +1,650 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:29
+msgid "Static Content Manager"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:32
+msgid "Filter:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:38
+msgid "Order:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:58
+msgid "Title"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:61
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:96
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:99
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:531
+msgid "Published"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:64
+msgid "Front Page"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:67
+msgid "Order"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:70
+msgid "Save Order"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:73
+msgid "Access"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:76
+msgid "ID"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:79
+msgid "Links"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:82
+msgid "Author"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:85
+msgid "Date"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:102
+msgid "Expired"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:105
+msgid "Unpublished"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:110
+msgid "Always"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:110
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:112
+msgid "Start:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:117
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:119
+msgid "Finish:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:117
+msgid "No Expiry"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:147
+msgid "Edit User"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:175
+msgid "Edit Static Content"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:191
+msgid "Publish Information"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:200
+msgid "No"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:200
+msgid "Yes"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:274
+msgid ""
+"Are you sure you want to reset the Hits to Zero? \\nAny unsaved changes to "
+"this content will be lost."
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:284
+msgid "Please select a Menu"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:287
+msgid "Please enter a Name for this menu item"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:303
+msgid "Content item must have a title"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:305
+msgid "Content item must have a name"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:356
+msgid "Static Content Item:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:358
+msgid "Edit"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:358
+msgid "New"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:367
+msgid "Show Advanced Details"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:370
+msgid "Hide Advanced Details"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:384
+msgid "Item Details"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:389
+msgid "Title:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:397
+msgid "Title Alias:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:405
+msgid "Text: (required)"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:426
+msgid "Publishing"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:431
+msgid "Publishing Info"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:436
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:528
+msgid "State:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:444
+msgid "Published:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:452
+msgid "Show on Frontpage:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:460
+msgid "Access Level:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:468
+msgid "Author Alias:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:476
+msgid "Change Creator:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:484
+msgid "Override Created Date"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:493
+msgid "Start Publishing:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:502
+msgid "Finish Publishing:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:517
+msgid "Content ID:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:531
+msgid "Archived"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:531
+msgid "Draft Unpublished"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:536
+msgid "Hits"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:541
+msgid "Reset Hit Count"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:547
+msgid "Version"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:555
+msgid "Created"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:558
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:566
+msgid "By"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:558
+msgid "New document"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:563
+msgid "Last Modified"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:566
+msgid "Not modified"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:571
+msgid "Expires"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:580
+msgid "Images"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:585
+msgid "MOSImage Control"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:590
+msgid "Sub-folder:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:595
+msgid "Gallery Images"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:599
+msgid "Add"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:607
+msgid "Content Images:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:611
+msgid "up"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:612
+msgid "down"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:613
+msgid "remove"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:621
+msgid "Edit the image selected:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:625
+msgid "Source"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:633
+msgid "Align"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:641
+msgid "Alt Text"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:649
+msgid "Border"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:657
+msgid "Caption:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:665
+msgid "Caption Position:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:673
+msgid "Caption Align:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:681
+msgid "Width:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:689
+msgid "Apply"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:698
+msgid "Parameters"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:703
+msgid "Parameter Control"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:714
+msgid "Meta Info"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:719
+msgid "Meta Data"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:724
+msgid "Description:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:730
+msgid "Keywords:"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:737
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:742
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:771
+msgid "Link to Menu"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:747
+msgid "This will create a \"Link - Static Content\" in the menu you select"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:753
+msgid "Select a Menu"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:761
+msgid "Menu Item Name"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:776
+msgid "Existing Menu Links"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.html.php:784
+msgid "None"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:159
+msgid "Ordering asc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:160
+msgid "Ordering desc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:161
+msgid "ID asc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:162
+msgid "ID desc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:163
+msgid "Title asc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:164
+msgid "Title desc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:165
+msgid "Date asc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:166
+msgid "Date desc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:167
+msgid "Author asc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:168
+msgid "Author desc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:169
+msgid "Published asc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:170
+msgid "Published desc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:171
+msgid "Access asc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:172
+msgid "Access desc"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:184
+msgid "- All Authors -"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:206
+msgid "The module % is currently being edited by another administrator"
+msgstr ""
+
+#. build the select list for the image caption position
+#: administrator/components/com_typedcontent/admin.typedcontent.php:288
+msgid "Bottom"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:289
+msgid "Top"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:393
+msgid "Typed Content Item saved"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:399
+msgid "Changes to Typed Content Item saved"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:413
+msgid "Select an item to delete"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:430
+#, php-format
+msgid "%d Item sent to the Trash"
+msgid_plural "%d Items sent to the Trash"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:446
+msgid "archive"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:446
+msgid "publish"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:446
+msgid "unpublish"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:447
+#, php-format
+msgid "Select an item to %s"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:469
+#, php-format
+msgid "%d Item successfully Published"
+msgid_plural "%d Items successfully Published"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:471
+#, php-format
+msgid "%d Item successfully Unpublished"
+msgid_plural "%d Items successfully Unpublished"
+msgstr[0] ""
+msgstr[1] ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:510
+msgid "Successfully Reset Hit"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:555
+#, php-format
+msgid "%s (Link - Static Content) in menu: %s successfully created"
+msgstr ""
+
+#. foreach
+#: administrator/components/com_typedcontent/admin.typedcontent.php:609
+msgid "New ordering saved"
+msgstr ""
+
+#: administrator/components/com_typedcontent/admin.typedcontent.php:626
+msgid "Select an item to toggle"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid ""
+"A small image to be placed to the left or right of your menu item, images "
+"must be in images/stories/"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid ""
+"A suffix to be applied to the css classes of the page, this allows "
+"individual page styling"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Author Names"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Back Button"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Created Date and Time"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Email Icon"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Hide"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Item Rating"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Menu Image"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Modified Date and Time"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "PDF Icon"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Page Class Suffix"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Page Title"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Print Icon"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Show"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Show/Hide a Back Button, that returns you to the previously view page"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Show/Hide the item author - only affects this page"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Show/Hide the item creation date - only affects this page"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Show/Hide the item email button - only affects this page"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Show/Hide the item modification date - only affects this page"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Show/Hide the item pdf button - only affects this page"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Show/Hide the item print button - only affects this page"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Show/Hide the item rating - only affects this page"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Show/Hide the pages Title"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "This shows a single content page"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Typed Content Page"
+msgstr ""
+
+#: administrator/components/com_typedcontent/typedcontent.xml
+msgid "Use Global"
+msgstr ""

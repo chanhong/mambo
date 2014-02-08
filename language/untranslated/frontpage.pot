@@ -1,0 +1,457 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-28 22:21-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:27
+msgid "Frontpage Manager"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:41
+msgid "Filter:"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:58
+msgid "Title"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:61
+#: administrator/components/com_frontpage/admin.frontpage.html.php:108
+#: administrator/components/com_frontpage/admin.frontpage.html.php:111
+msgid "Published"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:64
+msgid "Reorder"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:67
+msgid "Order"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:70
+msgid "Save Order"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:73
+msgid "Access"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:76
+msgid "Section"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:79
+msgid "Category"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:82
+msgid "Author"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:114
+msgid "Expired"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:117
+msgid "Unpublished"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:123
+msgid "Always"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:123
+#: administrator/components/com_frontpage/admin.frontpage.html.php:125
+msgid "Start:"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:130
+#: administrator/components/com_frontpage/admin.frontpage.html.php:132
+msgid "Finish:"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:130
+msgid "No Expiry"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:144
+msgid "Edit User"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:167
+msgid "Edit Content"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:178
+msgid "Publish Information"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:198
+msgid "Edit Section"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.html.php:203
+msgid "Edit Category"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.php:17
+msgid "You are not authorized to view this resource."
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.php:151
+msgid "- All Categories -"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.php:170
+msgid "- All Authors -"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.php:187
+msgid "archive"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.php:187
+msgid "publish"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.php:187
+msgid "unpublish"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.php:188
+msgid "Select an item to %a"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.php:215
+msgid "Select an item to delete"
+msgstr ""
+
+#: administrator/components/com_frontpage/admin.frontpage.php:293
+msgid "New ordering saved"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "# Intro"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "# Leading"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "# Links"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid ""
+"A small image to be placed to the left or right of your menu item, images "
+"must be in images/stories/"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid ""
+"A suffix to be applied to the css classes of the page, this allows "
+"individual page styling"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Author Alphabetical"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Author Names"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Author Reverse-Alphabetical"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Auto"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Back Button"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Category Name"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Category Name Linkable"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Category Order"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Columns"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Created Date and Time"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Default"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Display {mosimages}."
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Email Icon"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Frontpage"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Frontpage Ordering"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Hide"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Item Rating"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Item Titles"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Least Hits"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Linked Titles"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "MOSImages"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Make the Category text a link to the actual Category page"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Make the Section text a link to the actual section page"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Make your Item titles linkable"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Menu Image"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Modified Date and Time"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Most Hits"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Most recent first"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "No"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "No, order by Primary Order only"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Number of Items to display as Links."
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid ""
+"Number of Items to display as a leading (full width) item. 0 will mean that "
+"no items will be displayed as leading."
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Number of Items to display with the introduction text shown."
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Oldest first"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Order items by catgeory"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Order that the items will be displayed in."
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Ordering"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "PDF Icon"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Page Class Suffix"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Page Title"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Pagination"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Pagination Results"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Primary Order"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Print Icon"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Read More"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Section Name"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Section Name Linkable"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide Pagination Results info ( e.g 1-4 of 4 )"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide Pagination support"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide a Back Button, that returns you to the previously view page"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide the Category the item belongs to"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide the Page title"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide the Read More link"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide the Section the item belongs to"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide the item author - only affects this page"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide the item creation date - only affects this page"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide the item email button - only affects this page"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide the item modification date - only affects this page"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide the item pdf button - only affects this page"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide the item print button - only affects this page"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide the item rating - only affects this page"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Show/Hide the items title"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Text to display at the top of the page"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid ""
+"This component shows all the published content items from your site marked "
+"Show on Frontpage."
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Title Alphabetical"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Title Reverse-Alphabetical"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Use Global"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "When displaying the intro text, how many columns to use per row"
+msgstr ""
+
+#: administrator/components/com_frontpage/frontpage.xml
+msgid "Yes"
+msgstr ""
+
+#: administrator/components/com_frontpage/toolbar.frontpage.html.php:22
+msgid "Remove"
+msgstr ""

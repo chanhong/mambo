@@ -1,0 +1,129 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 16:54-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: administrator/components/com_messages/admin.messages.html.php:23
+msgid "Private Messaging"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:24
+msgid "Search:"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:34
+msgid "Subject"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:35
+msgid "From"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:37
+msgid "Date"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:38
+#: administrator/components/com_messages/admin.messages.html.php:54
+msgid "Read"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:56
+msgid "Unread"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:76
+msgid "Private Messaging Configuration"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:81
+msgid "General"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:88
+msgid "Are you sure?"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:100
+msgid "Lock Inbox:"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:104
+msgid "Mail me on new Message:"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:122
+msgid "View Private Message"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:129
+msgid "From:"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:133
+msgid "Posted:"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:137
+#: administrator/components/com_messages/admin.messages.html.php:192
+msgid "Subject:"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:141
+#: administrator/components/com_messages/admin.messages.html.php:198
+msgid "Message:"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:168
+msgid "You must provide a subject."
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:170
+msgid "You must provide a message."
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:172
+msgid "You must select a recipient."
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:181
+msgid "New Private Message"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.html.php:188
+msgid "To:"
+msgstr ""
+
+#: administrator/components/com_messages/admin.messages.php:227
+msgid "Select an item to delete"
+msgstr ""
+
+#: administrator/components/com_messages/toolbar.messages.html.php:20
+msgid "Reply"
+msgstr ""
+
+#: administrator/components/com_messages/toolbar.messages.html.php:30
+msgid "Send"
+msgstr ""
+
+#: components/com_messages/messages.class.php:75
+#: components/com_messages/messages.class.php:76
+msgid "A new private message has arrived"
+msgstr ""
+
+#: components/com_messages/messages.class.php:83
+msgid "The user has locked their mailbox. Message failed."
+msgstr ""

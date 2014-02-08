@@ -1,0 +1,94 @@
+<?xml version="1.0" ?>
+<mosinstall type="component" version="4.6">
+<name>mostlyce</name>
+<version>2.3</version>
+<creationDate>Sept 2007</creationDate>
+<author>Chad Auld</author>
+<authorEmail>cauld@mambo-foundation.org</authorEmail>
+<authorUrl>http://opensourcepenguin.net</authorUrl>
+<copyright>This component is released under the LGPL License</copyright>
+<description>
+<![CDATA[
+<p>Admin component for the MOStlyCE editor mambot.  Allows you to customize your MOStlyCE editor installation.</p>
+Important Note: The Image / File manager plugin is disabled by default because it requires some additional setup.  If you intend to utilize this plugin then you will need to go to the Image Mgr tab of MOStlyCE Admin and turn the plugin on.  Before turning it on make sure you have created the proper directory structure and set the necessary file permissions as described on the same tab.
+]]>
+</description>
+<administration>
+   <menu link="option=com_mostlyce&amp;task=config">MOStlyCE Admin</menu>
+     <files>
+      <filename>admin.mostlyce.html.php</filename>
+      <filename>admin.mostlyce.php</filename>
+      <filename>index.html</filename>
+      <filename>mostlyce.xml</filename>
+      <filename>mostlyce_install.php</filename>
+      <filename>toolbar.mostlyce.html.php</filename>
+      <filename>toolbar.mostlyce.php</filename>
+      <filename>images/absolute.gif</filename>
+      <filename>images/anchor.gif</filename>
+      <filename>images/backcolor.gif</filename>
+      <filename>images/bold.gif</filename>
+      <filename>images/bullist.gif</filename>
+      <filename>images/caption.gif</filename>
+      <filename>images/charmap.gif</filename>
+      <filename>images/cleanup.gif</filename>
+      <filename>images/code.gif</filename>
+      <filename>images/copy.gif</filename>
+      <filename>images/cut.gif</filename>
+      <filename>images/emotions.gif</filename>
+      <filename>images/filemanager.gif</filename>
+      <filename>images/flash.gif</filename>
+      <filename>images/fontselect.gif</filename>
+      <filename>images/fontsizeselect.gif</filename>
+      <filename>images/forecolor.gif</filename>
+      <filename>images/formatselect.gif</filename>
+      <filename>images/fullscreen.gif</filename>
+      <filename>images/help.gif</filename>
+      <filename>images/hr.gif</filename>
+      <filename>images/htmltemplate.gif</filename>
+      <filename>images/image.gif</filename>
+      <filename>images/imgmanager.gif</filename>
+      <filename>images/indent.gif</filename>
+      <filename>images/index.html</filename>
+      <filename>images/insertdate.gif</filename>
+      <filename>images/insertlayer.gif</filename>
+      <filename>images/inserttime.gif</filename>
+      <filename>images/italic.gif</filename>
+      <filename>images/justifycenter.gif</filename>
+      <filename>images/justifyfull.gif</filename>
+      <filename>images/justifyleft.gif</filename>
+      <filename>images/justifyright.gif</filename>
+      <filename>images/link.gif</filename>
+      <filename>images/ltr.gif</filename>
+      <filename>images/media.gif</filename>
+      <filename>images/mosimage.gif</filename>
+      <filename>images/mospagebreak.gif</filename>
+      <filename>images/movebackward.gif</filename>
+      <filename>images/moveforward.gif</filename>
+      <filename>images/newdocument.gif</filename>
+      <filename>images/numlist.gif</filename>
+      <filename>images/outdent.gif</filename>
+      <filename>images/paste.gif</filename>
+      <filename>images/pastetext.gif</filename>
+      <filename>images/pasteword.gif</filename>
+      <filename>images/preview.gif</filename>
+      <filename>images/print.gif</filename>
+      <filename>images/redo.gif</filename>
+      <filename>images/removeformat.gif</filename>
+      <filename>images/replace.gif</filename>
+      <filename>images/rtl.gif</filename>
+      <filename>images/search.gif</filename>
+      <filename>images/selectall.gif</filename>
+      <filename>images/separator.gif</filename>
+      <filename>images/spellchecker.gif</filename>
+      <filename>images/strikethrough.gif</filename>
+      <filename>images/styleselect.gif</filename>
+      <filename>images/sub.gif</filename>
+      <filename>images/sup.gif</filename>
+      <filename>images/tablecontrols.gif</filename>
+      <filename>images/underline.gif</filename>
+      <filename>images/undo.gif</filename>
+      <filename>images/unlink.gif</filename>
+      <filename>images/visualaid.gif</filename>
+    </files>
+</administration>
+</mosinstall>

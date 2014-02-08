@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+	<name>rhuk_blueberry_milkshake</name>
+	<creationDate>06/07/04</creationDate>
+	<author>rhuk</author>
+	<copyright>This template is designed for the mambo open source community</copyright>
+	<authorEmail>rhuk@rhuk.net</authorEmail>
+	<authorUrl>www.rhuk.net</authorUrl>
+	<version>1.0</version>
+	<description>Blueberry Milkshake is designed as a clean and fast 100% width template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/spacer.gif</filename>
+		<filename>images/arrow.gif</filename>
+		<filename>images/berrybg.gif</filename>
+		<filename>images/berryback.gif</filename>
+		<filename>images/berryline.gif</filename>
+		<filename>images/blueberry_milkshake.gif</filename>
+		</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>
